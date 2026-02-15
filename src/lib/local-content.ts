@@ -110,3 +110,15 @@ export async function getPostData(id: string) {
     ...(matterResult.data as Omit<PostData, 'id' | 'contentHtml_en' | 'contentHtml_zh'>),
   };
 }
+
+export function getNewUpdatesCount(): number {
+  const posts = getSortedPostsData();
+  const oneWeekAgo = new Date();
+  oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+
+  return posts.filter(post => {
+    const pubDate = new Date(post.publishedAt);
+    return pubDate >= oneWeekAgo;
+  }).length;
+}
+
