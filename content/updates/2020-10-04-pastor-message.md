@@ -1,9 +1,11 @@
 ---
 publishedAt: "2020-10-04"
 category: "pastor"
-title_en: "Pastor's Message - October 4 2020"
-title_zh: "牧者之言 - October 4 2020"
-excerpt_en: "Weekly message from our pastor for October 4 2020."
+title_en: "\"Do nothing from selfish ambition or conceit, but in humility count others more significant than yourselves.\" Phil. 2:3 [ESV]"
+title_zh: "重看他人而轻看自己"
+subtitle_en: "Pastor's Message - October 4 2020"
+subtitle_zh: "牧者之言 - October 4 2020"
+excerpt_en: "Weekly message for October 4 2020."
 excerpt_zh: "October 4 2020 的牧者心聲。"
 ---
 

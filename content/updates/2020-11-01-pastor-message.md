@@ -1,9 +1,11 @@
 ---
 publishedAt: "2020-11-01"
 category: "pastor"
-title_en: "Pastor's Message - November 01 2020"
-title_zh: "牧者之言 - November 01 2020"
-excerpt_en: "Weekly message from our pastor for November 01 2020."
+title_en: "Pastor's Message"
+title_zh: "“神迹天天都在发生”"
+subtitle_en: "Pastor's Message - November 01 2020"
+subtitle_zh: "牧者之言 - November 01 2020"
+excerpt_en: "Weekly message for November 01 2020."
 excerpt_zh: "November 01 2020 的牧者心聲。"
 ---
 

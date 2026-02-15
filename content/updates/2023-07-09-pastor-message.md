@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-07-09"
 category: "pastor"
-title_en: "Pastor's Message - July 9 2023"
-title_zh: "牧者之言 - July 9 2023"
-excerpt_en: "Weekly message from our pastor for July 9 2023."
+title_en: "Pray for the Church's future meeting place"
+title_zh: "为教会未来的聚会场所代祷"
+subtitle_en: "Pastor's Message - July 9 2023"
+subtitle_zh: "牧者之言 - July 9 2023"
+excerpt_en: "Weekly message for July 9 2023."
 excerpt_zh: "July 9 2023 的牧者心聲。"
 ---
 

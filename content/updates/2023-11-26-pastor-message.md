@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-11-26"
 category: "pastor"
-title_en: "Pastor's Message - November 26 2023"
-title_zh: "牧者之言 - November 26 2023"
-excerpt_en: "Weekly message from our pastor for November 26 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "2023年教会感恩寄语"
+subtitle_en: "Pastor's Message - November 26 2023"
+subtitle_zh: "牧者之言 - November 26 2023"
+excerpt_en: "Weekly message for November 26 2023."
 excerpt_zh: "November 26 2023 的牧者心聲。"
 ---
 

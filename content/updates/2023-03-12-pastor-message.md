@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-03-12"
 category: "pastor"
-title_en: "Pastor's Message - March 12 2023"
-title_zh: "牧者之言 - March 12 2023"
-excerpt_en: "Weekly message from our pastor for March 12 2023."
+title_en: "“BEE”: Our First Senior Fellowship Luncheon"
+title_zh: "“小蜜蜂”——我们的第一次长辈联谊午餐会"
+subtitle_en: "Pastor's Message - March 12 2023"
+subtitle_zh: "牧者之言 - March 12 2023"
+excerpt_en: "Weekly message for March 12 2023."
 excerpt_zh: "March 12 2023 的牧者心聲。"
 ---
 

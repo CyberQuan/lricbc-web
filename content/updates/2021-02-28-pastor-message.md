@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-02-28"
 category: "pastor"
-title_en: "Pastor's Message - February 28 2021"
-title_zh: "牧者之言 - February 28 2021"
-excerpt_en: "Weekly message from our pastor for February 28 2021."
+title_en: "Pastor's Message"
+title_zh: "新年瑞雪"
+subtitle_en: "Pastor's Message - February 28 2021"
+subtitle_zh: "牧者之言 - February 28 2021"
+excerpt_en: "Weekly message for February 28 2021."
 excerpt_zh: "February 28 2021 的牧者心聲。"
 ---
 

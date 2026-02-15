@@ -1,12 +1,16 @@
 ---
 publishedAt: "2026-01-18"
 category: "pastor"
-title_en: "Pastor's Message - January 18 2026"
-title_zh: "牧者之言 - January 18 2026"
-excerpt_en: "Weekly message from our pastor for January 18 2026."
+title_en: "Our Church’s Vision"
+title_zh: "我们教会的异象"
+subtitle_en: "Pastor's Message - January 18 2026"
+subtitle_zh: "牧者之言 - January 18 2026"
+excerpt_en: "Weekly message for January 18 2026."
 excerpt_zh: "January 18 2026 的牧者心聲。"
 ---
 
+---
+**Pastor’s Message**
 Our Church’s Vision
 
 ---
@@ -147,6 +151,10 @@ Another asked, “Do you think we are ready?” He answered: “Yes, absolutely.
 Lord, guide us to continue walking in Your ways! Amen!
 
 ---zh---
+
+我们教会的异象
+
+1/18/26 牧者之言
 
 ### “没有异象，民就放肆；唯遵守律法的，便为有福。” （箴 29:18，NIV）
 

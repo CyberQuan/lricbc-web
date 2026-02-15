@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-12-03"
 category: "pastor"
-title_en: "Pastor's Message - December 3 2023"
-title_zh: "牧者之言 - December 3 2023"
-excerpt_en: "Weekly message from our pastor for December 3 2023."
+title_en: "P: Proclamation of the gospel宣告福音 (2:1, 28:18-20)"
+title_zh: "博士的朝拜"
+subtitle_en: "Pastor's Message - December 3 2023"
+subtitle_zh: "牧者之言 - December 3 2023"
+excerpt_en: "Weekly message for December 3 2023."
 excerpt_zh: "December 3 2023 的牧者心聲。"
 ---
 

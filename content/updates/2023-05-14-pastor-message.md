@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-05-14"
 category: "pastor"
-title_en: "Pastor's Message - May 14 2023"
-title_zh: "牧者之言 - May 14 2023"
-excerpt_en: "Weekly message from our pastor for May 14 2023."
+title_en: "2) Friendly 友好的"
+title_zh: "缅怀一位特别的母亲裴斐老师"
+subtitle_en: "Pastor's Message - May 14 2023"
+subtitle_zh: "牧者之言 - May 14 2023"
+excerpt_en: "Weekly message for May 14 2023."
 excerpt_zh: "May 14 2023 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-03-09"
 category: "pastor"
-title_en: "Pastor's Message - March 9 2025"
-title_zh: "牧者之言 - March 9 2025"
-excerpt_en: "Weekly message from our pastor for March 9 2025."
+title_en: "Deborah"
+title_zh: "底波拉"
+subtitle_en: "Pastor's Message - March 9 2025"
+subtitle_zh: "牧者之言 - March 9 2025"
+excerpt_en: "Weekly message for March 9 2025."
 excerpt_zh: "March 9 2025 的牧者心聲。"
 ---
 
@@ -71,6 +73,8 @@ Finally, let us pray: Dear Lord, please raise us up, just as you raised Deborah,
 **（Note: sermon on 3/2/2025, by Pastor Chunhai Li）**
 
 ---zh---
+
+3/9/25 牧者之言
 
 底波拉
 

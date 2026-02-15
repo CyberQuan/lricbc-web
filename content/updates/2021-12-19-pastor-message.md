@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-12-19"
 category: "pastor"
-title_en: "Pastor's Message - December 19 2021"
-title_zh: "牧者之言 - December 19 2021"
-excerpt_en: "Weekly message from our pastor for December 19 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "“给小子一杯凉水”"
+subtitle_en: "Pastor's Message - December 19 2021"
+subtitle_zh: "牧者之言 - December 19 2021"
+excerpt_en: "Weekly message for December 19 2021."
 excerpt_zh: "December 19 2021 的牧者心聲。"
 ---
 

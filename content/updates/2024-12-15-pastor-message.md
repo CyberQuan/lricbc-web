@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-12-15"
 category: "pastor"
-title_en: "Pastor's Message - December 15 2024"
-title_zh: "牧者之言 - December 15 2024"
-excerpt_en: "Weekly message from our pastor for December 15 2024."
+title_en: "Week of Prayer International Missions"
+title_zh: "国际宣教祈祷周"
+subtitle_en: "Pastor's Message - December 15 2024"
+subtitle_zh: "牧者之言 - December 15 2024"
+excerpt_en: "Weekly message for December 15 2024."
 excerpt_zh: "December 15 2024 的牧者心聲。"
 ---
 

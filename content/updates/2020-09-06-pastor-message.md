@@ -1,9 +1,11 @@
 ---
 publishedAt: "2020-09-06"
 category: "pastor"
-title_en: "Pastor's Message - September 6 2020"
-title_zh: "牧者之言 - September 6 2020"
-excerpt_en: "Weekly message from our pastor for September 6 2020."
+title_en: "Pastor's Message"
+title_zh: "将恩赐如火挑旺起来"
+subtitle_en: "Pastor's Message - September 6 2020"
+subtitle_zh: "牧者之言 - September 6 2020"
+excerpt_en: "Weekly message for September 6 2020."
 excerpt_zh: "September 6 2020 的牧者心聲。"
 ---
 

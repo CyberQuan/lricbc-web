@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-08-18"
 category: "pastor"
-title_en: "Pastor's Message - August 18 2024"
-title_zh: "牧者之言 - August 18 2024"
-excerpt_en: "Weekly message from our pastor for August 18 2024."
+title_en: "•    https://www.christianitytoday.com/news/2024/august/doris-brougham-missionary-taiwan-studio-classroom-zh-hans.html"
+title_zh: "注：上周看到许多牧者和同工在社交平台上提到“彭蒙惠”这个名字。我问我们教会的魏牧师和师母（他们曾在台湾作宣教士30多年）是否认识她。魏师母说:  “是的，我们认识她。一个非常敬虔的姐妹。她的机构/事工多年来遍布全岛各地。她为学校和公众做了一个非常出色的基督徒见证。”魏牧师也说：“她的电视英语课在台湾很受欢迎。她的基督教音乐团体在台湾和许多亚洲国家都很有名。他们会在美国巡回演出。她和裴斐老师（英文名：Faye Pearson, 我以前在南京神学院的教授https://lricbc.org/?p=1023）也很熟悉。这些年来我见过她几次。”在此，特从网上搜集她的一些见证与弟兄姐妹分享。"
+subtitle_en: "Pastor's Message - August 18 2024"
+subtitle_zh: "牧者之言 - August 18 2024"
+excerpt_en: "Weekly message for August 18 2024."
 excerpt_zh: "August 18 2024 的牧者心聲。"
 ---
 

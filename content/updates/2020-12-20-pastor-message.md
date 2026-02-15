@@ -1,9 +1,11 @@
 ---
 publishedAt: "2020-12-20"
 category: "pastor"
-title_en: "Pastor's Message - December 20 2020"
-title_zh: "牧者之言 - December 20 2020"
-excerpt_en: "Weekly message from our pastor for December 20 2020."
+title_en: "The First Christmas Letter: Bye, Love Ya, See Ya!"
+title_zh: "美国有个很好的传统。每逢圣诞节，有人喜欢写一份圣诞信寄给朋友们，让他们知道他这一年是怎么度过的。我家今年收到的第一份圣诞信是珊迪姐妹寄来的，这封信读来略带泪痕，让人感触颇深。我在这里和大家分享："
+subtitle_en: "Pastor's Message - December 20 2020"
+subtitle_zh: "牧者之言 - December 20 2020"
+excerpt_en: "Weekly message for December 20 2020."
 excerpt_zh: "December 20 2020 的牧者心聲。"
 ---
 

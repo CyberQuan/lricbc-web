@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-02-12"
 category: "pastor"
-title_en: "Pastor's Message - February 12 2023"
-title_zh: "牧者之言 - February 12 2023"
-excerpt_en: "Weekly message from our pastor for February 12 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "2023 年教会 VBS 筹备及代祷"
+subtitle_en: "Pastor's Message - February 12 2023"
+subtitle_zh: "牧者之言 - February 12 2023"
+excerpt_en: "Weekly message for February 12 2023."
 excerpt_zh: "February 12 2023 的牧者心聲。"
 ---
 

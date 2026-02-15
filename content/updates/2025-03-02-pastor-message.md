@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-03-02"
 category: "pastor"
-title_en: "Pastor's Message - March 2 2025"
-title_zh: "牧者之言 - March 2 2025"
-excerpt_en: "Weekly message from our pastor for March 2 2025."
+title_en: "THE POWER OF A GRATEFUL HEART"
+title_zh: "感恩之心的力量"
+subtitle_en: "Pastor's Message - March 2 2025"
+subtitle_zh: "牧者之言 - March 2 2025"
+excerpt_en: "Weekly message for March 2 2025."
 excerpt_zh: "March 2 2025 的牧者心聲。"
 ---
 
@@ -62,6 +64,8 @@ So, today I wanted to just share a little about 7 Things that the POWER of a gra
 7. It opens the door for continued blessings. It invites His presence. Our spirits are refreshed and renewed in Him.  God loves to give good gifts to His children. He delights in our thankfulness and pours out His Spirit and favor over those who give honor and gratitude to Him.  Let’s practice a grateful thankful heart every day!
 
 ---zh---
+
+3/2/25牧者之言
 
 感恩之心的力量
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-03-21"
 category: "pastor"
-title_en: "Pastor's Message - March 21 2021"
-title_zh: "牧者之言 - March 21 2021"
-excerpt_en: "Weekly message from our pastor for March 21 2021."
+title_en: "Pastor's Message"
+title_zh: "Raising The Next Generation to Serve《兴起新一代服事》有感"
+subtitle_en: "Pastor's Message - March 21 2021"
+subtitle_zh: "牧者之言 - March 21 2021"
+excerpt_en: "Weekly message for March 21 2021."
 excerpt_zh: "March 21 2021 的牧者心聲。"
 ---
 

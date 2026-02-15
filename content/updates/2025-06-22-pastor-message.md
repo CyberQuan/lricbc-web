@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-06-22"
 category: "pastor"
-title_en: "Pastor's Message - June 22 2025"
-title_zh: "牧者之言 - June 22 2025"
-excerpt_en: "Weekly message from our pastor for June 22 2025."
+title_en: "引自：https://zh-hant.theologyofwork.org/devotions/practicing-gratitude"
+title_zh: "操练感恩四"
+subtitle_en: "Pastor's Message - June 22 2025"
+subtitle_zh: "牧者之言 - June 22 2025"
+excerpt_en: "Weekly message for June 22 2025."
 excerpt_zh: "June 22 2025 的牧者心聲。"
 ---
 
@@ -44,6 +46,8 @@ Further Exploration: Read this reflection on loving other people without jealous
 Quote: Called To Work dcrandall-keeptouch.com@shared1.ccsend.com,Mon, Mar 10, 9:06 AM
 
 ---zh---
+
+6/22/25 牧者之言
 
 操练感恩四
 

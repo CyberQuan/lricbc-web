@@ -1,9 +1,11 @@
 ---
 publishedAt: "2020-09-13"
 category: "pastor"
-title_en: "Pastor's Message - September 13 2020"
-title_zh: "牧者之言 - September 13 2020"
-excerpt_en: "Weekly message from our pastor for September 13 2020."
+title_en: "Pastor's Message"
+title_zh: "“游向永恒”——追思小游姐妹"
+subtitle_en: "Pastor's Message - September 13 2020"
+subtitle_zh: "牧者之言 - September 13 2020"
+excerpt_en: "Weekly message for September 13 2020."
 excerpt_zh: "September 13 2020 的牧者心聲。"
 ---
 

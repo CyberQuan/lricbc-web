@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-04-20"
 category: "pastor"
-title_en: "Pastor's Message - April 20 2025"
-title_zh: "牧者之言 - April 20 2025"
-excerpt_en: "Weekly message from our pastor for April 20 2025."
+title_en: "PRECIOUS BLOOD"
+title_zh: "宝血"
+subtitle_en: "Pastor's Message - April 20 2025"
+subtitle_zh: "牧者之言 - April 20 2025"
+excerpt_en: "Weekly message for April 20 2025."
 excerpt_zh: "April 20 2025 的牧者心聲。"
 ---
 
@@ -36,6 +38,8 @@ THE BLOOD OF JESUS WAS PERFECT (1Peter 1:18-19)
 In order for Jesus’ blood to make a difference, He needed to be perfect. And because He is fully God and fully man, He is perfect! Sinful people need a SIN-LESS Savior. Jesus purified us whiter than snow with His perfect blood. John 1:29 says, “The next day John saw Jesus coming toward him and said, ‘Look, the Lamb of God, who takes away the sin of the world!” So …His blood gives LIFE, it was NECESSARY, it gives us FREEDOM and it was PERFECT. Because of His great love to lay down His life, we can believe and trust in Him, have Eternal Hope that we have been covered by the Lamb of God! We need to feel so Joyful, so Encouraged, so Thankful today and in the coming Resurrection celebration … for the life we have because Jesus shed His precious blood for us and had victory over death! Halleluia!!
 
 ---zh---
+
+4/20/25牧者之言
 
 宝血
 

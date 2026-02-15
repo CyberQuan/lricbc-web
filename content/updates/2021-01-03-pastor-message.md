@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-01-03"
 category: "pastor"
-title_en: "Pastor's Message - January 3 2021"
-title_zh: "牧者之言 - January 3 2021"
-excerpt_en: "Weekly message from our pastor for January 3 2021."
+title_en: "Pastor's Message"
+title_zh: "回转变成小孩子的样式"
+subtitle_en: "Pastor's Message - January 3 2021"
+subtitle_zh: "牧者之言 - January 3 2021"
+excerpt_en: "Weekly message for January 3 2021."
 excerpt_zh: "January 3 2021 的牧者心聲。"
 ---
 

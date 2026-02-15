@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-04-06"
 category: "pastor"
-title_en: "Pastor's Message - April 6 2025"
-title_zh: "牧者之言 - April 6 2025"
-excerpt_en: "Weekly message from our pastor for April 6 2025."
+title_en: "Testimony of Student H"
+title_zh: "H同学的见证"
+subtitle_en: "Pastor's Message - April 6 2025"
+subtitle_zh: "牧者之言 - April 6 2025"
+excerpt_en: "Weekly message for April 6 2025."
 excerpt_zh: "April 6 2025 的牧者心聲。"
 ---
 
@@ -62,6 +64,8 @@ We are grateful for H’s testimony of Christ’s transformative power. Along th
 Let us give all the glory to the Lord, for though we labor, it is He who produces the fruit! Hallelujah! The Lord’s work is marvelous, wonderful, and truly amazing! Let us continue to pray for C’s faith and his future ministry plans. May the Lord continue to guide and protect him. In the name of Christ, Amen!
 
 ---zh---
+
+4/6/25 牧者之言
 
 H同学的见证
 

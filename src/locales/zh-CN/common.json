@@ -35,6 +35,55 @@
   "about": {
     "title": "關於我們",
     "slogan": "見證基督，影響世界！",
+    "schedule": {
+      "title": "教會聚會時間表",
+      "sundaySermon": "主日崇拜 Sunday Sermon",
+      "welcome": "歡迎您本週日跟我們一同聚會！",
+      "sundayTimes": "崇拜時間",
+      "connectWithUs": "聯繫我們",
+      "sundayTime1": "9:00 – 10:20 am 主日崇拜 (線上線下同步敬拜)",
+      "sundayTime2": "10:30 – 11:30 am 成人及兒童主日學",
+      "offlineAddress": "線下聚會地址：9701 W Markham St, Little Rock, AR 72205",
+      "onlineTitle": "線上主日崇拜：",
+      "zoomInfo": "Zoom ID: 501 501 7777, 密碼：777",
+      "table": {
+        "name": "聚會名稱",
+        "time": "時間",
+        "description": "內容說明",
+        "items": [
+          {
+            "name": "晨禱會",
+            "time": "週一 – 週五 5:00–6:00 AM, 週六 6:00–7:00 AM",
+            "desc": "弟兄姐妹輪流帶領 (週日無)"
+          },
+          {
+            "name": "主日崇拜",
+            "time": "週日 9:00–10:20 AM",
+            "desc": "線上 + 線下同步敬拜"
+          },
+          {
+            "name": "主日學 / 慕道班",
+            "time": "週日 10:30–11:30 AM",
+            "desc": "成人、兒童、青少年"
+          },
+          {
+            "name": "週三禱告會",
+            "time": "週三 7:00 PM",
+            "desc": "線上 + 線下同步"
+          },
+          {
+            "name": "團契聚會",
+            "time": "週五 6:00 PM 晚餐, 7:00 PM 查經",
+            "desc": "新生命班(雙線); 學生學者、兒童、青少年(僅線下)"
+          },
+          {
+            "name": "長輩團契",
+            "time": "不定期",
+            "desc": "具體時間另行通知"
+          }
+        ]
+      }
+    },
     "vision": {
       "title": "異象",
       "content": "但聖靈降臨在我們身上，我們就必得著能力，並要在小石城，阿肯色州，全美國，直到世界各地，作主的見證！"
@@ -132,6 +181,7 @@
       "sermon": "講道大綱",
       "news": "教會公告"
     },
+    "searchPlaceholder": "搜尋所有信息...",
     "readMore": "閱讀全文",
     "backToList": "返回列表",
     "readingSettings": {

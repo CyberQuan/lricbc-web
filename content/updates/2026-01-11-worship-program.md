@@ -3,6 +3,8 @@ publishedAt: "2026-01-11"
 category: "sermon"
 title_en: "Worship Program (zh) - January 11 2026"
 title_zh: "主日崇拜程序 - January 11 2026"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Worship program (Chinese only) for January 11 2026."
 excerpt_zh: "January 11 2026 主日崇拜程序與信息摘要。"
 ---

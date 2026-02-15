@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-09-11"
 category: "pastor"
-title_en: "Pastor's Message - September 11 2022"
-title_zh: "牧者之言 - September 11 2022"
-excerpt_en: "Weekly message from our pastor for September 11 2022."
+title_en: "The Testimony of Saint Patrick"
+title_zh: "圣帕提里克的见证"
+subtitle_en: "Pastor's Message - September 11 2022"
+subtitle_zh: "牧者之言 - September 11 2022"
+excerpt_en: "Weekly message for September 11 2022."
 excerpt_zh: "September 11 2022 的牧者心聲。"
 ---
 

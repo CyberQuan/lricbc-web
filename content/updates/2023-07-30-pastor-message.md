@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-07-30"
 category: "pastor"
-title_en: "Pastor's Message - July 30 2023"
-title_zh: "牧者之言 - July 30 2023"
-excerpt_en: "Weekly message from our pastor for July 30 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "上周主日信息主题是“大卫的勇士”，由于时间所限，其中许多亮光无法一一解明。故此，特将其写成文字形式，供弟兄姐妹进一步分享学习。"
+subtitle_en: "Pastor's Message - July 30 2023"
+subtitle_zh: "牧者之言 - July 30 2023"
+excerpt_en: "Weekly message for July 30 2023."
 excerpt_zh: "July 30 2023 的牧者心聲。"
 ---
 

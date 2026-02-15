@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-10-16"
 category: "pastor"
-title_en: "Pastor's Message - October 16 2022"
-title_zh: "牧者之言 - October 16 2022"
-excerpt_en: "Weekly message from our pastor for October 16 2022."
+title_en: "教會網站 Visit our website"
+title_zh: "基督徒能否过万圣夜吗？"
+subtitle_en: "Pastor's Message - October 16 2022"
+subtitle_zh: "牧者之言 - October 16 2022"
+excerpt_en: "Weekly message for October 16 2022."
 excerpt_zh: "October 16 2022 的牧者心聲。"
 ---
 

@@ -1,12 +1,16 @@
 ---
 publishedAt: "2026-02-01"
 category: "pastor"
-title_en: "Pastor's Message - February 1 2026"
-title_zh: "牧者之言 - February 1 2026"
-excerpt_en: "Weekly message from our pastor for February 1 2026."
+title_en: "A Journey of Seeking Root"
+title_zh: "寻根之旅"
+subtitle_en: "Pastor's Message - February 1 2026"
+subtitle_zh: "牧者之言 - February 1 2026"
+excerpt_en: "Weekly message for February 1 2026."
 excerpt_zh: "February 1 2026 的牧者心聲。"
 ---
 
+---
+**Pastor’s Message**
 A Journey of Seeking Root
 
 ---

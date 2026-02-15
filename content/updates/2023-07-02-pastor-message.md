@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-07-02"
 category: "pastor"
-title_en: "Pastor's Message - July 2 2023"
-title_zh: "牧者之言 - July 2 2023"
-excerpt_en: "Weekly message from our pastor for July 2 2023."
+title_en: "网址：https://faithit.com/what-to-do-when-god-is-silent-jarrid-wilson/"
+title_zh: "当上帝沉默时 When God Is Silent"
+subtitle_en: "Pastor's Message - July 2 2023"
+subtitle_zh: "牧者之言 - July 2 2023"
+excerpt_en: "Weekly message for July 2 2023."
 excerpt_zh: "July 2 2023 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-12-11"
 category: "pastor"
-title_en: "Pastor's Message - December 11 2022"
-title_zh: "牧者之言 - December 11 2022"
-excerpt_en: "Weekly message from our pastor for December 11 2022."
+title_en: "教會網站 Visit our website"
+title_zh: "“最好的”朋友"
+subtitle_en: "Pastor's Message - December 11 2022"
+subtitle_zh: "牧者之言 - December 11 2022"
+excerpt_en: "Weekly message for December 11 2022."
 excerpt_zh: "December 11 2022 的牧者心聲。"
 ---
 

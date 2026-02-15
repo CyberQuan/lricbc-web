@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-05-16"
 category: "pastor"
-title_en: "Pastor's Message - May 16 2021"
-title_zh: "牧者之言 - May 16 2021"
-excerpt_en: "Weekly message from our pastor for May 16 2021."
+title_en: "译自：an email on May 4, 2021 at 8:04 from RevelationMedia."
+title_zh: "分辨气色？分辨神迹？"
+subtitle_en: "Pastor's Message - May 16 2021"
+subtitle_zh: "牧者之言 - May 16 2021"
+excerpt_en: "Weekly message for May 16 2021."
 excerpt_zh: "May 16 2021 的牧者心聲。"
 ---
 

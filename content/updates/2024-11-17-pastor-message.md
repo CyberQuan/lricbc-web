@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-11-17"
 category: "pastor"
-title_en: "Pastor's Message - November 17 2024"
-title_zh: "牧者之言 - November 17 2024"
-excerpt_en: "Weekly message from our pastor for November 17 2024."
+title_en: "SECOND DEVOTIONAL"
+title_zh: "第二篇灵修"
+subtitle_en: "Pastor's Message - November 17 2024"
+subtitle_zh: "牧者之言 - November 17 2024"
+excerpt_en: "Weekly message for November 17 2024."
 excerpt_zh: "November 17 2024 的牧者心聲。"
 ---
 

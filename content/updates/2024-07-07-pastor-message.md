@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-07-07"
 category: "pastor"
-title_en: "Pastor's Message - July 7 2024"
-title_zh: "牧者之言 - July 7 2024"
-excerpt_en: "Weekly message from our pastor for July 7 2024."
+title_en: "摘自Gregory Reed Frizzell, The Lord’s Supper: A Covenant of Love and Surrender, Chapter Three, “In Remembrance of Me”: Learning “what” to Remember, Fulton, KY: Master Design Publishing, 1982."
+title_zh: "学习记念“什么”"
+subtitle_en: "Pastor's Message - July 7 2024"
+subtitle_zh: "牧者之言 - July 7 2024"
+excerpt_en: "Weekly message for July 7 2024."
 excerpt_zh: "July 7 2024 的牧者心聲。"
 ---
 

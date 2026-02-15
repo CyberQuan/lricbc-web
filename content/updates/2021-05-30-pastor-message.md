@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-05-30"
 category: "pastor"
-title_en: "Pastor's Message - May 30 2021"
-title_zh: "牧者之言 - May 30 2021"
-excerpt_en: "Weekly message from our pastor for May 30 2021."
+title_en: "天国之城 The Celestial City"
+title_zh: "耶稣…说：“复活在我，生命也在我。信我的人，虽然死了，也必复活；凡活着信我的人必永远不死。你信这话吗？”（约11: 25-26）"
+subtitle_en: "Pastor's Message - May 30 2021"
+subtitle_zh: "牧者之言 - May 30 2021"
+excerpt_en: "Weekly message for May 30 2021."
 excerpt_zh: "May 30 2021 的牧者心聲。"
 ---
 

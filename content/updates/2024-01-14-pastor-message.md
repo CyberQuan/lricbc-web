@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-01-14"
 category: "pastor"
-title_en: "Pastor's Message - January 14 2024"
-title_zh: "牧者之言 - January 14 2024"
-excerpt_en: "Weekly message from our pastor for January 14 2024."
+title_en: "“Joyful Watchmen”: Morning Prayer Meeting Update"
+title_zh: "哈2: 1 我要站在守望所，立在望楼上观看，看耶和华对我说什么话，我可用什么话向他诉冤 。"
+subtitle_en: "Pastor's Message - January 14 2024"
+subtitle_zh: "牧者之言 - January 14 2024"
+excerpt_en: "Weekly message for January 14 2024."
 excerpt_zh: "January 14 2024 的牧者心聲。"
 ---
 

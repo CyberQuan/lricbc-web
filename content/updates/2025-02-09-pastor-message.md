@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-02-09"
 category: "pastor"
-title_en: "Pastor's Message - February 9 2025"
-title_zh: "牧者之言 - February 9 2025"
-excerpt_en: "Weekly message from our pastor for February 9 2025."
+title_en: "A Testimony about Chang Hui-Ling"
+title_zh: "关于张惠玲的见证"
+subtitle_en: "Pastor's Message - February 9 2025"
+subtitle_zh: "牧者之言 - February 9 2025"
+excerpt_en: "Weekly message for February 9 2025."
 excerpt_zh: "February 9 2025 的牧者心聲。"
 ---
 
@@ -41,6 +43,8 @@ Hui-Ling and I spent a lot of time together before she was saved. We met in 1990
 **Note: We are thankful for Elinda West’s permission to allow us to share her story. She feels a little embarrassed of mentioning herself, but Pastor Chunhai Li believes it is all about the glory of God by sharing a personal testimony, and this can inspire and encourage others to love and serve the Lord and others more faithfully.**
 
 ---zh---
+
+2/9/25 牧者之言
 
 关于张惠玲的见证
 

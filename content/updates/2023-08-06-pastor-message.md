@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-08-06"
 category: "pastor"
-title_en: "Pastor's Message - August 6 2023"
-title_zh: "牧者之言 - August 6 2023"
-excerpt_en: "Weekly message from our pastor for August 6 2023."
+title_en: "Conviction: God is to be the primary participant in our decision-making process."
+title_zh: "“信心”在作决定中的角色"
+subtitle_en: "Pastor's Message - August 6 2023"
+subtitle_zh: "牧者之言 - August 6 2023"
+excerpt_en: "Weekly message for August 6 2023."
 excerpt_zh: "August 6 2023 的牧者心聲。"
 ---
 

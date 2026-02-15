@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-08-07"
 category: "pastor"
-title_en: "Pastor's Message - August 7 2022"
-title_zh: "牧者之言 - August 7 2022"
-excerpt_en: "Weekly message from our pastor for August 7 2022."
+title_en: "教會網站 Visit our website"
+title_zh: "我们相信圣经"
+subtitle_en: "Pastor's Message - August 7 2022"
+subtitle_zh: "牧者之言 - August 7 2022"
+excerpt_en: "Weekly message for August 7 2022."
 excerpt_zh: "August 7 2022 的牧者心聲。"
 ---
 

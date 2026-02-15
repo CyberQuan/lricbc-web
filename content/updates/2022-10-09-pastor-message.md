@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-10-09"
 category: "pastor"
-title_en: "Pastor's Message - October 9 2022"
-title_zh: "牧者之言 - October 9 2022"
-excerpt_en: "Weekly message from our pastor for October 9 2022."
+title_en: "Soar Like the Eagle… Live out your Calling"
+title_zh: "展翅上腾、活出召命"
+subtitle_en: "Pastor's Message - October 9 2022"
+subtitle_zh: "牧者之言 - October 9 2022"
+excerpt_en: "Weekly message for October 9 2022."
 excerpt_zh: "October 9 2022 的牧者心聲。"
 ---
 

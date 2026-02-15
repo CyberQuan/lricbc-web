@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-12-08"
 category: "pastor"
-title_en: "Pastor's Message - December 8 2024"
-title_zh: "牧者之言 - December 8 2024"
-excerpt_en: "Weekly message from our pastor for December 8 2024."
+title_en: "Last week, December 1-7, was the church’s second fasting and prayer week. I would like to share with our church family the excerpts of the spiritual meditation and intercession on December 1."
+title_zh: "上周12/1-7日 是教会第二次禁食祷告周，特摘录12/1日的灵修和代祷与家人们分享："
+subtitle_en: "Pastor's Message - December 8 2024"
+subtitle_zh: "牧者之言 - December 8 2024"
+excerpt_en: "Weekly message for December 8 2024."
 excerpt_zh: "December 8 2024 的牧者心聲。"
 ---
 

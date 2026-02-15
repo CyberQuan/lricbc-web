@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-06-02"
 category: "pastor"
-title_en: "Pastor's Message - June 2 2024"
-title_zh: "牧者之言 - June 2 2024"
-excerpt_en: "Weekly message from our pastor for June 2 2024."
+title_en: "“Godly Living”:  A Review of Pioneers 2024"
+title_zh: "“敬虔的生活”"
+subtitle_en: "Pastor's Message - June 2 2024"
+subtitle_zh: "牧者之言 - June 2 2024"
+excerpt_en: "Weekly message for June 2 2024."
 excerpt_zh: "June 2 2024 的牧者心聲。"
 ---
 

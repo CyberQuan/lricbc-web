@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-08-22"
 category: "pastor"
-title_en: "Pastor's Message - August 22 2021"
-title_zh: "牧者之言 - August 22 2021"
-excerpt_en: "Weekly message from our pastor for August 22 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "时时仰望主"
+subtitle_en: "Pastor's Message - August 22 2021"
+subtitle_zh: "牧者之言 - August 22 2021"
+excerpt_en: "Weekly message for August 22 2021."
 excerpt_zh: "August 22 2021 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-08-29"
 category: "pastor"
-title_en: "Pastor's Message - August 29 2021"
-title_zh: "牧者之言 - August 29 2021"
-excerpt_en: "Weekly message from our pastor for August 29 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "如何理解《启示录》书信中警告性的经文"
+subtitle_en: "Pastor's Message - August 29 2021"
+subtitle_zh: "牧者之言 - August 29 2021"
+excerpt_en: "Weekly message for August 29 2021."
 excerpt_zh: "August 29 2021 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-01-26"
 category: "pastor"
-title_en: "Pastor's Message - January 26 2025"
-title_zh: "牧者之言 - January 26 2025"
-excerpt_en: "Weekly message from our pastor for January 26 2025."
+title_en: "Spiritual Markers in our Lives"
+title_zh: "魏师母"
+subtitle_en: "Pastor's Message - January 26 2025"
+subtitle_zh: "牧者之言 - January 26 2025"
+excerpt_en: "Weekly message for January 26 2025."
 excerpt_zh: "January 26 2025 的牧者心聲。"
 ---
 
@@ -34,6 +36,8 @@ Here in Early Prayer today I’m sharing a Spiritual Marker in my life! What are
 Dear Lord, help us to identify the spiritual markers in our lives and as we do that help us develop spiritual memory in our walk with you. As we remember these events in our lives help them to continue to strengthen our faith and keep us consistently on the path. Help us share with others so we can encourage each other. Thank you Father that you are constantly working in our lives and that these markers are reminders to us that we belong to You and our future is secure in You! Thank you Jesus for the Body of Christ ….Our Family! In Jesus’s Name Amen.
 
 ---zh---
+
+1/26/25 牧者之言
 
 魏师母
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-10-20"
 category: "pastor"
-title_en: "Pastor's Message - October 20 2024"
-title_zh: "牧者之言 - October 20 2024"
-excerpt_en: "Weekly message from our pastor for October 20 2024."
+title_en: "Lester K. Burkholder – Womelsdorf, PA"
+title_zh: "神创造的本能"
+subtitle_en: "Pastor's Message - October 20 2024"
+subtitle_zh: "牧者之言 - October 20 2024"
+excerpt_en: "Weekly message for October 20 2024."
 excerpt_zh: "October 20 2024 的牧者心聲。"
 ---
 

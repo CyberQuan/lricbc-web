@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-12-17"
 category: "pastor"
-title_en: "Pastor's Message - December 17 2023"
-title_zh: "牧者之言 - December 17 2023"
-excerpt_en: "Weekly message from our pastor for December 17 2023."
+title_en: "The Words of Mrs. Elinda West on “Candy, Christ, and Christmas”"
+title_zh: "魏师母分享“糖果、基督和圣诞”"
+subtitle_en: "Pastor's Message - December 17 2023"
+subtitle_zh: "牧者之言 - December 17 2023"
+excerpt_en: "Weekly message for December 17 2023."
 excerpt_zh: "December 17 2023 的牧者心聲。"
 ---
 

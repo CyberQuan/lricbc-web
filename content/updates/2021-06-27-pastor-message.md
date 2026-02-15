@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-06-27"
 category: "pastor"
-title_en: "Pastor's Message - June 27 2021"
-title_zh: "牧者之言 - June 27 2021"
-excerpt_en: "Weekly message from our pastor for June 27 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "小石城以马内利浸信会正在陆续地返回教堂崇拜。对此，我从圣经的依据、回归的见证、界定Zoom的功能，及流失的羊群四个方面分享说明。"
+subtitle_en: "Pastor's Message - June 27 2021"
+subtitle_zh: "牧者之言 - June 27 2021"
+excerpt_en: "Weekly message for June 27 2021."
 excerpt_zh: "June 27 2021 的牧者心聲。"
 ---
 

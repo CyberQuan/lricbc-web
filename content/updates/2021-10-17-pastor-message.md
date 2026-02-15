@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-10-17"
 category: "pastor"
-title_en: "Pastor's Message - October 17 2021"
-title_zh: "牧者之言 - October 17 2021"
-excerpt_en: "Weekly message from our pastor for October 17 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "在来小石城之前，一位奥克拉荷马的姐妹送给我们一份礼物：罗在一起的四本小圣经。姐妹说：“四本圣经代表四根柱子，希望你事奉的根基建造在这四根柱子上”。为什么姐妹要送给牧师圣经呢？那么多版本的圣经还不够吗？细细品味这份礼物时，觉得它越来越有分量。时至今日，这份珍贵的礼物仍摆在我书架的最上面。若没有上话语作为四个支柱，一切的事奉都是枉然的。"
+subtitle_en: "Pastor's Message - October 17 2021"
+subtitle_zh: "牧者之言 - October 17 2021"
+excerpt_en: "Weekly message for October 17 2021."
 excerpt_zh: "October 17 2021 的牧者心聲。"
 ---
 

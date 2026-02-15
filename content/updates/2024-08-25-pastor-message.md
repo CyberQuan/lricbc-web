@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-08-25"
 category: "pastor"
-title_en: "Pastor's Message - August 25 2024"
-title_zh: "牧者之言 - August 25 2024"
-excerpt_en: "Weekly message from our pastor for August 25 2024."
+title_en: "Blessed are Those Who Rest in the Lord"
+title_zh: "在主里面安息的人有福了"
+subtitle_en: "Pastor's Message - August 25 2024"
+subtitle_zh: "牧者之言 - August 25 2024"
+excerpt_en: "Weekly message for August 25 2024."
 excerpt_zh: "August 25 2024 的牧者心聲。"
 ---
 

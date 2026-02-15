@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-01-24"
 category: "pastor"
-title_en: "Pastor's Message - January 24 2021"
-title_zh: "牧者之言 - January 24 2021"
-excerpt_en: "Weekly message from our pastor for January 24 2021."
+title_en: "Pastor's Message"
+title_zh: "“长大成人”"
+subtitle_en: "Pastor's Message - January 24 2021"
+subtitle_zh: "牧者之言 - January 24 2021"
+excerpt_en: "Weekly message for January 24 2021."
 excerpt_zh: "January 24 2021 的牧者心聲。"
 ---
 

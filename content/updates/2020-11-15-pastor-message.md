@@ -1,9 +1,11 @@
 ---
 publishedAt: "2020-11-15"
 category: "pastor"
-title_en: "Pastor's Message - November 15 2020"
-title_zh: "牧者之言 - November 15 2020"
-excerpt_en: "Weekly message from our pastor for November 15 2020."
+title_en: "Pastor's Message"
+title_zh: "这样够吗？"
+subtitle_en: "Pastor's Message - November 15 2020"
+subtitle_zh: "牧者之言 - November 15 2020"
+excerpt_en: "Weekly message for November 15 2020."
 excerpt_zh: "November 15 2020 的牧者心聲。"
 ---
 

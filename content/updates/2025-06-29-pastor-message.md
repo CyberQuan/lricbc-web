@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-06-29"
 category: "pastor"
-title_en: "Pastor's Message - June 29 2025"
-title_zh: "牧者之言 - June 29 2025"
-excerpt_en: "Weekly message from our pastor for June 29 2025."
+title_en: "引自：https://zh-hant.theologyofwork.org/devotions/practicing-gratitude"
+title_zh: "操练感恩五"
+subtitle_en: "Pastor's Message - June 29 2025"
+subtitle_zh: "牧者之言 - June 29 2025"
+excerpt_en: "Weekly message for June 29 2025."
 excerpt_zh: "June 29 2025 的牧者心聲。"
 ---
 
@@ -40,6 +42,8 @@ If you enjoyed this plan, find more plans from the Theology of Work Project at w
 Quote: Called To Work dcrandall-keeptouch.com@shared1.ccsend.com,Mon, Mar 17, 4:33 PM.
 
 ---zh---
+
+6/29/25 牧者之言
 
 操练感恩五
 

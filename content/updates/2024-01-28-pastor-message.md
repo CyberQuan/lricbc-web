@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-01-28"
 category: "pastor"
-title_en: "Pastor's Message - January 28 2024"
-title_zh: "牧者之言 - January 28 2024"
-excerpt_en: "Weekly message from our pastor for January 28 2024."
+title_en: "Demolish Strongholds"
+title_zh: "攻破坚固的营垒"
+subtitle_en: "Pastor's Message - January 28 2024"
+subtitle_zh: "牧者之言 - January 28 2024"
+excerpt_en: "Weekly message for January 28 2024."
 excerpt_zh: "January 28 2024 的牧者心聲。"
 ---
 

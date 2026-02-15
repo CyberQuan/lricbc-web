@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-11-21"
 category: "pastor"
-title_en: "Pastor's Message - November 21 2021"
-title_zh: "牧者之言 - November 21 2021"
-excerpt_en: "Weekly message from our pastor for November 21 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "感恩寄语"
+subtitle_en: "Pastor's Message - November 21 2021"
+subtitle_zh: "牧者之言 - November 21 2021"
+excerpt_en: "Weekly message for November 21 2021."
 excerpt_zh: "November 21 2021 的牧者心聲。"
 ---
 

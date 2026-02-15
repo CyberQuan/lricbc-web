@@ -12,6 +12,8 @@ export interface PostData {
   publishedAt: string;
   title_en: string;
   title_zh: string;
+  subtitle_en: string;
+  subtitle_zh: string;
   excerpt_en: string;
   excerpt_zh: string;
   contentHtml_en: string;
@@ -40,7 +42,8 @@ export function getSortedPostsData() {
     // Combine the data with the id
     return {
       id,
-      ...(matterResult.data as Omit<PostData, 'id' | 'contentHtml_en' | 'contentHtml_zh'>),
+      content: matterResult.content,
+      ...(matterResult.data as Omit<PostData, 'id' | 'contentHtml_en' | 'contentHtml_zh' | 'content'>),
     };
   });
 

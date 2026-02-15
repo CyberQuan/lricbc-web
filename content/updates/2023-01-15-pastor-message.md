@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-01-15"
 category: "pastor"
-title_en: "Pastor's Message - January 15 2023"
-title_zh: "牧者之言 - January 15 2023"
-excerpt_en: "Weekly message from our pastor for January 15 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "在教会生活中建立品格"
+subtitle_en: "Pastor's Message - January 15 2023"
+subtitle_zh: "牧者之言 - January 15 2023"
+excerpt_en: "Weekly message for January 15 2023."
 excerpt_zh: "January 15 2023 的牧者心聲。"
 ---
 

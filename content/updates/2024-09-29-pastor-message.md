@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-09-29"
 category: "pastor"
-title_en: "Pastor's Message - September 29 2024"
-title_zh: "牧者之言 - September 29 2024"
-excerpt_en: "Weekly message from our pastor for September 29 2024."
+title_en: "The Substance of St Paul’s Preaching"
+title_zh: "圣保罗讲道的实质"
+subtitle_en: "Pastor's Message - September 29 2024"
+subtitle_zh: "牧者之言 - September 29 2024"
+excerpt_en: "Weekly message for September 29 2024."
 excerpt_zh: "September 29 2024 的牧者心聲。"
 ---
 

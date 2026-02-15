@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-11-12"
 category: "pastor"
-title_en: "Pastor's Message - November 12 2023"
-title_zh: "牧者之言 - November 12 2023"
-excerpt_en: "Weekly message from our pastor for November 12 2023."
+title_en: "摘自Paul Carter, How to Persevere When Your Mountain Doesn’t Move, March 19, 2018,"
+title_zh: "当你的大山不挪开时如何坚持"
+subtitle_en: "Pastor's Message - November 12 2023"
+subtitle_zh: "牧者之言 - November 12 2023"
+excerpt_en: "Weekly message for November 12 2023."
 excerpt_zh: "November 12 2023 的牧者心聲。"
 ---
 

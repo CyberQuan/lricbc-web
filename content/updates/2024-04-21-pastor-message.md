@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-04-21"
 category: "pastor"
-title_en: "Pastor's Message - April 21 2024"
-title_zh: "牧者之言 - April 21 2024"
-excerpt_en: "Weekly message from our pastor for April 21 2024."
+title_en: "Martin Luther’s Preface to The Epistle to the Romans"
+title_zh: "马丁·路德的《罗马书》序言"
+subtitle_en: "Pastor's Message - April 21 2024"
+subtitle_zh: "牧者之言 - April 21 2024"
+excerpt_en: "Weekly message for April 21 2024."
 excerpt_zh: "April 21 2024 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-03-10"
 category: "pastor"
-title_en: "Pastor's Message - March 10 2024"
-title_zh: "牧者之言 - March 10 2024"
-excerpt_en: "Weekly message from our pastor for March 10 2024."
+title_en: "The Wise and the Foolish"
+title_zh: "智者与愚人"
+subtitle_en: "Pastor's Message - March 10 2024"
+subtitle_zh: "牧者之言 - March 10 2024"
+excerpt_en: "Weekly message for March 10 2024."
 excerpt_zh: "March 10 2024 的牧者心聲。"
 ---
 

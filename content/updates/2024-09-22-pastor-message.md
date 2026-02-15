@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-09-22"
 category: "pastor"
-title_en: "Pastor's Message - September 22 2024"
-title_zh: "牧者之言 - September 22 2024"
-excerpt_en: "Weekly message from our pastor for September 22 2024."
+title_en: "John 10:10…… I have come that they may have life, and have it to the full."
+title_zh: "“生命”"
+subtitle_en: "Pastor's Message - September 22 2024"
+subtitle_zh: "牧者之言 - September 22 2024"
+excerpt_en: "Weekly message for September 22 2024."
 excerpt_zh: "September 22 2024 的牧者心聲。"
 ---
 

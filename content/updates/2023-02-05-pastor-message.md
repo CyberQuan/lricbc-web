@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-02-05"
 category: "pastor"
-title_en: "Pastor's Message - February 5 2023"
-title_zh: "牧者之言 - February 5 2023"
-excerpt_en: "Weekly message from our pastor for February 5 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "小石城一间韩语教会的晨更祷告会"
+subtitle_en: "Pastor's Message - February 5 2023"
+subtitle_zh: "牧者之言 - February 5 2023"
+excerpt_en: "Weekly message for February 5 2023."
 excerpt_zh: "February 5 2023 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2020-10-25"
 category: "pastor"
-title_en: "Pastor's Message - October 25 2020"
-title_zh: "牧者之言 - October 25 2020"
-excerpt_en: "Weekly message from our pastor for October 25 2020."
+title_en: "Pastor's Message"
+title_zh: "有效的侍奉"
+subtitle_en: "Pastor's Message - October 25 2020"
+subtitle_zh: "牧者之言 - October 25 2020"
+excerpt_en: "Weekly message for October 25 2020."
 excerpt_zh: "October 25 2020 的牧者心聲。"
 ---
 

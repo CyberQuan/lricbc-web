@@ -180,7 +180,7 @@ async function processFile(fileName: string) {
   }
 
   // 1. Pastor's Message Extraction (using HTML to preserve breaks)
-  const pastorStartMarkers = ["牧者之言", "Pastor’s Message", "Pastor's Message", "Pastor's word"];
+  const pastorStartRegex = /牧\s*者\s*之\s*言|Pastor[’']s\s*(?:Message|word|Word)/i;
   const pastorEndMarkers = [
     "如何奉獻", 
     "Ways to give", 
@@ -198,11 +198,11 @@ async function processFile(fileName: string) {
     return null;
   }
 
-  const start = findFirstMarkerInHtml(htmlRaw, pastorStartMarkers);
+  const startMatch = htmlRaw.match(pastorStartRegex);
   let pastorContentRaw: string | null = null;
 
-  if (start) {
-    const remainingHtml = htmlRaw.substring(start.index + start.marker.length);
+  if (startMatch && startMatch.index !== undefined) {
+    const remainingHtml = htmlRaw.substring(startMatch.index + startMatch[0].length);
     const end = findFirstMarkerInHtml(remainingHtml, pastorEndMarkers);
     if (end) {
       pastorContentRaw = cleanText(remainingHtml.substring(0, end.index));
@@ -217,8 +217,24 @@ async function processFile(fileName: string) {
     const formattedEn = formatNarrativeText(split.en);
     const formattedZh = formatNarrativeText(split.zh);
 
-    const titleEn = split.en ? `Pastor's Message - ${displayDate}` : `Pastor's Message (zh) - ${displayDate}`;
-    const excerptEn = split.en ? `Weekly message from our pastor for ${displayDate}.` : `Weekly message (Chinese only) for ${displayDate}.`;
+    // Extraction logic: Skip the "Pastor's Message" line if it's the first line
+    const cleanLines = (text: string) => text.split('\n')
+      .map(l => l.trim())
+      .filter(l => l && !l.startsWith('#') && !l.startsWith('-'))
+      // Specifically skip the marker if it appears again in the cleaned text
+      .filter(l => !pastorStartRegex.test(l));
+
+    const zhLines = cleanLines(formattedZh);
+    const enLines = cleanLines(formattedEn);
+
+    const mainTitleZh = zhLines[0] || `牧者之言`;
+    const mainTitleEn = enLines[0] || `Pastor's Message`;
+
+    const titleEn = split.en ? `${mainTitleEn}` : `${mainTitleEn} (Chinese only)`;
+    const titleZh = mainTitleZh;
+
+    const subtitleEn = `Pastor's Message - ${displayDate}`;
+    const subtitleZh = `牧者之言 - ${displayDate}`;
 
     await savePost(
       `${dateFormatted}-pastor-message`,
@@ -226,8 +242,10 @@ async function processFile(fileName: string) {
         publishedAt: dateFormatted,
         category: 'pastor',
         title_en: titleEn,
-        title_zh: `牧者之言 - ${displayDate}`,
-        excerpt_en: excerptEn,
+        title_zh: titleZh,
+        subtitle_en: subtitleEn,
+        subtitle_zh: subtitleZh,
+        excerpt_en: split.en ? `Weekly message for ${displayDate}.` : `Weekly message (Chinese only) for ${displayDate}.`,
         excerpt_zh: `${displayDate} 的牧者心聲。`,
       },
       split.en ? `${formattedEn}\n\n---zh---\n\n${formattedZh}` : formattedZh
@@ -292,10 +310,12 @@ async function savePost(id: string, metadata: any, content: string) {
   const frontmatter = `---
 publishedAt: "${metadata.publishedAt}"
 category: "${metadata.category}"
-title_en: "${metadata.title_en}"
-title_zh: "${metadata.title_zh}"
-excerpt_en: "${metadata.excerpt_en}"
-excerpt_zh: "${metadata.excerpt_zh}"
+title_en: "${metadata.title_en.replace(/"/g, '\\"')}"
+title_zh: "${metadata.title_zh.replace(/"/g, '\\"')}"
+subtitle_en: "${(metadata.subtitle_en || "").replace(/"/g, '\\"')}"
+subtitle_zh: "${(metadata.subtitle_zh || "").replace(/"/g, '\\"')}"
+excerpt_en: "${metadata.excerpt_en.replace(/"/g, '\\"')}"
+excerpt_zh: "${metadata.excerpt_zh.replace(/"/g, '\\"')}"
 ---
 
 ${content}

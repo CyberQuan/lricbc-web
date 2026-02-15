@@ -3,6 +3,8 @@ publishedAt: "2024-08-25"
 category: "sermon"
 title_en: "Worship Program - August 25 2024"
 title_zh: "主日崇拜程序 - August 25 2024"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Order of service and sermon notes for August 25 2024."
 excerpt_zh: "August 25 2024 主日崇拜程序與信息摘要。"
 ---

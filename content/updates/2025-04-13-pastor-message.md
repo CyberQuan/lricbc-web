@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-04-13"
 category: "pastor"
-title_en: "Pastor's Message - April 13 2025"
-title_zh: "牧者之言 - April 13 2025"
-excerpt_en: "Weekly message from our pastor for April 13 2025."
+title_en: "Santi’s Testimony"
+title_zh: "2024年12月21日，我们教会在华人超市门口举牌传福音时，一位菲律宾的主内弟兄看到我们很感动。第二天，在我们举行圣诞庆祝时，他特地来到教会参与圣诞庆祝。从那以后，他常常把他写的灵修发给我。他的见证如下："
+subtitle_en: "Pastor's Message - April 13 2025"
+subtitle_zh: "牧者之言 - April 13 2025"
+excerpt_en: "Weekly message for April 13 2025."
 excerpt_zh: "April 13 2025 的牧者心聲。"
 ---
 
@@ -60,6 +62,8 @@ Some Bible Verses for all of us to Memorize, Meditate, and put into Practice all
 This Saturday, April 19, our church will once again go to the entrance of the Chinese supermarket to hold gospel signs. We pray that the Lord will lead us to meet more brothers in Christ like Santi, so that we may encourage and serve one another. More importantly, we pray that the Lord would use us to proclaim and share His gospel with people from every nation and every people group. In the name of Christ, Amen!
 
 ---zh---
+
+4/13/25牧者之言
 
 2024年12月21日，我们教会在华人超市门口举牌传福音时，一位菲律宾的主内弟兄看到我们很感动。第二天，在我们举行圣诞庆祝时，他特地来到教会参与圣诞庆祝。从那以后，他常常把他写的灵修发给我。他的见证如下：
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-04-16"
 category: "pastor"
-title_en: "Pastor's Message - April 16 2023"
-title_zh: "牧者之言 - April 16 2023"
-excerpt_en: "Weekly message from our pastor for April 16 2023."
+title_en: "1. 合一的见证Unity Testimony"
+title_zh: "记2023年教会复活节庆祝"
+subtitle_en: "Pastor's Message - April 16 2023"
+subtitle_zh: "牧者之言 - April 16 2023"
+excerpt_en: "Weekly message for April 16 2023."
 excerpt_zh: "April 16 2023 的牧者心聲。"
 ---
 

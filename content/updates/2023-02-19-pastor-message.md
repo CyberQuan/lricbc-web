@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-02-19"
 category: "pastor"
-title_en: "Pastor's Message - February 19 2023"
-title_zh: "牧者之言 - February 19 2023"
-excerpt_en: "Weekly message from our pastor for February 19 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "从“抱雏之窝”到“耶和华的院宇”"
+subtitle_en: "Pastor's Message - February 19 2023"
+subtitle_zh: "牧者之言 - February 19 2023"
+excerpt_en: "Weekly message for February 19 2023."
 excerpt_zh: "February 19 2023 的牧者心聲。"
 ---
 

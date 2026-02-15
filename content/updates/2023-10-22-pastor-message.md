@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-10-22"
 category: "pastor"
-title_en: "Pastor's Message - October 22 2023"
-title_zh: "牧者之言 - October 22 2023"
-excerpt_en: "Weekly message from our pastor for October 22 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "我已经决定要认识基督"
+subtitle_en: "Pastor's Message - October 22 2023"
+subtitle_zh: "牧者之言 - October 22 2023"
+excerpt_en: "Weekly message for October 22 2023."
 excerpt_zh: "October 22 2023 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-06-20"
 category: "pastor"
-title_en: "Pastor's Message - June 20 2021"
-title_zh: "牧者之言 - June 20 2021"
-excerpt_en: "Weekly message from our pastor for June 20 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "在汉语语境下，“委身”的“委”是指“曲”。“委身”含弯曲身体，弯腰，有“托身，以身事人”等意。圣经中没有提到“委身”一词。然而，“委身”的观念却清楚地表达出了在基督信仰里的忠诚。这种忠诚表现在信徒对上帝、夫妻之间、教会信徒之间等关系上。在《使徒行传》2: 42讲到早期教会的信徒，“都恒心遵守使徒的教训，彼此交接，掰饼，祈祷”。其中“恒心遵守”（προσκαρτερέω）有着“委身”的意思。他们要委身于“使徒的教训，彼此交接（团契）、掰饼（主餐）、祈祷”。"
+subtitle_en: "Pastor's Message - June 20 2021"
+subtitle_zh: "牧者之言 - June 20 2021"
+excerpt_en: "Weekly message for June 20 2021."
 excerpt_zh: "June 20 2021 的牧者心聲。"
 ---
 

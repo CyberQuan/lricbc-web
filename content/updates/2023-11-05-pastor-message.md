@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-11-05"
 category: "pastor"
-title_en: "Pastor's Message - November 5 2023"
-title_zh: "牧者之言 - November 5 2023"
-excerpt_en: "Weekly message from our pastor for November 5 2023."
+title_en: "称颂耶和华Bless the Lord"
+title_zh: "11月是感恩月，我们每个人都当向上帝献上感恩，也当向人献上感恩。在此，我将去年感恩节的讲章整理出来，和弟兄姐妹们分享，使大家预备心灵迎接感恩节。题目：称颂耶和华。主旨：为着上帝的赐福、美善和治理，尽情地称颂上帝，直到永远。"
+subtitle_en: "Pastor's Message - November 5 2023"
+subtitle_zh: "牧者之言 - November 5 2023"
+excerpt_en: "Weekly message for November 5 2023."
 excerpt_zh: "November 5 2023 的牧者心聲。"
 ---
 

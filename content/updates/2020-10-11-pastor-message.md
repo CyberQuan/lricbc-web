@@ -1,9 +1,11 @@
 ---
 publishedAt: "2020-10-11"
 category: "pastor"
-title_en: "Pastor's Message - October 11 2020"
-title_zh: "牧者之言 - October 11 2020"
-excerpt_en: "Weekly message from our pastor for October 11 2020."
+title_en: "Pastor's Message"
+title_zh: "你对上帝的美善有信心吗？"
+subtitle_en: "Pastor's Message - October 11 2020"
+subtitle_zh: "牧者之言 - October 11 2020"
+excerpt_en: "Weekly message for October 11 2020."
 excerpt_zh: "October 11 2020 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-06-12"
 category: "pastor"
-title_en: "Pastor's Message - June 12 2022"
-title_zh: "牧者之言 - June 12 2022"
-excerpt_en: "Weekly message from our pastor for June 12 2022."
+title_en: "教會網站 Visit our website"
+title_zh: "浅思基督徒的死亡观"
+subtitle_en: "Pastor's Message - June 12 2022"
+subtitle_zh: "牧者之言 - June 12 2022"
+excerpt_en: "Weekly message for June 12 2022."
 excerpt_zh: "June 12 2022 的牧者心聲。"
 ---
 

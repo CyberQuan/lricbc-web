@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-01-08"
 category: "pastor"
-title_en: "Pastor's Message - January 8 2023"
-title_zh: "牧者之言 - January 8 2023"
-excerpt_en: "Weekly message from our pastor for January 8 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "事奉培育品格"
+subtitle_en: "Pastor's Message - January 8 2023"
+subtitle_zh: "牧者之言 - January 8 2023"
+excerpt_en: "Weekly message for January 8 2023."
 excerpt_zh: "January 8 2023 的牧者心聲。"
 ---
 

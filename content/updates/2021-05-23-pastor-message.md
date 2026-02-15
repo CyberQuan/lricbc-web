@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-05-23"
 category: "pastor"
-title_en: "Pastor's Message - May 23 2021"
-title_zh: "牧者之言 - May 23 2021"
-excerpt_en: "Weekly message from our pastor for May 23 2021."
+title_en: "渡过死亡河The Raging River"
+title_zh: "当基督徒和盼望在谄媚者的陷阱跌倒、从自夸的网络中释放出来后，搭救他们的天国使者指示他们天国之路的下一站。在下一站—“除旧更新”之地，他们需要胆量。过了下一站之后，就到天国之城了。"
+subtitle_en: "Pastor's Message - May 23 2021"
+subtitle_zh: "牧者之言 - May 23 2021"
+excerpt_en: "Weekly message for May 23 2021."
 excerpt_zh: "May 23 2021 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-03-13"
 category: "pastor"
-title_en: "Pastor's Message - March 13 2022"
-title_zh: "牧者之言 - March 13 2022"
-excerpt_en: "Weekly message from our pastor for March 13 2022."
+title_en: "译自Send Relief, Ukraine Prayer"
+title_zh: "为乌克兰祈祷指南"
+subtitle_en: "Pastor's Message - March 13 2022"
+subtitle_zh: "牧者之言 - March 13 2022"
+excerpt_en: "Weekly message for March 13 2022."
 excerpt_zh: "March 13 2022 的牧者心聲。"
 ---
 

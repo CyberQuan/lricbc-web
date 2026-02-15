@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-11-24"
 category: "pastor"
-title_en: "Pastor's Message - November 24 2024"
-title_zh: "牧者之言 - November 24 2024"
-excerpt_en: "Weekly message from our pastor for November 24 2024."
+title_en: "WHY WE LOVE THE BIBLE"
+title_zh: "我们为何热愛圣经"
+subtitle_en: "Pastor's Message - November 24 2024"
+subtitle_zh: "牧者之言 - November 24 2024"
+excerpt_en: "Weekly message for November 24 2024."
 excerpt_zh: "November 24 2024 的牧者心聲。"
 ---
 

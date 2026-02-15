@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-02-16"
 category: "pastor"
-title_en: "Pastor's Message - February 16 2025"
-title_zh: "牧者之言 - February 16 2025"
-excerpt_en: "Weekly message from our pastor for February 16 2025."
+title_en: "Psalm 119: 89 Your Word, O Lord, is eternal; it stands firm in the heavens."
+title_zh: "注：上周有一位弟兄问起关于人工智能的问题。我特将2023年6月13-14日在新奥尔良召开的美南浸信会年会上关于“人工智能”的内容摘录出来，与弟兄姐妹分享。"
+subtitle_en: "Pastor's Message - February 16 2025"
+subtitle_zh: "牧者之言 - February 16 2025"
+excerpt_en: "Weekly message for February 16 2025."
 excerpt_zh: "February 16 2025 的牧者心聲。"
 ---
 
@@ -60,6 +62,8 @@ RESOLVED, That we confess that God alone has the power to create life, that “G
 Refer to: https://www.sbc.net/resource-library/resolutions/on-artificial-intelligence-and-emerging-technologies/, accessed 2/11/2025.
 
 ---zh---
+
+2/16/25 牧者之言
 
 ### 诗篇119: 89耶和华啊，你的话安定在天，直到永远。
 

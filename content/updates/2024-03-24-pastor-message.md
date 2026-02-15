@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-03-24"
 category: "pastor"
-title_en: "Pastor's Message - March 24 2024"
-title_zh: "牧者之言 - March 24 2024"
-excerpt_en: "Weekly message from our pastor for March 24 2024."
+title_en: "Psalm 126: 1 When the Lord brought back the captives to Zion, we were like men who dreamed."
+title_zh: "我们好像做梦的人"
+subtitle_en: "Pastor's Message - March 24 2024"
+subtitle_zh: "牧者之言 - March 24 2024"
+excerpt_en: "Weekly message for March 24 2024."
 excerpt_zh: "March 24 2024 的牧者心聲。"
 ---
 

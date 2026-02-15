@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-09-15"
 category: "pastor"
-title_en: "Pastor's Message - September 15 2024"
-title_zh: "牧者之言 - September 15 2024"
-excerpt_en: "Weekly message from our pastor for September 15 2024."
+title_en: "Fear God; Honor the King"
+title_zh: "敬畏上帝，尊敬国王"
+subtitle_en: "Pastor's Message - September 15 2024"
+subtitle_zh: "牧者之言 - September 15 2024"
+excerpt_en: "Weekly message for September 15 2024."
 excerpt_zh: "September 15 2024 的牧者心聲。"
 ---
 

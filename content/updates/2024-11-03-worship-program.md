@@ -3,6 +3,8 @@ publishedAt: "2024-11-03"
 category: "sermon"
 title_en: "Worship Program - November 3 2024"
 title_zh: "主日崇拜程序 - November 3 2024"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Order of service and sermon notes for November 3 2024."
 excerpt_zh: "November 3 2024 主日崇拜程序與信息摘要。"
 ---

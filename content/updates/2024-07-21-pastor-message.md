@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-07-21"
 category: "pastor"
-title_en: "Pastor's Message - July 21 2024"
-title_zh: "牧者之言 - July 21 2024"
-excerpt_en: "Weekly message from our pastor for July 21 2024."
+title_en: "Flushing the Filter"
+title_zh: "冲洗过滤器"
+subtitle_en: "Pastor's Message - July 21 2024"
+subtitle_zh: "牧者之言 - July 21 2024"
+excerpt_en: "Weekly message for July 21 2024."
 excerpt_zh: "July 21 2024 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-09-12"
 category: "pastor"
-title_en: "Pastor's Message - September 12 2021"
-title_zh: "牧者之言 - September 12 2021"
-excerpt_en: "Weekly message from our pastor for September 12 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "《箴言》的作者是所罗门。有人认为，所罗门年轻时作了《雅歌》，中年时作《箴言》，老年时作《传道书》。 所罗门有着十分传奇的一生。他名字的意思是“和平”，既指他的性格又指他国家的统治。他二十岁左后初作王时，上帝在基遍向他显现，赐予他所求的智慧（王上3: 1-15）。他断案如神，能根据母爱的心理分辨出真假母亲（王上3: 16-28）。他拥有广大的智慧，海沙般的胸怀，箴 言 三 千 句 ， 诗歌 一 千 零 五 首，上知天文下知地理，无人能及。他治国安邦，大兴土木，七年建造圣殿，十三年建造宫殿，国家达到空前盛况。然而，他在年老时却昏庸败坏，背道而驰，极尽堕落之能，宠幸上千外邦妃嫔，供奉各路假神，一落千丈，惹神发怒（王上11: 1-13）。"
+subtitle_en: "Pastor's Message - September 12 2021"
+subtitle_zh: "牧者之言 - September 12 2021"
+excerpt_en: "Weekly message for September 12 2021."
 excerpt_zh: "September 12 2021 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-06-09"
 category: "pastor"
-title_en: "Pastor's Message - June 9 2024"
-title_zh: "牧者之言 - June 9 2024"
-excerpt_en: "Weekly message from our pastor for June 9 2024."
+title_en: "Martin Luther’s Preface to The Epistle to the Romans"
+title_zh: "马丁·路德的《罗马书》序言"
+subtitle_en: "Pastor's Message - June 9 2024"
+subtitle_zh: "牧者之言 - June 9 2024"
+excerpt_en: "Weekly message for June 9 2024."
 excerpt_zh: "June 9 2024 的牧者心聲。"
 ---
 

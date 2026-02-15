@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-12-01"
 category: "pastor"
-title_en: "Pastor's Message - December 1 2024"
-title_zh: "牧者之言 - December 1 2024"
-excerpt_en: "Weekly message from our pastor for December 1 2024."
+title_en: "“ Being Watchful and Thankful ”"
+title_zh: "“警醒感恩”"
+subtitle_en: "Pastor's Message - December 1 2024"
+subtitle_zh: "牧者之言 - December 1 2024"
+excerpt_en: "Weekly message for December 1 2024."
 excerpt_zh: "December 1 2024 的牧者心聲。"
 ---
 

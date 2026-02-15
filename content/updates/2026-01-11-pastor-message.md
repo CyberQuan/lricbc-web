@@ -1,12 +1,16 @@
 ---
 publishedAt: "2026-01-11"
 category: "pastor"
-title_en: "Pastor's Message - January 11 2026"
-title_zh: "牧者之言 - January 11 2026"
-excerpt_en: "Weekly message from our pastor for January 11 2026."
+title_en: "马特·罗兹（Matt Rhodes）"
+title_zh: "为基督受苦不仅仅是“必然的恶”"
+subtitle_en: "Pastor's Message - January 11 2026"
+subtitle_zh: "牧者之言 - January 11 2026"
+excerpt_en: "Weekly message for January 11 2026."
 excerpt_zh: "January 11 2026 的牧者心聲。"
 ---
 
+---
+**Pastor’s Message**
 马特·罗兹（Matt Rhodes）
 
 Rhodes, Matt. Persecution in Missions: A Practical Theology.

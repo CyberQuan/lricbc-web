@@ -3,6 +3,8 @@ publishedAt: "2020-12-20"
 category: "sermon"
 title_en: "Worship Program - December 20 2020"
 title_zh: "主日崇拜程序 - December 20 2020"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Order of service and sermon notes for December 20 2020."
 excerpt_zh: "December 20 2020 主日崇拜程序與信息摘要。"
 ---

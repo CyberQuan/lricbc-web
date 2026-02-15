@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-04-18"
 category: "pastor"
-title_en: "Pastor's Message - April 18 2021"
-title_zh: "牧者之言 - April 18 2021"
-excerpt_en: "Weekly message from our pastor for April 18 2021."
+title_en: "Pastor's Message"
+title_zh: "像芥菜种一样的信心"
+subtitle_en: "Pastor's Message - April 18 2021"
+subtitle_zh: "牧者之言 - April 18 2021"
+excerpt_en: "Weekly message for April 18 2021."
 excerpt_zh: "April 18 2021 的牧者心聲。"
 ---
 

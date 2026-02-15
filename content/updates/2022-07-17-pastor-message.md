@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-07-17"
 category: "pastor"
-title_en: "Pastor's Message - July 17 2022"
-title_zh: "牧者之言 - July 17 2022"
-excerpt_en: "Weekly message from our pastor for July 17 2022."
+title_en: "Exposing what normally lays far beneath the surface of our souls,hidden by the invisible masks we wear."
+title_zh: "我们都被暴露了We’ve All Been Exposed"
+subtitle_en: "Pastor's Message - July 17 2022"
+subtitle_zh: "牧者之言 - July 17 2022"
+excerpt_en: "Weekly message for July 17 2022."
 excerpt_zh: "July 17 2022 的牧者心聲。"
 ---
 

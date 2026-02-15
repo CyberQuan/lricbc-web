@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-11-13"
 category: "pastor"
-title_en: "Pastor's Message - November 13 2022"
-title_zh: "牧者之言 - November 13 2022"
-excerpt_en: "Weekly message from our pastor for November 13 2022."
+title_en: "教會網站 Visit our website"
+title_zh: "什么叫圣灵和火的洗？"
+subtitle_en: "Pastor's Message - November 13 2022"
+subtitle_zh: "牧者之言 - November 13 2022"
+excerpt_en: "Weekly message for November 13 2022."
 excerpt_zh: "November 13 2022 的牧者心聲。"
 ---
 

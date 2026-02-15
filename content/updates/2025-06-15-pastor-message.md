@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-06-15"
 category: "pastor"
-title_en: "Pastor's Message - June 15 2025"
-title_zh: "牧者之言 - June 15 2025"
-excerpt_en: "Weekly message from our pastor for June 15 2025."
+title_en: "The Father’s Love"
+title_zh: "天父的爱"
+subtitle_en: "Pastor's Message - June 15 2025"
+subtitle_zh: "牧者之言 - June 15 2025"
+excerpt_en: "Weekly message for June 15 2025."
 excerpt_zh: "June 15 2025 的牧者心聲。"
 ---
 
@@ -54,6 +56,8 @@ As a mother comforts her child, so will I comfort you.”
 (From Golden Lampstand Leaflet, Issue 237, May 2025)
 
 ---zh---
+
+6/15/2025 父亲节牧者之言
 
 天父的爱
 

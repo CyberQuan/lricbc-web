@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-07-03"
 category: "pastor"
-title_en: "Pastor's Message - July 3 2022"
-title_zh: "牧者之言 - July 3 2022"
-excerpt_en: "Weekly message from our pastor for July 3 2022."
+title_en: "教会的搬迁 Church’s Moving"
+title_zh: "来11: 15-16  他们若想念所离开的家乡，还有可以回去的机会。他们却羡慕一个更美的家乡，就是在天上的。所以神被称为他们的神，并不以为耻；因为祂已经给他们预备了一座城。"
+subtitle_en: "Pastor's Message - July 3 2022"
+subtitle_zh: "牧者之言 - July 3 2022"
+excerpt_en: "Weekly message for July 3 2022."
 excerpt_zh: "July 3 2022 的牧者心聲。"
 ---
 

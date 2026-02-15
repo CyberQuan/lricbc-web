@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-12-26"
 category: "pastor"
-title_en: "Pastor's Message - December 26 2021"
-title_zh: "牧者之言 - December 26 2021"
-excerpt_en: "Weekly message from our pastor for December 26 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "同一心灵、同一脚踪，同心合意作主工"
+subtitle_en: "Pastor's Message - December 26 2021"
+subtitle_zh: "牧者之言 - December 26 2021"
+excerpt_en: "Weekly message for December 26 2021."
 excerpt_zh: "December 26 2021 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-02-11"
 category: "pastor"
-title_en: "Pastor's Message - February 11 2024"
-title_zh: "牧者之言 - February 11 2024"
-excerpt_en: "Weekly message from our pastor for February 11 2024."
+title_en: "How does a Chinese Christian celebrate the Spring Festival?"
+title_zh: "“荣神益人”"
+subtitle_en: "Pastor's Message - February 11 2024"
+subtitle_zh: "牧者之言 - February 11 2024"
+excerpt_en: "Weekly message for February 11 2024."
 excerpt_zh: "February 11 2024 的牧者心聲。"
 ---
 

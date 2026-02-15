@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-09-19"
 category: "pastor"
-title_en: "Pastor's Message - September 19 2021"
-title_zh: "牧者之言 - September 19 2021"
-excerpt_en: "Weekly message from our pastor for September 19 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "古人说：“开卷有益”，读上帝所启示的箴言让人获益匪浅。古人拜师学艺，今人交学费上学。子曰：“自行束脩（xu）以上，吾未尝无诲焉。”意思是，只要主动送给我10条干肉作为见面薄礼的学生，我没有不给他教诲的。古希腊柏拉图学院的门口用希腊文写着这几个字：“不是几何学家，不得入内”，懂几何学是成为学园学生的必要条件。然而，所罗门却为他的箴言广开大门，欢迎所有的人虚心学习。正如主邀请所有的人来得救恩，“你们一切干渴的都当就近水来，没有银钱的也可以来。你们都来，买了吃；不用银钱，不用价值，也来买酒喝奶”（赛55: 1）。"
+subtitle_en: "Pastor's Message - September 19 2021"
+subtitle_zh: "牧者之言 - September 19 2021"
+excerpt_en: "Weekly message for September 19 2021."
 excerpt_zh: "September 19 2021 的牧者心聲。"
 ---
 

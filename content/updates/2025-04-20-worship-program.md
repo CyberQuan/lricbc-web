@@ -3,6 +3,8 @@ publishedAt: "2025-04-20"
 category: "sermon"
 title_en: "Worship Program - April 20 2025"
 title_zh: "主日崇拜程序 - April 20 2025"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Order of service and sermon notes for April 20 2025."
 excerpt_zh: "April 20 2025 主日崇拜程序與信息摘要。"
 ---

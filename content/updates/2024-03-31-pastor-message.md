@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-03-31"
 category: "pastor"
-title_en: "Pastor's Message - March 31 2024"
-title_zh: "牧者之言 - March 31 2024"
-excerpt_en: "Weekly message from our pastor for March 31 2024."
+title_en: "见证之日The Day of Testimonies"
+title_zh: "2024年3月24日是一个值得我们教会纪念的日子，因为这日有十位弟兄姐妹作了浸礼的见证，吴红和韩涛也作了他们信主得救与得医治的见证。这是上帝所定的日子，这是众弟兄姐妹高兴欢喜的日子。"
+subtitle_en: "Pastor's Message - March 31 2024"
+subtitle_zh: "牧者之言 - March 31 2024"
+excerpt_en: "Weekly message for March 31 2024."
 excerpt_zh: "March 31 2024 的牧者心聲。"
 ---
 

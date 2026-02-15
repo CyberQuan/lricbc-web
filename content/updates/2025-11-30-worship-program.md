@@ -3,6 +3,8 @@ publishedAt: "2025-11-30"
 category: "sermon"
 title_en: "Worship Program - November 30 2025"
 title_zh: "主日崇拜程序 - November 30 2025"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Order of service and sermon notes for November 30 2025."
 excerpt_zh: "November 30 2025 主日崇拜程序與信息摘要。"
 ---

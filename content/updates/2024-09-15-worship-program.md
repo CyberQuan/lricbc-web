@@ -3,6 +3,8 @@ publishedAt: "2024-09-15"
 category: "sermon"
 title_en: "Worship Program - September 15 2024"
 title_zh: "主日崇拜程序 - September 15 2024"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Order of service and sermon notes for September 15 2024."
 excerpt_zh: "September 15 2024 主日崇拜程序與信息摘要。"
 ---

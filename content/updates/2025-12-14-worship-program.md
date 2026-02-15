@@ -3,6 +3,8 @@ publishedAt: "2025-12-14"
 category: "sermon"
 title_en: "Worship Program - December 14 2025"
 title_zh: "主日崇拜程序 - December 14 2025"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Order of service and sermon notes for December 14 2025."
 excerpt_zh: "December 14 2025 主日崇拜程序與信息摘要。"
 ---

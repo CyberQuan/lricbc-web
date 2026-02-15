@@ -3,6 +3,8 @@ publishedAt: "2025-05-25"
 category: "sermon"
 title_en: "Worship Program - May 25 2025"
 title_zh: "主日崇拜程序 - May 25 2025"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Order of service and sermon notes for May 25 2025."
 excerpt_zh: "May 25 2025 主日崇拜程序與信息摘要。"
 ---

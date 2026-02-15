@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-03-27"
 category: "pastor"
-title_en: "Pastor's Message - March 27 2022"
-title_zh: "牧者之言 - March 27 2022"
-excerpt_en: "Weekly message from our pastor for March 27 2022."
+title_en: "教會網站 Visit our website"
+title_zh: "这两周教会主日的信息是关于复兴祷告生活的。我们在祷告的功课上永远不会毕业。祷告就是生活，生活就是祷告。若没有祷告我们的灵就是死的。我们只要活着，就要不住地祈祷。以弗所书3:14-21节记载了保罗为以弗所人的祷告，我们可以从中学到很多宝贵的功课。"
+subtitle_en: "Pastor's Message - March 27 2022"
+subtitle_zh: "牧者之言 - March 27 2022"
+excerpt_en: "Weekly message for March 27 2022."
 excerpt_zh: "March 27 2022 的牧者心聲。"
 ---
 

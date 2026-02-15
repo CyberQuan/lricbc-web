@@ -15,21 +15,76 @@ export default function AboutPage() {
   const coreValues = t('about.values.list', { returnObjects: true }) as string[];
   const historyItems = t('about.history.items', { returnObjects: true }) as {year: string, text: string}[];
   const beliefs = t('about.faith.beliefs', { returnObjects: true }) as {title: string, content: string}[];
+  const scheduleItems = t('about.schedule.table.items', { returnObjects: true }) as {name: string, time: string, desc: string}[];
 
   return (
     <main className="min-h-screen flex flex-col">
       <Navbar />
       
-      {/* Cinematic Hero */}
-      <section className="bg-gradient-to-b from-sky-200/80 via-sky-100/40 to-white py-40">
-        <div className="container mx-auto px-4 text-center space-y-12">
-          <h1 className="text-8xl md:text-[12rem] font-light tracking-tighter text-sky-950 leading-none animate-in fade-in slide-in-from-bottom-10 duration-1000">
+      {/* Compact Cinematic Hero */}
+      <section className="bg-gradient-to-b from-sky-200/80 via-sky-100/40 to-white py-20 md:py-32">
+        <div className="container mx-auto px-4 text-center space-y-8">
+          <h1 className="text-6xl md:text-9xl font-light tracking-tighter text-sky-950 leading-none animate-in fade-in slide-in-from-bottom-10 duration-1000">
             {t('about.title')}
           </h1>
-          <div className="h-1.5 w-32 bg-sky-500 mx-auto rounded-full" />
-          <p className="text-4xl md:text-6xl font-light text-sky-800/80 italic max-w-5xl mx-auto leading-tight tracking-tight">
+          <div className="h-1 w-24 bg-sky-500 mx-auto rounded-full" />
+          <p className="text-2xl md:text-4xl font-light text-sky-800/80 italic max-w-4xl mx-auto leading-tight tracking-tight">
             "{t('about.slogan')}"
           </p>
+        </div>
+      </section>
+
+      {/* Service Schedule - Top Priority */}
+      <section className="container mx-auto px-4 py-24">
+        <div className="max-w-6xl mx-auto space-y-20">
+          <div className="text-center space-y-8">
+            <h2 className="text-6xl md:text-8xl font-light text-sky-950 tracking-tight">{t('about.schedule.sundaySermon')}</h2>
+            <div className="inline-block px-10 py-4 bg-sky-600 text-white rounded-full text-2xl font-bold shadow-xl animate-pulse">
+              {t('about.schedule.welcome')}
+            </div>
+            <div className="grid gap-8 md:grid-cols-2 mt-12">
+              <Card className="bg-white/60 backdrop-blur-xl border-none shadow-2xl rounded-[3rem] p-10 text-left space-y-6">
+                <h3 className="text-3xl font-black text-sky-600 uppercase tracking-widest border-b border-sky-100 pb-4">{t('about.schedule.sundayTimes')}</h3>
+                <div className="space-y-4 text-2xl text-sky-900/80 font-light leading-relaxed">
+                  <p>• {t('about.schedule.sundayTime1')}</p>
+                  <p>• {t('about.schedule.sundayTime2')}</p>
+                </div>
+              </Card>
+              <Card className="bg-sky-900 text-white border-none shadow-2xl rounded-[3rem] p-10 text-left space-y-6">
+                <h3 className="text-3xl font-black text-sky-200 uppercase tracking-widest border-b border-white/10 pb-4">{t('about.schedule.connectWithUs')}</h3>
+                <div className="space-y-4 text-2xl font-light leading-relaxed">
+                  <p className="font-bold text-sky-400">{t('about.schedule.offlineAddress')}</p>
+                  <div className="h-px bg-white/10 my-4" />
+                  <p className="text-xl opacity-80 uppercase tracking-tighter">{t('about.schedule.onlineTitle')}</p>
+                  <p className="font-medium">YouTube / {t('about.schedule.zoomInfo')}</p>
+                </div>
+              </Card>
+            </div>
+          </div>
+
+          <div className="space-y-12">
+            <h3 className="text-4xl font-black text-center text-sky-900/40 uppercase tracking-[0.3em]">{t('about.schedule.title')}</h3>
+            <div className="overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white bg-white/40 backdrop-blur-md">
+              <table className="w-full text-left border-collapse">
+                <thead className="bg-sky-600 text-white text-xl md:text-2xl uppercase tracking-widest">
+                  <tr>
+                    <th className="p-10">{t('about.schedule.table.name')}</th>
+                    <th className="p-10">{t('about.schedule.table.time')}</th>
+                    <th className="p-10 hidden md:table-cell">{t('about.schedule.table.description')}</th>
+                  </tr>
+                </thead>
+                <tbody className="text-xl md:text-2xl text-sky-950">
+                  {scheduleItems.map((item, i) => (
+                    <tr key={i} className="border-b border-sky-100 hover:bg-sky-50/50 transition-colors">
+                      <td className="p-10 font-bold">{item.name}</td>
+                      <td className="p-10 font-light">{item.time}</td>
+                      <td className="p-10 font-light text-sky-800/60 italic hidden md:table-cell">{item.desc}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </section>
 

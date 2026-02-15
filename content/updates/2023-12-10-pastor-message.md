@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-12-10"
 category: "pastor"
-title_en: "Pastor's Message - December 10 2023"
-title_zh: "牧者之言 - December 10 2023"
-excerpt_en: "Weekly message from our pastor for December 10 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "牧羊人的见证"
+subtitle_en: "Pastor's Message - December 10 2023"
+subtitle_zh: "牧者之言 - December 10 2023"
+excerpt_en: "Weekly message for December 10 2023."
 excerpt_zh: "December 10 2023 的牧者心聲。"
 ---
 

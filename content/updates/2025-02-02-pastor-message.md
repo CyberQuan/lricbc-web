@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-02-02"
 category: "pastor"
-title_en: "Pastor's Message - February 2 2025"
-title_zh: "牧者之言 - February 2 2025"
-excerpt_en: "Weekly message from our pastor for February 2 2025."
+title_en: "“Glorify God and benefit others”"
+title_zh: "“荣神益人”"
+subtitle_en: "Pastor's Message - February 2 2025"
+subtitle_zh: "牧者之言 - February 2 2025"
+excerpt_en: "Weekly message for February 2 2025."
 excerpt_zh: "February 2 2025 的牧者心聲。"
 ---
 
@@ -46,6 +48,8 @@ We should always preach the gospel in season and out of season (2 Timothy 4:2). 
 May the Lord bless us in the new year with more strength, more glory, and more joy! May the Lord’s grace overflow and the cup of blessing overflow. May peace roll like a river and blessings flow like the ocean! In the name of Christ, Amen!
 
 ---zh---
+
+2/2/25 牧者之言
 
 “荣神益人”
 

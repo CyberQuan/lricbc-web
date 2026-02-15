@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-01-09"
 category: "pastor"
-title_en: "Pastor's Message - January 9 2022"
-title_zh: "牧者之言 - January 9 2022"
-excerpt_en: "Weekly message from our pastor for January 9 2022."
+title_en: "教會網站 Visit our website"
+title_zh: "“教会是什么？” ——《重新认识教会》"
+subtitle_en: "Pastor's Message - January 9 2022"
+subtitle_zh: "牧者之言 - January 9 2022"
+excerpt_en: "Weekly message for January 9 2022."
 excerpt_zh: "January 9 2022 的牧者心聲。"
 ---
 

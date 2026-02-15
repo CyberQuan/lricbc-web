@@ -3,6 +3,8 @@ publishedAt: "2026-02-15"
 category: "sermon"
 title_en: "Worship Program - February 15 2026"
 title_zh: "主日崇拜程序 - February 15 2026"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Order of service and sermon notes for February 15 2026."
 excerpt_zh: "February 15 2026 主日崇拜程序與信息摘要。"
 ---

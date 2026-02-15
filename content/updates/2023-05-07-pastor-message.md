@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-05-07"
 category: "pastor"
-title_en: "Pastor's Message - May 7 2023"
-title_zh: "牧者之言 - May 7 2023"
-excerpt_en: "Weekly message from our pastor for May 7 2023."
+title_en: "Making Decisions Based on God’s Specific Personal Promises"
+title_zh: "按照上帝具体的个人性的应许作抉择"
+subtitle_en: "Pastor's Message - May 7 2023"
+subtitle_zh: "牧者之言 - May 7 2023"
+excerpt_en: "Weekly message for May 7 2023."
 excerpt_zh: "May 7 2023 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2020-12-27"
 category: "pastor"
-title_en: "Pastor's Message - December 27 2020"
-title_zh: "牧者之言 - December 27 2020"
-excerpt_en: "Weekly message from our pastor for December 27 2020."
+title_en: "Pastor's Message"
+title_zh: "指教我们数算自己的日子"
+subtitle_en: "Pastor's Message - December 27 2020"
+subtitle_zh: "牧者之言 - December 27 2020"
+excerpt_en: "Weekly message for December 27 2020."
 excerpt_zh: "December 27 2020 的牧者心聲。"
 ---
 

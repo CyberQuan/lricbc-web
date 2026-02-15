@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-11-03"
 category: "pastor"
-title_en: "Pastor's Message - November 3 2024"
-title_zh: "牧者之言 - November 3 2024"
-excerpt_en: "Weekly message from our pastor for November 3 2024."
+title_en: "Stewardship of Time, Talents, and Treasure"
+title_zh: "时间、才干和财富的管理"
+subtitle_en: "Pastor's Message - November 3 2024"
+subtitle_zh: "牧者之言 - November 3 2024"
+excerpt_en: "Weekly message for November 3 2024."
 excerpt_zh: "November 3 2024 的牧者心聲。"
 ---
 

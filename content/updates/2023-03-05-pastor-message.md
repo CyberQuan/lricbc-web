@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-03-05"
 category: "pastor"
-title_en: "Pastor's Message - March 5 2023"
-title_zh: "牧者之言 - March 5 2023"
-excerpt_en: "Weekly message from our pastor for March 5 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "亚斯伯里复兴 Asbury Revival"
+subtitle_en: "Pastor's Message - March 5 2023"
+subtitle_zh: "牧者之言 - March 5 2023"
+excerpt_en: "Weekly message for March 5 2023."
 excerpt_zh: "March 5 2023 的牧者心聲。"
 ---
 

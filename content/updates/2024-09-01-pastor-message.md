@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-09-01"
 category: "pastor"
-title_en: "Pastor's Message - September 1 2024"
-title_zh: "牧者之言 - September 1 2024"
-excerpt_en: "Weekly message from our pastor for September 1 2024."
+title_en: "Decisions, Decisions"
+title_zh: "决定，决定"
+subtitle_en: "Pastor's Message - September 1 2024"
+subtitle_zh: "牧者之言 - September 1 2024"
+excerpt_en: "Weekly message for September 1 2024."
 excerpt_zh: "September 1 2024 的牧者心聲。"
 ---
 

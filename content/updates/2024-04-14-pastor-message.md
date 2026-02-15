@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-04-14"
 category: "pastor"
-title_en: "Pastor's Message - April 14 2024"
-title_zh: "牧者之言 - April 14 2024"
-excerpt_en: "Weekly message from our pastor for April 14 2024."
+title_en: "KJV Matt.19: 14 But Jesus said, “Suffer little children, and forbid them not, to come unto me: for of such is the kingdom of heaven.”"
+title_zh: "2024年教会暑期圣经学校"
+subtitle_en: "Pastor's Message - April 14 2024"
+subtitle_zh: "牧者之言 - April 14 2024"
+excerpt_en: "Weekly message for April 14 2024."
 excerpt_zh: "April 14 2024 的牧者心聲。"
 ---
 

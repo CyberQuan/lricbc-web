@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-02-14"
 category: "pastor"
-title_en: "Pastor's Message - February 14 2021"
-title_zh: "牧者之言 - February 14 2021"
-excerpt_en: "Weekly message from our pastor for February 14 2021."
+title_en: "Pastor's Message"
+title_zh: "基督徒如何过春节"
+subtitle_en: "Pastor's Message - February 14 2021"
+subtitle_zh: "牧者之言 - February 14 2021"
+excerpt_en: "Weekly message for February 14 2021."
 excerpt_zh: "February 14 2021 的牧者心聲。"
 ---
 

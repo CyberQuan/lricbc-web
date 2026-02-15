@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-02-21"
 category: "pastor"
-title_en: "Pastor's Message - February 21 2021"
-title_zh: "牧者之言 - February 21 2021"
-excerpt_en: "Weekly message from our pastor for February 21 2021."
+title_en: "Pastor's Message"
+title_zh: "读《约书亚记》时，人们会很自然地问：上帝为何吩咐以色列人要对迦南人赶尽杀绝？这岂不是太残忍了吗？上帝为何要帮助以色列人灭绝其他民族呢？对此，根据圣经本身和学者们的观点，归纳以下"
+subtitle_en: "Pastor's Message - February 21 2021"
+subtitle_zh: "牧者之言 - February 21 2021"
+excerpt_en: "Weekly message for February 21 2021."
 excerpt_zh: "February 21 2021 的牧者心聲。"
 ---
 

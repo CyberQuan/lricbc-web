@@ -3,6 +3,8 @@ publishedAt: "2024-10-06"
 category: "sermon"
 title_en: "Worship Program - October 6 2024"
 title_zh: "主日崇拜程序 - October 6 2024"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Order of service and sermon notes for October 6 2024."
 excerpt_zh: "October 6 2024 主日崇拜程序與信息摘要。"
 ---

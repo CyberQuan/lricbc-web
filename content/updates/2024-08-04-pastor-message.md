@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-08-04"
 category: "pastor"
-title_en: "Pastor's Message - August 4 2024"
-title_zh: "牧者之言 - August 4 2024"
-excerpt_en: "Weekly message from our pastor for August 4 2024."
+title_en: "A View Beyond the Visible"
+title_zh: "超越眼见的视野"
+subtitle_en: "Pastor's Message - August 4 2024"
+subtitle_zh: "牧者之言 - August 4 2024"
+excerpt_en: "Weekly message for August 4 2024."
 excerpt_zh: "August 4 2024 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-05-28"
 category: "pastor"
-title_en: "Pastor's Message - May 28 2023"
-title_zh: "牧者之言 - May 28 2023"
-excerpt_en: "Weekly message from our pastor for May 28 2023."
+title_en: "“神向你所要”(What God Requires of You)"
+title_zh: "——记在琼斯博罗华语浸信会分享的信息"
+subtitle_en: "Pastor's Message - May 28 2023"
+subtitle_zh: "牧者之言 - May 28 2023"
+excerpt_en: "Weekly message for May 28 2023."
 excerpt_zh: "May 28 2023 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2020-12-06"
 category: "pastor"
-title_en: "Pastor's Message - December 6 2020"
-title_zh: "牧者之言 - December 6 2020"
-excerpt_en: "Weekly message from our pastor for December 6 2020."
+title_en: "Pastor's Message"
+title_zh: "求神复兴祂的教会"
+subtitle_en: "Pastor's Message - December 6 2020"
+subtitle_zh: "牧者之言 - December 6 2020"
+excerpt_en: "Weekly message for December 6 2020."
 excerpt_zh: "December 6 2020 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-05-22"
 category: "pastor"
-title_en: "Pastor's Message - May 22 2022"
-title_zh: "牧者之言 - May 22 2022"
-excerpt_en: "Weekly message from our pastor for May 22 2022."
+title_en: "教會網站 Visit our website"
+title_zh: "再思“抱雏之窝”"
+subtitle_en: "Pastor's Message - May 22 2022"
+subtitle_zh: "牧者之言 - May 22 2022"
+excerpt_en: "Weekly message for May 22 2022."
 excerpt_zh: "May 22 2022 的牧者心聲。"
 ---
 

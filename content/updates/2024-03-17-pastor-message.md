@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-03-17"
 category: "pastor"
-title_en: "Pastor's Message - March 17 2024"
-title_zh: "牧者之言 - March 17 2024"
-excerpt_en: "Weekly message from our pastor for March 17 2024."
+title_en: "The “Holy Spirit” in 1 Corinthians Chapter 2"
+title_zh: "《哥林多前书》2章中的“圣灵”"
+subtitle_en: "Pastor's Message - March 17 2024"
+subtitle_zh: "牧者之言 - March 17 2024"
+excerpt_en: "Weekly message for March 17 2024."
 excerpt_zh: "March 17 2024 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-10-13"
 category: "pastor"
-title_en: "Pastor's Message - October 13 2024"
-title_zh: "牧者之言 - October 13 2024"
-excerpt_en: "Weekly message from our pastor for October 13 2024."
+title_en: "The Harbin City in My Heart"
+title_zh: "我心中的哈尔滨"
+subtitle_en: "Pastor's Message - October 13 2024"
+subtitle_zh: "牧者之言 - October 13 2024"
+excerpt_en: "Weekly message for October 13 2024."
 excerpt_zh: "October 13 2024 的牧者心聲。"
 ---
 

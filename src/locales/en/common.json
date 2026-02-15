@@ -35,6 +35,55 @@
   "about": {
     "title": "About Us",
     "slogan": "Witness Christ & Impact the World!",
+    "schedule": {
+      "title": "Service Schedule",
+      "sundaySermon": "Sunday Sermon",
+      "welcome": "Welcome to join us this Sunday!",
+      "sundayTimes": "Sunday Times",
+      "connectWithUs": "Connect With Us",
+      "sundayTime1": "9:00 – 10:20 am Sunday Service (Online & Offline)",
+      "sundayTime2": "10:30 – 11:30 am Sunday School (Adult & Children)",
+      "offlineAddress": "Location: 9701 W Markham St, Little Rock, AR 72205",
+      "onlineTitle": "Online Service:",
+      "zoomInfo": "Zoom ID: 501 501 7777, Password: 777",
+      "table": {
+        "name": "Meeting",
+        "time": "Time",
+        "description": "Description",
+        "items": [
+          {
+            "name": "Morning Prayer",
+            "time": "Mon-Fri 5:00-6:00 AM, Sat 6:00-7:00 AM",
+            "desc": "Led by brothers and sisters in rotation"
+          },
+          {
+            "name": "Sunday Sermon",
+            "time": "Sun 9:00-10:20 AM",
+            "desc": "Online + Offline synchronized worship"
+          },
+          {
+            "name": "Sunday School",
+            "time": "Sun 10:30-11:30 AM",
+            "desc": "Adults, Children, Youth"
+          },
+          {
+            "name": "Wed Prayer Meeting",
+            "time": "Wed 7:00 PM",
+            "desc": "Online + Offline"
+          },
+          {
+            "name": "Fellowships",
+            "time": "Fri 6:00 PM Dinner, 7:00 PM Bible Study",
+            "desc": "New Life (Online+Offline); Student, Children, Youth (Offline)"
+          },
+          {
+            "name": "Senior Fellowship",
+            "time": "Irregular",
+            "desc": "Details to be announced"
+          }
+        ]
+      }
+    },
     "vision": {
       "title": "Vision",
       "content": "But we will receive power when the Holy Spirit comes on us; we will be the Lord's witnesses in Little Rock, and in Arkansas and the United States, and to the world!"
@@ -132,6 +181,7 @@
       "sermon": "Sermon Notes",
       "news": "Announcements"
     },
+    "searchPlaceholder": "Search all messages...",
     "readMore": "Read More",
     "backToList": "Back to Updates",
     "readingSettings": {

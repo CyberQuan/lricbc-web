@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-06-06"
 category: "pastor"
-title_en: "Pastor's Message - June 6 2021"
-title_zh: "牧者之言 - June 6 2021"
-excerpt_en: "Weekly message from our pastor for June 6 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "在领受了上帝清楚的异象后，小石城以马内利华语浸信会正在带着祈祷的心、按照圣经所启示的次序，谨慎地一步一步迈向独立。在此阶段，弟兄姐妹很自然地会问这样的问题：教会的计划应当以什么样的方式展开呢？我们是应该先搜集大家的意见，还是先从神所给的异象开始逐步进行呢？这两个基本的思路，哪一个更符合上帝的心意呢？"
+subtitle_en: "Pastor's Message - June 6 2021"
+subtitle_zh: "牧者之言 - June 6 2021"
+excerpt_en: "Weekly message for June 6 2021."
 excerpt_zh: "June 6 2021 的牧者心聲。"
 ---
 

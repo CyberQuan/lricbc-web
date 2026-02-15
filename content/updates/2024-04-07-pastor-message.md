@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-04-07"
 category: "pastor"
-title_en: "Pastor's Message - April 7 2024"
-title_zh: "牧者之言 - April 7 2024"
-excerpt_en: "Weekly message from our pastor for April 7 2024."
+title_en: "见证之日The Day of Testimonies"
+title_zh: "“心欢喜、灵快乐、肉身安然居住”"
+subtitle_en: "Pastor's Message - April 7 2024"
+subtitle_zh: "牧者之言 - April 7 2024"
+excerpt_en: "Weekly message for April 7 2024."
 excerpt_zh: "April 7 2024 的牧者心聲。"
 ---
 

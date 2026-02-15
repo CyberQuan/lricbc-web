@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-04-25"
 category: "pastor"
-title_en: "Pastor's Message - April 25 2021"
-title_zh: "牧者之言 - April 25 2021"
-excerpt_en: "Weekly message from our pastor for April 25 2021."
+title_en: "译自：an email on Apr 20 at 8:16 AM from Revelation Media"
+title_zh: "绝望城堡"
+subtitle_en: "Pastor's Message - April 25 2021"
+subtitle_zh: "牧者之言 - April 25 2021"
+excerpt_en: "Weekly message for April 25 2021."
 excerpt_zh: "April 25 2021 的牧者心聲。"
 ---
 

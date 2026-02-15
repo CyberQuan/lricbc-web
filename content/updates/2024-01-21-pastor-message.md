@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-01-21"
 category: "pastor"
-title_en: "Pastor's Message - January 21 2024"
-title_zh: "牧者之言 - January 21 2024"
-excerpt_en: "Weekly message from our pastor for January 21 2024."
+title_en: "Anita’s Story: Reflection on “Rising Like the Sun”"
+title_zh: "去年11月26日清晨主日崇拜时，一位美国非裔姐妹很早走进我们教会。我主动走到她面前和她打招呼，并自我介绍。她也向我介绍说，她叫阿妮塔·周(Anita Joe)。她在一次为中国那么多失丧的灵魂祷告时，上帝呼召和感动她要去作华人福音事工。"
+subtitle_en: "Pastor's Message - January 21 2024"
+subtitle_zh: "牧者之言 - January 21 2024"
+excerpt_en: "Weekly message for January 21 2024."
 excerpt_zh: "January 21 2024 的牧者心聲。"
 ---
 

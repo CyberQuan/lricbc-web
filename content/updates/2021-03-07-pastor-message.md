@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-03-07"
 category: "pastor"
-title_en: "Pastor's Message - March 7 2021"
-title_zh: "牧者之言 - March 7 2021"
-excerpt_en: "Weekly message from our pastor for March 7 2021."
+title_en: "Pastor's Message"
+title_zh: "“峡谷里的花”"
+subtitle_en: "Pastor's Message - March 7 2021"
+subtitle_zh: "牧者之言 - March 7 2021"
+excerpt_en: "Weekly message for March 7 2021."
 excerpt_zh: "March 7 2021 的牧者心聲。"
 ---
 

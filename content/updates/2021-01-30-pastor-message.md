@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-01-30"
 category: "pastor"
-title_en: "Pastor's Message - January 30 2021"
-title_zh: "牧者之言 - January 30 2021"
-excerpt_en: "Weekly message from our pastor for January 30 2021."
+title_en: "Pastor's Message"
+title_zh: "“合一的力量”"
+subtitle_en: "Pastor's Message - January 30 2021"
+subtitle_zh: "牧者之言 - January 30 2021"
+excerpt_en: "Weekly message for January 30 2021."
 excerpt_zh: "January 30 2021 的牧者心聲。"
 ---
 

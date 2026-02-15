@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-02-07"
 category: "pastor"
-title_en: "Pastor's Message - February 7 2021"
-title_zh: "牧者之言 - February 7 2021"
-excerpt_en: "Weekly message from our pastor for February 7 2021."
+title_en: "Pastor's Message"
+title_zh: "”亲爱的弟兄啊，我愿你凡事兴盛，身体健壮，正如你的灵魂兴盛一样。” 约三2"
+subtitle_en: "Pastor's Message - February 7 2021"
+subtitle_zh: "牧者之言 - February 7 2021"
+excerpt_en: "Weekly message for February 7 2021."
 excerpt_zh: "February 7 2021 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-05-18"
 category: "pastor"
-title_en: "Pastor's Message - May 18 2025"
-title_zh: "牧者之言 - May 18 2025"
-excerpt_en: "Weekly message from our pastor for May 18 2025."
+title_en: "WE FIND FAITHFULNESS IN GOD’S WORD"
+title_zh: "我们在神的话语中发现信实"
+subtitle_en: "Pastor's Message - May 18 2025"
+subtitle_zh: "牧者之言 - May 18 2025"
+excerpt_en: "Weekly message for May 18 2025."
 excerpt_zh: "May 18 2025 的牧者心聲。"
 ---
 
@@ -66,6 +68,8 @@ There is a lot to say about these scriptures, but I will just say that Jesus rem
 (*Other than my own personal words and testimonies in this devotional, credit for these thoughts goes to Dr. David Platt, pastor-teacher at McLean Bible Church in Washington, D.C.)
 
 ---zh---
+
+5/18/25 牧者之言
 
 我们在神的话语中发现信实
 

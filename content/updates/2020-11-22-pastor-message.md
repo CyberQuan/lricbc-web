@@ -1,9 +1,11 @@
 ---
 publishedAt: "2020-11-22"
 category: "pastor"
-title_en: "Pastor's Message - November 22 2020"
-title_zh: "牧者之言 - November 22 2020"
-excerpt_en: "Weekly message from our pastor for November 22 2020."
+title_en: "Pastor's Message"
+title_zh: "“情词迫切地直求”"
+subtitle_en: "Pastor's Message - November 22 2020"
+subtitle_zh: "牧者之言 - November 22 2020"
+excerpt_en: "Weekly message for November 22 2020."
 excerpt_zh: "November 22 2020 的牧者心聲。"
 ---
 

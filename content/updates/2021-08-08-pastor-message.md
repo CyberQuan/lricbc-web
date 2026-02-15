@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-08-08"
 category: "pastor"
-title_en: "Pastor's Message - August 8 2021"
-title_zh: "牧者之言 - August 8 2021"
-excerpt_en: "Weekly message from our pastor for August 8 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "新冠疫苗是启示录中敌基督的666兽印吗？"
+subtitle_en: "Pastor's Message - August 8 2021"
+subtitle_zh: "牧者之言 - August 8 2021"
+excerpt_en: "Weekly message for August 8 2021."
 excerpt_zh: "August 8 2021 的牧者心聲。"
 ---
 

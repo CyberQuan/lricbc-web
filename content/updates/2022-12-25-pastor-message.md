@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-12-25"
 category: "pastor"
-title_en: "Pastor's Message - December 25 2022"
-title_zh: "牧者之言 - December 25 2022"
-excerpt_en: "Weekly message from our pastor for December 25 2022."
+title_en: "教會網站 Visit our website"
+title_zh: "幕后英雄"
+subtitle_en: "Pastor's Message - December 25 2022"
+subtitle_zh: "牧者之言 - December 25 2022"
+excerpt_en: "Weekly message for December 25 2022."
 excerpt_zh: "December 25 2022 的牧者心聲。"
 ---
 

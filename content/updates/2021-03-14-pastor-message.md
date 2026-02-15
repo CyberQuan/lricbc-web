@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-03-14"
 category: "pastor"
-title_en: "Pastor's Message - March 14 2021"
-title_zh: "牧者之言 - March 14 2021"
-excerpt_en: "Weekly message from our pastor for March 14 2021."
+title_en: "Pastor's Message"
+title_zh: "上帝是位调音师"
+subtitle_en: "Pastor's Message - March 14 2021"
+subtitle_zh: "牧者之言 - March 14 2021"
+excerpt_en: "Weekly message for March 14 2021."
 excerpt_zh: "March 14 2021 的牧者心聲。"
 ---
 

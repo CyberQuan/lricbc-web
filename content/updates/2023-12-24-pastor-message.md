@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-12-24"
 category: "pastor"
-title_en: "Pastor's Message - December 24 2023"
-title_zh: "牧者之言 - December 24 2023"
-excerpt_en: "Weekly message from our pastor for December 24 2023."
+title_en: "“Blonde Hair &amp; Blue Eyes”"
+title_zh: "桑迪的圣诞信 Sandi’s Christmas Letter"
+subtitle_en: "Pastor's Message - December 24 2023"
+subtitle_zh: "牧者之言 - December 24 2023"
+excerpt_en: "Weekly message for December 24 2023."
 excerpt_zh: "December 24 2023 的牧者心聲。"
 ---
 

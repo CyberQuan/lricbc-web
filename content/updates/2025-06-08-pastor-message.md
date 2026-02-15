@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-06-08"
 category: "pastor"
-title_en: "Pastor's Message - June 8 2025"
-title_zh: "牧者之言 - June 8 2025"
-excerpt_en: "Weekly message from our pastor for June 8 2025."
+title_en: "引自：https://zh-hant.theologyofwork.org/devotions/practicing-gratitude"
+title_zh: "操练感恩三"
+subtitle_en: "Pastor's Message - June 8 2025"
+subtitle_zh: "牧者之言 - June 8 2025"
+excerpt_en: "Weekly message for June 8 2025."
 excerpt_zh: "June 8 2025 的牧者心聲。"
 ---
 
@@ -46,6 +48,8 @@ Further Exploration: Read a personal story about expressing gratitude at work.
 Called To Work dcrandall-keeptouch.com@shared1.ccsend.com, Mon, Mar 3, 1:31 PM
 
 ---zh---
+
+6/8/25 牧者之言
 
 操练感恩三
 

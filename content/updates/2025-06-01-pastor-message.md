@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-06-01"
 category: "pastor"
-title_en: "Pastor's Message - June 1 2025"
-title_zh: "牧者之言 - June 1 2025"
-excerpt_en: "Weekly message from our pastor for June 1 2025."
+title_en: "引自：https://zh-hant.theologyofwork.org/devotions/practicing-gratitude"
+title_zh: "操练感恩二"
+subtitle_en: "Pastor's Message - June 1 2025"
+subtitle_zh: "牧者之言 - June 1 2025"
+excerpt_en: "Weekly message for June 1 2025."
 excerpt_zh: "June 1 2025 的牧者心聲。"
 ---
 
@@ -42,6 +44,8 @@ Prayer: God, you know my heart. Thank you for hearing my suffering. Help me than
 Further Exploration: Read Ann Voskamp's answer to the question: “How do I fully live when life is full of hurt?”
 
 ---zh---
+
+6/1/25  牧者之言
 
 操练感恩二
 

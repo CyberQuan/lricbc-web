@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-09-04"
 category: "pastor"
-title_en: "Pastor's Message - September 4 2022"
-title_zh: "牧者之言 - September 4 2022"
-excerpt_en: "Weekly message from our pastor for September 4 2022."
+title_en: "教會網站 Visit our website"
+title_zh: "《希伯来书》中有五段警告我们，不要在信仰上堕落的经文。它们是2: 1-4 ; 3:7-14 &amp; 4: 1-13；5:11-6:12 ; 10: 19-39 ; 12: 1-29"
+subtitle_en: "Pastor's Message - September 4 2022"
+subtitle_zh: "牧者之言 - September 4 2022"
+excerpt_en: "Weekly message for September 4 2022."
 excerpt_zh: "September 4 2022 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-02-18"
 category: "pastor"
-title_en: "Pastor's Message - February 18 2024"
-title_zh: "牧者之言 - February 18 2024"
-excerpt_en: "Weekly message from our pastor for February 18 2024."
+title_en: "“You Do Your Part; and I Will Do Mine”"
+title_zh: "\" 你作你的部分、我会作我的部分\""
+subtitle_en: "Pastor's Message - February 18 2024"
+subtitle_zh: "牧者之言 - February 18 2024"
+excerpt_en: "Weekly message for February 18 2024."
 excerpt_zh: "February 18 2024 的牧者心聲。"
 ---
 

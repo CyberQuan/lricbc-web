@@ -1,12 +1,16 @@
 ---
 publishedAt: "2025-12-28"
 category: "pastor"
-title_en: "Pastor's Message - December 28 2025"
-title_zh: "牧者之言 - December 28 2025"
-excerpt_en: "Weekly message from our pastor for December 28 2025."
+title_en: "Elinda West"
+title_zh: "魏愛玲師母"
+subtitle_en: "Pastor's Message - December 28 2025"
+subtitle_zh: "牧者之言 - December 28 2025"
+excerpt_en: "Weekly message for December 28 2025."
 excerpt_zh: "December 28 2025 的牧者心聲。"
 ---
 
+---
+**Pastor’s Message**
 Elinda West
 
 Testimony for Thanksgiving Service Dec 23, 2025

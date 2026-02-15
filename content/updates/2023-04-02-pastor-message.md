@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-04-02"
 category: "pastor"
-title_en: "Pastor's Message - April 2 2023"
-title_zh: "牧者之言 - April 2 2023"
-excerpt_en: "Weekly message from our pastor for April 2 2023."
+title_en: "2 Tim. 3:14 But as for you, continue in what you have learned and have become convinced of, because you know those from whom you learned it."
+title_zh: "回忆我的“耶稣生平”课"
+subtitle_en: "Pastor's Message - April 2 2023"
+subtitle_zh: "牧者之言 - April 2 2023"
+excerpt_en: "Weekly message for April 2 2023."
 excerpt_zh: "April 2 2023 的牧者心聲。"
 ---
 

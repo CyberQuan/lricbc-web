@@ -3,6 +3,8 @@ publishedAt: "2025-03-16"
 category: "sermon"
 title_en: "Worship Program (zh) - March 16 2025"
 title_zh: "主日崇拜程序 - March 16 2025"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Worship program (Chinese only) for March 16 2025."
 excerpt_zh: "March 16 2025 主日崇拜程序與信息摘要。"
 ---

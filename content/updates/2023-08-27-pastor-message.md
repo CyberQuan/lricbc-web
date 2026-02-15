@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-08-27"
 category: "pastor"
-title_en: "Pastor's Message - August 27 2023"
-title_zh: "牧者之言 - August 27 2023"
-excerpt_en: "Weekly message from our pastor for August 27 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "耶稣为你祈求！"
+subtitle_en: "Pastor's Message - August 27 2023"
+subtitle_zh: "牧者之言 - August 27 2023"
+excerpt_en: "Weekly message for August 27 2023."
 excerpt_zh: "August 27 2023 的牧者心聲。"
 ---
 

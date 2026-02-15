@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-03-20"
 category: "pastor"
-title_en: "Pastor's Message - March 20 2022"
-title_zh: "牧者之言 - March 20 2022"
-excerpt_en: "Weekly message from our pastor for March 20 2022."
+title_en: "教會網站 Visit our website"
+title_zh: "2022年教会牧养系列之十"
+subtitle_en: "Pastor's Message - March 20 2022"
+subtitle_zh: "牧者之言 - March 20 2022"
+excerpt_en: "Weekly message for March 20 2022."
 excerpt_zh: "March 20 2022 的牧者心聲。"
 ---
 

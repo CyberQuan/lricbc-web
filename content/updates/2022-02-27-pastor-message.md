@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-02-27"
 category: "pastor"
-title_en: "Pastor's Message - February 27 2022"
-title_zh: "牧者之言 - February 27 2022"
-excerpt_en: "Weekly message from our pastor for February 27 2022."
+title_en: "教會網站 Visit our website"
+title_zh: "为何要以讲道和教导为中心？---《重新认识教会》"
+subtitle_en: "Pastor's Message - February 27 2022"
+subtitle_zh: "牧者之言 - February 27 2022"
+excerpt_en: "Weekly message for February 27 2022."
 excerpt_zh: "February 27 2022 的牧者心聲。"
 ---
 

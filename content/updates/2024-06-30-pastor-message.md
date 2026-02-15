@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-06-30"
 category: "pastor"
-title_en: "Pastor's Message - June 30 2024"
-title_zh: "牧者之言 - June 30 2024"
-excerpt_en: "Weekly message from our pastor for June 30 2024."
+title_en: "2024 Church Vocation Bible School"
+title_zh: "“海底探险”"
+subtitle_en: "Pastor's Message - June 30 2024"
+subtitle_zh: "牧者之言 - June 30 2024"
+excerpt_en: "Weekly message for June 30 2024."
 excerpt_zh: "June 30 2024 的牧者心聲。"
 ---
 

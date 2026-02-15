@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-06-13"
 category: "pastor"
-title_en: "Pastor's Message - June 13 2021"
-title_zh: "牧者之言 - June 13 2021"
-excerpt_en: "Weekly message from our pastor for June 13 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "在教会立宪建立会友体制上，首先要明确的观念是：当地教会是在主里彼此立约的百姓。 根据美西南浸信会神学院教会行政教授Charles A. Tidwell 编写的 “教会立会指南” 中指出： “基督徒自愿地藉立约来结合，并组成一所教会。在 “浸会信仰和信息” 中有关教会的部份以下列的说话来开始： “‘属于主耶稣基督的一所新约教会，是一个本地、受浸信徒的团体，在福音的信仰和团契中在约中联系，遵守基督的两个礼仪，忠于祂的教导，运用神的话语所给他们的恩赐、权利，并寻求扩展福音直到世界的末了’。 约这一个字常被用来形容信徒彼此之间的连系。以耶稣基督为元首，及圣灵的同在底下，一群人在一个约的关系中成为教会” （P.4） 。"
+subtitle_en: "Pastor's Message - June 13 2021"
+subtitle_zh: "牧者之言 - June 13 2021"
+excerpt_en: "Weekly message for June 13 2021."
 excerpt_zh: "June 13 2021 的牧者心聲。"
 ---
 

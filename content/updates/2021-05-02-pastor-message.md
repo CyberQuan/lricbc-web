@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-05-02"
 category: "pastor"
-title_en: "Pastor's Message - May 2 2021"
-title_zh: "牧者之言 - May 2 2021"
-excerpt_en: "Weekly message from our pastor for May 2 2021."
+title_en: "译自：an email Tue, Apr 27 at 8:09 AM from RevelationMedia."
+title_zh: "喜乐山脉"
+subtitle_en: "Pastor's Message - May 2 2021"
+subtitle_zh: "牧者之言 - May 2 2021"
+excerpt_en: "Weekly message for May 2 2021."
 excerpt_zh: "May 2 2021 的牧者心聲。"
 ---
 

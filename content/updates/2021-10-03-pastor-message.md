@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-10-03"
 category: "pastor"
-title_en: "Pastor's Message - October 3 2021"
-title_zh: "牧者之言 - October 3 2021"
-excerpt_en: "Weekly message from our pastor for October 3 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "收生婆的见证"
+subtitle_en: "Pastor's Message - October 3 2021"
+subtitle_zh: "牧者之言 - October 3 2021"
+excerpt_en: "Weekly message for October 3 2021."
 excerpt_zh: "October 3 2021 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2020-09-27"
 category: "pastor"
-title_en: "Pastor's Message - September 27 2020"
-title_zh: "牧者之言 - September 27 2020"
-excerpt_en: "Weekly message from our pastor for September 27 2020."
+title_en: "Pastor's Message"
+title_zh: "犹太智慧的拉比曾问过这样一个问题：“上帝创造天地万物之前在做什么？”答案是：“休息”！诗人大卫告诉我们说，牧者耶和华赐予祂小羊的美好应许是：祂使我在青草地上躺卧，在可安歇的溪水边休憩（诗23：1-2）。诗篇46：10节也说： “你们要休息，要知道我是神。” 若我从未学会休息，那是一件很丢人的事，因为我从未学会完全信靠上帝，也未真正享受祂同在的快乐。我们的牧者说：“来，在草地上休息！”“来，喝这溪里清纯的水！”"
+subtitle_en: "Pastor's Message - September 27 2020"
+subtitle_zh: "牧者之言 - September 27 2020"
+excerpt_en: "Weekly message for September 27 2020."
 excerpt_zh: "September 27 2020 的牧者心聲。"
 ---
 

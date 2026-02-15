@@ -42,25 +42,23 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex md:items-center md:space-x-10">
+        <div className="hidden lg:flex lg:items-center lg:space-x-6">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              target={link.target}
-              rel={link.target === '_blank' ? 'noopener noreferrer' : undefined}
-              className="text-xl font-bold tracking-[0.15em] uppercase transition-colors hover:text-primary text-slate-500"
+              className="text-sm xl:text-base font-bold tracking-widest uppercase transition-colors hover:text-primary text-slate-500 whitespace-nowrap"
             >
               {link.label}
             </Link>
           ))}
-          <div className="pl-6 border-l border-slate-200">
+          <div className="pl-4 border-l border-slate-200">
             <LanguageSwitcher />
           </div>
         </div>
 
         {/* Mobile Navigation Toggle */}
-        <div className="flex items-center space-x-2 md:hidden">
+        <div className="flex items-center space-x-2 lg:hidden">
           <LanguageSwitcher />
           <Button
             variant="ghost"
@@ -74,15 +72,13 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="container mx-auto px-4 py-4 md:hidden">
-          <div className="flex flex-col space-y-4">
+        <div className="container mx-auto px-4 py-6 lg:hidden bg-white/90 backdrop-blur-xl border-t border-slate-100 shadow-xl animate-in slide-in-from-top-5 duration-300">
+          <div className="flex flex-col space-y-6">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                target={link.target}
-                rel={link.target === '_blank' ? 'noopener noreferrer' : undefined}
-                className="text-sm font-medium transition-colors hover:text-primary"
+                className="text-xl font-medium tracking-wide transition-colors hover:text-primary whitespace-nowrap"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}

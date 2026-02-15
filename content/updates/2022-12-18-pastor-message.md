@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-12-18"
 category: "pastor"
-title_en: "Pastor's Message - December 18 2022"
-title_zh: "牧者之言 - December 18 2022"
-excerpt_en: "Weekly message from our pastor for December 18 2022."
+title_en: "圣诞节“CHRISTMAS”"
+title_zh: "的真正意义"
+subtitle_en: "Pastor's Message - December 18 2022"
+subtitle_zh: "牧者之言 - December 18 2022"
+excerpt_en: "Weekly message for December 18 2022."
 excerpt_zh: "December 18 2022 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-12-31"
 category: "pastor"
-title_en: "Pastor's Message - December 31 2023"
-title_zh: "牧者之言 - December 31 2023"
-excerpt_en: "Weekly message from our pastor for December 31 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "来吧！让我们于2024年1月2日开始教会的晨祷会！"
+subtitle_en: "Pastor's Message - December 31 2023"
+subtitle_zh: "牧者之言 - December 31 2023"
+excerpt_en: "Weekly message for December 31 2023."
 excerpt_zh: "December 31 2023 的牧者心聲。"
 ---
 

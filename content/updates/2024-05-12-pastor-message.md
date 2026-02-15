@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-05-12"
 category: "pastor"
-title_en: "Pastor's Message - May 12 2024"
-title_zh: "牧者之言 - May 12 2024"
-excerpt_en: "Weekly message from our pastor for May 12 2024."
+title_en: "Mothers’ Teachings"
+title_zh: "母亲们的法则"
+subtitle_en: "Pastor's Message - May 12 2024"
+subtitle_zh: "牧者之言 - May 12 2024"
+excerpt_en: "Weekly message for May 12 2024."
 excerpt_zh: "May 12 2024 的牧者心聲。"
 ---
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-06-05"
 category: "pastor"
-title_en: "Pastor's Message - June 5 2022"
-title_zh: "牧者之言 - June 5 2022"
-excerpt_en: "Weekly message from our pastor for June 5 2022."
+title_en: "Pioneers Ministry Annual Conference"
+title_zh: "明日之光年度大会"
+subtitle_en: "Pastor's Message - June 5 2022"
+subtitle_zh: "牧者之言 - June 5 2022"
+excerpt_en: "Weekly message for June 5 2022."
 excerpt_zh: "June 5 2022 的牧者心聲。"
 ---
 

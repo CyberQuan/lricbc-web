@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-10-10"
 category: "pastor"
-title_en: "Pastor's Message - October 10 2021"
-title_zh: "牧者之言 - October 10 2021"
-excerpt_en: "Weekly message from our pastor for October 10 2021."
+title_en: "3. Proclaiming the Truth 宣扬真理"
+title_zh: "箴言简介 (之五)  智慧的呼喊"
+subtitle_en: "Pastor's Message - October 10 2021"
+subtitle_zh: "牧者之言 - October 10 2021"
+excerpt_en: "Weekly message for October 10 2021."
 excerpt_zh: "October 10 2021 的牧者心聲。"
 ---
 

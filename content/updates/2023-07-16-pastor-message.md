@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-07-16"
 category: "pastor"
-title_en: "Pastor's Message - July 16 2023"
-title_zh: "牧者之言 - July 16 2023"
-excerpt_en: "Weekly message from our pastor for July 16 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "为教会未来聚会场所祈祷"
+subtitle_en: "Pastor's Message - July 16 2023"
+subtitle_zh: "牧者之言 - July 16 2023"
+excerpt_en: "Weekly message for July 16 2023."
 excerpt_zh: "July 16 2023 的牧者心聲。"
 ---
 

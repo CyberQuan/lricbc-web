@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-05-11"
 category: "pastor"
-title_en: "Pastor's Message - May 11 2025"
-title_zh: "牧者之言 - May 11 2025"
-excerpt_en: "Weekly message from our pastor for May 11 2025."
+title_en: "Receive Find Joy in Time for Mother’s Day"
+title_zh: "在旅程中的喜乐"
+subtitle_en: "Pastor's Message - May 11 2025"
+subtitle_zh: "牧者之言 - May 11 2025"
+excerpt_en: "Weekly message for May 11 2025."
 excerpt_zh: "May 11 2025 的牧者心聲。"
 ---
 
@@ -42,6 +44,8 @@ Sisters, how often is there such beauty above us—something we miss until God s
 Quote from an email from Revelation Media, Sat, May 3 at 7:59 AM, 2025.
 
 ---zh---
+
+5/11/25  牧者之言
 
 ### 在母亲节，领受喜乐：在旅程中发现满足
 

@@ -64,9 +64,14 @@ export default function UpdateDetailContent({ post }: UpdateDetailContentProps) 
                   <span>{t(`updates.categories.${post.category}`)}</span>
                 </div>
               </div>
-              <h1 className="text-5xl font-light md:text-7xl leading-tight">
+              <h1 className="text-5xl font-light md:text-7xl leading-tight mb-4">
                 {post[`title_${langSuffix}`] || post.title_en}
               </h1>
+              {post[`subtitle_${langSuffix}`] && (
+                <p className={`text-2xl md:text-3xl font-light italic opacity-60`}>
+                  {post[`subtitle_${langSuffix}`]}
+                </p>
+              )}
             </div>
 
             <div 

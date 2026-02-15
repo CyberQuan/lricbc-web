@@ -3,9 +3,10 @@
 import { useTranslation } from "react-i18next";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import Link from "next/link";
-import { Calendar, Tag } from "lucide-react";
-import { useState } from "react";
+import { Calendar, Search, X } from "lucide-react";
+import { useState, useMemo } from "react";
 
 interface Post {
   id: string;
@@ -13,37 +14,56 @@ interface Post {
   publishedAt: string;
   title_en: string;
   title_zh: string;
+  subtitle_en?: string;
+  subtitle_zh?: string;
   excerpt_en: string;
   excerpt_zh: string;
+  content: string;
 }
 
 export default function UpdatesList({ initialPosts }: { initialPosts: Post[] }) {
   const { t, i18n } = useTranslation('common');
   const [filter, setFilter] = useState<'all' | 'pastor' | 'sermon' | 'news'>('all');
+  const [searchQuery, setSearchQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 9;
   
   const langSuffix = i18n.language === 'en' ? 'en' : 'zh';
 
-  const filteredUpdates = filter === 'all' 
-    ? initialPosts 
-    : initialPosts.filter(u => u.category === filter);
+  // Integrated Search and Category Filter Logic
+  const filteredUpdates = useMemo(() => {
+    return initialPosts.filter(post => {
+      const matchesCategory = filter === 'all' || post.category === filter;
+      
+      const query = searchQuery.toLowerCase();
+      const matchesSearch = !searchQuery || 
+        post.title_en.toLowerCase().includes(query) ||
+        post.title_zh.toLowerCase().includes(query) ||
+        post.subtitle_en?.toLowerCase().includes(query) ||
+        post.subtitle_zh?.toLowerCase().includes(query) ||
+        post.content.toLowerCase().includes(query);
 
-  // Find the latest for each key category
+      return matchesCategory && matchesSearch;
+    });
+  }, [initialPosts, filter, searchQuery]);
+
+  // Find the latest for each key category (from the absolute latest, not filtered)
   const latestPastor = initialPosts.find(p => p.category === 'pastor');
   const latestSermon = initialPosts.find(p => p.category === 'sermon');
 
-  // Filter out the featured ones from the main list only on Page 1 of "All"
+  // Logic for display: Hide featured highlights if searching or on page > 1
+  const showHighlights = currentPage === 1 && filter === 'all' && !searchQuery;
   const featuredIds = new Set([latestPastor?.id, latestSermon?.id].filter(Boolean));
-  const remainingPosts = (currentPage === 1 && filter === 'all') 
+  
+  const displayPosts = showHighlights 
     ? filteredUpdates.filter(p => !featuredIds.has(p.id))
     : filteredUpdates;
 
   // Pagination logic
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  const currentPosts = remainingPosts.slice(indexOfFirstPost, indexOfLastPost);
-  const totalPages = Math.ceil(remainingPosts.length / postsPerPage);
+  const currentPosts = displayPosts.slice(indexOfFirstPost, indexOfLastPost);
+  const totalPages = Math.ceil(displayPosts.length / postsPerPage);
 
   const categories: ('all' | 'pastor' | 'sermon' | 'news')[] = ['all', 'pastor', 'sermon', 'news'];
 
@@ -73,8 +93,53 @@ export default function UpdatesList({ initialPosts }: { initialPosts: Post[] }) 
       </section>
 
       <section className="container mx-auto px-4 py-16 flex-grow">
+        
+        {/* Search & Filter Bar */}
+        <div className="max-w-5xl mx-auto mb-20 space-y-10">
+          <div className="relative group">
+            <Search className="absolute left-8 top-1/2 -translate-y-1/2 h-8 w-8 text-sky-300 group-focus-within:text-sky-500 transition-colors" />
+            <Input 
+              placeholder={t('updates.searchPlaceholder') || "Search all messages..."}
+              value={searchQuery}
+              onChange={(e) => {
+                setSearchQuery(e.target.value);
+                setCurrentPage(1);
+              }}
+              className="w-full pl-20 pr-16 py-12 text-3xl font-light rounded-[3rem] border-sky-100 bg-white/60 backdrop-blur-xl shadow-2xl focus-visible:ring-sky-200 transition-all"
+            />
+            {searchQuery && (
+              <button 
+                onClick={() => setSearchQuery("")}
+                className="absolute right-8 top-1/2 -translate-y-1/2 p-2 hover:bg-sky-50 rounded-full transition-colors"
+              >
+                <X className="h-8 w-8 text-sky-400" />
+              </button>
+            )}
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-4">
+            {categories.map((cat) => (
+              <Button
+                key={cat}
+                variant={filter === cat ? "default" : "outline"}
+                onClick={() => {
+                  setFilter(cat);
+                  setCurrentPage(1);
+                }}
+                className={`rounded-full px-10 py-8 text-lg tracking-widest uppercase border-2 transition-all ${
+                  filter === cat && cat !== 'all' 
+                    ? `${categoryBadgeStyles[cat as keyof typeof categoryBadgeStyles]} border-transparent scale-105 shadow-lg` 
+                    : "border-sky-100 text-sky-900/60 hover:bg-white"
+                }`}
+              >
+                {t(`updates.categories.${cat}`)}
+              </Button>
+            ))}
+          </div>
+        </div>
+
         {/* Latest Highlights Section */}
-        {currentPage === 1 && (filter === 'all') && (
+        {showHighlights && (
           <div className="mb-32">
             <div className="flex items-center justify-center gap-4 mb-12">
               <div className="h-px w-12 bg-sky-200" />
@@ -83,9 +148,8 @@ export default function UpdatesList({ initialPosts }: { initialPosts: Post[] }) 
             </div>
             
             <div className="grid lg:grid-cols-2 gap-12">
-              {/* Latest Pastor's Message */}
               {latestPastor && (
-                <Card className="flex flex-col bg-amber-50/40 backdrop-blur-md rounded-[4rem] border-2 border-amber-100 shadow-2xl overflow-hidden group transition-all hover:scale-[1.02] border-none shadow-amber-200/20">
+                <Card className="flex flex-col bg-amber-50/40 backdrop-blur-md rounded-[4rem] shadow-2xl overflow-hidden group transition-all hover:scale-[1.02] border-none shadow-amber-200/20">
                   <div className="relative h-80 bg-gradient-to-br from-amber-500 to-orange-900 flex items-center justify-center overflow-hidden">
                     <div className="absolute inset-0 bg-white/10 group-hover:scale-110 transition-transform duration-700" />
                     <div className="relative z-10 text-center p-8">
@@ -111,9 +175,8 @@ export default function UpdatesList({ initialPosts }: { initialPosts: Post[] }) 
                 </Card>
               )}
 
-              {/* Latest Worship Program */}
               {latestSermon && (
-                <Card className="flex flex-col bg-sky-50/40 backdrop-blur-md rounded-[4rem] border-2 border-sky-100 shadow-2xl overflow-hidden group transition-all hover:scale-[1.02] border-none shadow-sky-200/20">
+                <Card className="flex flex-col bg-sky-50/40 backdrop-blur-md rounded-[4rem] shadow-2xl overflow-hidden group transition-all hover:scale-[1.02] border-none shadow-sky-200/20">
                   <div className="relative h-80 bg-gradient-to-br from-sky-500 to-indigo-900 flex items-center justify-center overflow-hidden">
                     <div className="absolute inset-0 bg-white/10 group-hover:scale-110 transition-transform duration-700" />
                     <div className="relative z-10 text-center p-8">
@@ -142,63 +205,58 @@ export default function UpdatesList({ initialPosts }: { initialPosts: Post[] }) 
           </div>
         )}
 
-        {/* Category Filter */}
-        <div className="flex flex-wrap justify-center gap-4 mb-24">
-          {categories.map((cat) => (
-            <Button
-              key={cat}
-              variant={filter === cat ? "default" : "outline"}
-              onClick={() => {
-                setFilter(cat);
-                setCurrentPage(1);
-              }}
-              className={`rounded-full px-10 py-8 text-lg tracking-widest uppercase border-2 ${
-                filter === cat && cat !== 'all' 
-                  ? `${categoryBadgeStyles[cat as keyof typeof categoryBadgeStyles]} border-transparent` 
-                  : "border-sky-100 text-sky-900/60"
-              }`}
-            >
-              {t(`updates.categories.${cat}`)}
-            </Button>
-          ))}
-        </div>
-
         {/* Remaining Posts Grid */}
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3 mb-24">
-          {currentPosts.map((update) => (
-            <Card key={update.id} className={`flex flex-col rounded-[3.5rem] shadow-xl hover:shadow-2xl transition-all group border-2 ${categoryStyles[update.category as keyof typeof categoryStyles]}`}>
-              <CardHeader className="p-10 pb-6">
-                <div className="flex items-center justify-between mb-8">
-                  <div className={`px-6 py-2 rounded-full text-xs font-black uppercase tracking-widest ${categoryBadgeStyles[update.category as keyof typeof categoryBadgeStyles]}`}>
-                    {t(`updates.categories.${update.category}`)}
+        {currentPosts.length > 0 ? (
+          <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3 mb-24">
+            {currentPosts.map((update) => (
+              <Card key={update.id} className={`flex flex-col rounded-[3.5rem] shadow-xl hover:shadow-2xl transition-all group border-2 ${categoryStyles[update.category as keyof typeof categoryStyles]}`}>
+                <CardHeader className="p-10 pb-6">
+                  <div className="flex items-center justify-between mb-8">
+                    <div className={`px-6 py-2 rounded-full text-xs font-black uppercase tracking-widest ${categoryBadgeStyles[update.category as keyof typeof categoryBadgeStyles]}`}>
+                      {t(`updates.categories.${update.category}`)}
+                    </div>
+                    <div className="flex items-center space-x-2 text-xs font-bold uppercase tracking-widest opacity-60">
+                      <Calendar className="h-4 w-4" />
+                      <span>{new Date(update.publishedAt).toLocaleDateString()}</span>
+                    </div>
                   </div>
-                  <div className="flex items-center space-x-2 text-xs font-bold uppercase tracking-widest opacity-60">
-                    <Calendar className="h-4 w-4" />
-                    <span>{new Date(update.publishedAt).toLocaleDateString()}</span>
-                  </div>
-                </div>
-                <CardTitle className="line-clamp-2 text-3xl font-light leading-tight group-hover:text-primary transition-colors">
-                  {update[`title_${langSuffix}` as keyof Post]}
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="px-10 flex-grow">
-                <CardDescription className="text-lg font-light leading-relaxed line-clamp-4 italic text-sky-900/70">
-                  {update[`excerpt_${langSuffix}` as keyof Post]}
-                </CardDescription>
-              </CardContent>
-              <CardFooter className="p-10 pt-6 mt-auto">
-                <Button asChild className={`w-full rounded-full py-8 text-xl font-bold transition-all hover:scale-105 shadow-lg ${
-                  update.category === 'pastor' ? 'bg-amber-600 hover:bg-amber-700' : 
-                  update.category === 'sermon' ? 'bg-sky-600 hover:bg-sky-700' : 'bg-emerald-600 hover:bg-emerald-700'
-                }`}>
-                  <Link href={`/updates/${update.id}`}>
-                    {t('updates.readMore')} →
-                  </Link>
-                </Button>
-              </CardFooter>
-            </Card>
-          ))}
-        </div>
+                  <CardTitle className="line-clamp-2 text-3xl font-light leading-tight group-hover:text-primary transition-colors">
+                    {update[`title_${langSuffix}` as keyof Post]}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="px-10 flex-grow">
+                  <CardDescription className="text-lg font-light leading-relaxed line-clamp-4 italic text-sky-900/70">
+                    {update[`excerpt_${langSuffix}` as keyof Post]}
+                  </CardDescription>
+                </CardContent>
+                <CardFooter className="p-10 pt-6 mt-auto">
+                  <Button asChild className={`w-full rounded-full py-8 text-xl font-bold transition-all hover:scale-105 shadow-lg ${
+                    update.category === 'pastor' ? 'bg-amber-600 hover:bg-amber-700' : 
+                    update.category === 'sermon' ? 'bg-sky-600 hover:bg-sky-700' : 'bg-emerald-600 hover:bg-emerald-700'
+                  }`}>
+                    <Link href={`/updates/${update.id}`}>
+                      {t('updates.readMore')} →
+                    </Link>
+                  </Button>
+                </CardFooter>
+              </Card>
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-32 space-y-6">
+            <Search className="h-20 w-20 text-sky-100 mx-auto" />
+            <p className="text-3xl font-light text-sky-900/40 italic">
+              No results found for "{searchQuery}"
+            </p>
+            <Button 
+              variant="link" 
+              onClick={() => {setSearchQuery(""); setFilter('all');}}
+              className="text-sky-600 text-xl"
+            >
+              Clear all filters
+            </Button>
+          </div>
+        )}
 
         {/* Pagination Controls */}
         {totalPages > 1 && (

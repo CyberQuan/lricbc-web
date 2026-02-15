@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-05-25"
 category: "pastor"
-title_en: "Pastor's Message - May 25 2025"
-title_zh: "牧者之言 - May 25 2025"
-excerpt_en: "Weekly message from our pastor for May 25 2025."
+title_en: "引自：https://zh-hant.theologyofwork.org/devotions/practicing-gratitude"
+title_zh: "操练感恩一"
+subtitle_en: "Pastor's Message - May 25 2025"
+subtitle_zh: "牧者之言 - May 25 2025"
+excerpt_en: "Weekly message for May 25 2025."
 excerpt_zh: "May 25 2025 的牧者心聲。"
 ---
 
@@ -46,6 +48,8 @@ Further Exploration: Read the article From an Attitude of Ingratitude to Gratitu
 Called To Work dcrandall-keeptouch.com@shared1.ccsend.com, Mon, Feb 17, 9:04 AM.
 
 ---zh---
+
+5/25/25 牧者之言
 
 操练感恩一
 

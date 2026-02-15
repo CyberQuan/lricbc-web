@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-01-12"
 category: "pastor"
-title_en: "Pastor's Message - January 12 2025"
-title_zh: "牧者之言 - January 12 2025"
-excerpt_en: "Weekly message from our pastor for January 12 2025."
+title_en: "Reference to the meanings of names and places in Ruth"
+title_zh: "《路得记》中人名与地名意思参考"
+subtitle_en: "Pastor's Message - January 12 2025"
+subtitle_zh: "牧者之言 - January 12 2025"
+excerpt_en: "Weekly message for January 12 2025."
 excerpt_zh: "January 12 2025 的牧者心聲。"
 ---
 

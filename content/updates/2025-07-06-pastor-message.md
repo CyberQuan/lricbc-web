@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-07-06"
 category: "pastor"
-title_en: "Pastor's Message - July 6 2025"
-title_zh: "牧者之言 - July 6 2025"
-excerpt_en: "Weekly message from our pastor for July 6 2025."
+title_en: "Reflections from My Homecoming Trip, Part One"
+title_zh: "探访林丽宏等"
+subtitle_en: "Pastor's Message - July 6 2025"
+subtitle_zh: "牧者之言 - July 6 2025"
+excerpt_en: "Weekly message for July 6 2025."
 excerpt_zh: "July 6 2025 的牧者心聲。"
 ---
 
@@ -44,6 +46,8 @@ From June 6 to 7, I traveled to Nanjing and made a special effort to visit two d
 Looking back on these visits, I deeply realize: the many saints who once sowed quietly into my life are gifts from the Lord. Though unnamed, they are remembered by God and cherished by people. Their love, expressed in everyday actions, warmed my heart and taught me to cherish, to be grateful, and to respond. Gratitude is a sign of spiritual maturity; visiting others is a way to practice love and pass along divine grace. This time when I observed Sister Lihong’s expectant eyes, when I saw the tender smiles on the faces of the Nanjing senior sisters, and when I give them a warm hug, I know—this is God’s arrangement. It is a burden and a responsibility laid upon my heart, one that cannot be erased. This burden may appear simple, yet it is not trivial. It may not stir great waves among people—but it can produce gentle ripples of hope in lonely hearts. Those ripples come from the truth and depth of John’s words: “We love because he first loved us” (1 John 4:19).
 
 ---zh---
+
+7/6/25 牧者之言
 
 探访林丽宏等
 

@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-11-07"
 category: "pastor"
-title_en: "Pastor's Message - November 7 2021"
-title_zh: "牧者之言 - November 7 2021"
-excerpt_en: "Weekly message from our pastor for November 7 2021."
+title_en: "The Lord’s Supper Covenant Prayer"
+title_zh: "主餐礼立约祈祷"
+subtitle_en: "Pastor's Message - November 7 2021"
+subtitle_zh: "牧者之言 - November 7 2021"
+excerpt_en: "Weekly message for November 7 2021."
 excerpt_zh: "November 7 2021 的牧者心聲。"
 ---
 

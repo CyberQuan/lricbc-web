@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-11-27"
 category: "pastor"
-title_en: "Pastor's Message - November 27 2022"
-title_zh: "牧者之言 - November 27 2022"
-excerpt_en: "Weekly message from our pastor for November 27 2022."
+title_en: "圣诞饼干 Christmas Cookies"
+title_zh: "今天2022年11月27日魏荣恩牧师（Rev. Ron West）在教会讲“宣教”，让弟兄姐妹明白宣教是什么，宣教的意义，以及我们教会如何参与美南浸信会的宣教奉献。"
+subtitle_en: "Pastor's Message - November 27 2022"
+subtitle_zh: "牧者之言 - November 27 2022"
+excerpt_en: "Weekly message for November 27 2022."
 excerpt_zh: "November 27 2022 的牧者心聲。"
 ---
 

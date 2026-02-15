@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-04-04"
 category: "pastor"
-title_en: "Pastor's Message - April 4 2021"
-title_zh: "牧者之言 - April 4 2021"
-excerpt_en: "Weekly message from our pastor for April 4 2021."
+title_en: "Pastor's Message"
+title_zh: "为教会合一圣工祈祷"
+subtitle_en: "Pastor's Message - April 4 2021"
+subtitle_zh: "牧者之言 - April 4 2021"
+excerpt_en: "Weekly message for April 4 2021."
 excerpt_zh: "April 4 2021 的牧者心聲。"
 ---
 

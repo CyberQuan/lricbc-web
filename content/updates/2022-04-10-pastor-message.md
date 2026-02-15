@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-04-10"
 category: "pastor"
-title_en: "Pastor's Message - April 10 2022"
-title_zh: "牧者之言 - April 10 2022"
-excerpt_en: "Weekly message from our pastor for April 10 2022."
+title_en: "教會網站 Visit our website"
+title_zh: "“抱雏之窝”"
+subtitle_en: "Pastor's Message - April 10 2022"
+subtitle_zh: "牧者之言 - April 10 2022"
+excerpt_en: "Weekly message for April 10 2022."
 excerpt_zh: "April 10 2022 的牧者心聲。"
 ---
 

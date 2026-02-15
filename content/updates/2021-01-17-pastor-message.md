@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-01-17"
 category: "pastor"
-title_en: "Pastor's Message - January 17 2021"
-title_zh: "牧者之言 - January 17 2021"
-excerpt_en: "Weekly message from our pastor for January 17 2021."
+title_en: "Pastor's Message"
+title_zh: "当人说你“不好”的时候"
+subtitle_en: "Pastor's Message - January 17 2021"
+subtitle_zh: "牧者之言 - January 17 2021"
+excerpt_en: "Weekly message for January 17 2021."
 excerpt_zh: "January 17 2021 的牧者心聲。"
 ---
 

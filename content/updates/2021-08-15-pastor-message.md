@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-08-15"
 category: "pastor"
-title_en: "Pastor's Message - August 15 2021"
-title_zh: "牧者之言 - August 15 2021"
-excerpt_en: "Weekly message from our pastor for August 15 2021."
+title_en: "Adrian Warnock"
+title_zh: "司布真遭受忧郁症——并写下这段话"
+subtitle_en: "Pastor's Message - August 15 2021"
+subtitle_zh: "牧者之言 - August 15 2021"
+excerpt_en: "Weekly message for August 15 2021."
 excerpt_zh: "August 15 2021 的牧者心聲。"
 ---
 

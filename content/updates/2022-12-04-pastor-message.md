@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-12-04"
 category: "pastor"
-title_en: "Pastor's Message - December 4 2022"
-title_zh: "牧者之言 - December 4 2022"
-excerpt_en: "Weekly message from our pastor for December 4 2022."
+title_en: "让主作主Let the Lord be the Lord"
+title_zh: "本周11月28日到12月4日，教会举行第二次禁食祷告周。主题是：“让主作主Let the Lord be the Lord” 。弟兄姐妹藉着禁食祷告，否定自己、倒空器皿、追求圣洁，一心寻求神的心意，让主作主。以下是第二天“为2023年事工计划”代祷的内容，与弟兄姐妹分享。"
+subtitle_en: "Pastor's Message - December 4 2022"
+subtitle_zh: "牧者之言 - December 4 2022"
+excerpt_en: "Weekly message for December 4 2022."
 excerpt_zh: "December 4 2022 的牧者心聲。"
 ---
 

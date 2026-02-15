@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-01-05"
 category: "pastor"
-title_en: "Pastor's Message - January 5 2025"
-title_zh: "牧者之言 - January 5 2025"
-excerpt_en: "Weekly message from our pastor for January 5 2025."
+title_en: "“Joyful Serving:” Sharing from Co-workers"
+title_zh: "保罗说：“就如身子是一个，却有许多肢体；而且肢体虽多，仍是一个身子；基督也是这样”（林前12：12）。上周日（12-29-2024）是同工分享日，我们教会有10位同工热情洋溢地分享了教会各项事工的进展及代祷需要。"
+subtitle_en: "Pastor's Message - January 5 2025"
+subtitle_zh: "牧者之言 - January 5 2025"
+excerpt_en: "Weekly message for January 5 2025."
 excerpt_zh: "January 5 2025 的牧者心聲。"
 ---
 

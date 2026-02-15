@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-03-03"
 category: "pastor"
-title_en: "Pastor's Message - March 3 2024"
-title_zh: "牧者之言 - March 3 2024"
-excerpt_en: "Weekly message from our pastor for March 3 2024."
+title_en: "In Memory of Elder Guo Shouzhong"
+title_zh: "缅怀郭守忠长老"
+subtitle_en: "Pastor's Message - March 3 2024"
+subtitle_zh: "牧者之言 - March 3 2024"
+excerpt_en: "Weekly message for March 3 2024."
 excerpt_zh: "March 3 2024 的牧者心聲。"
 ---
 

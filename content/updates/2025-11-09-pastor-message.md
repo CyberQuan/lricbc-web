@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-11-09"
 category: "pastor"
-title_en: "Pastor's Message - November 9 2025"
-title_zh: "牧者之言 - November 9 2025"
-excerpt_en: "Weekly message from our pastor for November 9 2025."
+title_en: "[2] 施玮(Shi Wei), 《献祭者》The Sacrifice，518。"
+title_zh: "初谈宋尚节"
+subtitle_en: "Pastor's Message - November 9 2025"
+subtitle_zh: "牧者之言 - November 9 2025"
+excerpt_en: "Weekly message for November 9 2025."
 excerpt_zh: "November 9 2025 的牧者心聲。"
 ---
 
@@ -118,6 +120,8 @@ Press, 1988), 469-471.
 [7]Anne C. Kwantes, She Has Done a Beautiful Thing for Me: Portraits of Christian Women in Asisa (Manila, Philippines: OMF Literature, 2005), 184-185. 转引自Lim Katong, The Life and Ministry of John Sung (Singapore: Genesis, 2012), 185.
 
 ---zh---
+
+11/9/25  牧者之言
 
 初谈宋尚节
 

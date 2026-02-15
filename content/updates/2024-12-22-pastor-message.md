@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-12-22"
 category: "pastor"
-title_en: "Pastor's Message - December 22 2024"
-title_zh: "牧者之言 - December 22 2024"
-excerpt_en: "Weekly message from our pastor for December 22 2024."
+title_en: "“Out of the mouths of babes…”"
+title_zh: "“从婴孩儿的口中……”"
+subtitle_en: "Pastor's Message - December 22 2024"
+subtitle_zh: "牧者之言 - December 22 2024"
+excerpt_en: "Weekly message for December 22 2024."
 excerpt_zh: "December 22 2024 的牧者心聲。"
 ---
 

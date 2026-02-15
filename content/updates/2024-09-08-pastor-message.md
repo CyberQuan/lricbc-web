@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-09-08"
 category: "pastor"
-title_en: "Pastor's Message - September 8 2024"
-title_zh: "牧者之言 - September 8 2024"
-excerpt_en: "Weekly message from our pastor for September 8 2024."
+title_en: "Tears"
+title_zh: "眼泪"
+subtitle_en: "Pastor's Message - September 8 2024"
+subtitle_zh: "牧者之言 - September 8 2024"
+excerpt_en: "Weekly message for September 8 2024."
 excerpt_zh: "September 8 2024 的牧者心聲。"
 ---
 

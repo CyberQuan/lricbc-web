@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-04-11"
 category: "pastor"
-title_en: "Pastor's Message - April 11 2021"
-title_zh: "牧者之言 - April 11 2021"
-excerpt_en: "Weekly message from our pastor for April 11 2021."
+title_en: "Telling and Celebrating What God is Doing"
+title_zh: "讲述并庆祝上帝在作什么"
+subtitle_en: "Pastor's Message - April 11 2021"
+subtitle_zh: "牧者之言 - April 11 2021"
+excerpt_en: "Weekly message for April 11 2021."
 excerpt_zh: "April 11 2021 的牧者心聲。"
 ---
 

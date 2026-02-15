@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-02-13"
 category: "pastor"
-title_en: "Pastor's Message - February 13 2022"
-title_zh: "牧者之言 - February 13 2022"
-excerpt_en: "Weekly message from our pastor for February 13 2022."
+title_en: "教會網站 Visit our website"
+title_zh: "Covid-19 新冠的挑战与现场聚会 ---《重新认识教会》"
+subtitle_en: "Pastor's Message - February 13 2022"
+subtitle_zh: "牧者之言 - February 13 2022"
+excerpt_en: "Weekly message for February 13 2022."
 excerpt_zh: "February 13 2022 的牧者心聲。"
 ---
 

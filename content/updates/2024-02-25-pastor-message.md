@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-02-25"
 category: "pastor"
-title_en: "Pastor's Message - February 25 2024"
-title_zh: "牧者之言 - February 25 2024"
-excerpt_en: "Weekly message from our pastor for February 25 2024."
+title_en: "Roland Allen. Missionary Methods: St. Paul’s Or Ours. Grand Rapids, Michigan: Wm. B."
+title_zh: "宣教原则"
+subtitle_en: "Pastor's Message - February 25 2024"
+subtitle_zh: "牧者之言 - February 25 2024"
+excerpt_en: "Weekly message for February 25 2024."
 excerpt_zh: "February 25 2024 的牧者心聲。"
 ---
 

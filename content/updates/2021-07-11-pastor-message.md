@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-07-11"
 category: "pastor"
-title_en: "Pastor's Message - July 11 2021"
-title_zh: "牧者之言 - July 11 2021"
-excerpt_en: "Weekly message from our pastor for July 11 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "安静的力量"
+subtitle_en: "Pastor's Message - July 11 2021"
+subtitle_zh: "牧者之言 - July 11 2021"
+excerpt_en: "Weekly message for July 11 2021."
 excerpt_zh: "July 11 2021 的牧者心聲。"
 ---
 

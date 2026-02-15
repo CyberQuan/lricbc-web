@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-10-27"
 category: "pastor"
-title_en: "Pastor's Message - October 27 2024"
-title_zh: "牧者之言 - October 27 2024"
-excerpt_en: "Weekly message from our pastor for October 27 2024."
+title_en: "（New Orleans Baptist Theological Seminary）。"
+title_zh: "“认定主”"
+subtitle_en: "Pastor's Message - October 27 2024"
+subtitle_zh: "牧者之言 - October 27 2024"
+excerpt_en: "Weekly message for October 27 2024."
 excerpt_zh: "October 27 2024 的牧者心聲。"
 ---
 

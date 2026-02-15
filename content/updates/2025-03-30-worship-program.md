@@ -3,6 +3,8 @@ publishedAt: "2025-03-30"
 category: "sermon"
 title_en: "Worship Program - March 30 2025"
 title_zh: "主日崇拜程序 - March 30 2025"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Order of service and sermon notes for March 30 2025."
 excerpt_zh: "March 30 2025 主日崇拜程序與信息摘要。"
 ---

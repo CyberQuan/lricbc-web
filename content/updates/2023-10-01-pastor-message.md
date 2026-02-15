@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-10-01"
 category: "pastor"
-title_en: "Pastor's Message - October 1 2023"
-title_zh: "牧者之言 - October 1 2023"
-excerpt_en: "Weekly message from our pastor for October 1 2023."
+title_en: "（译自：https://faithit.com/7-things-disciples-knew-jesus-we-forget-leslie-leyland-fields,2017 年 2 月 13 日）"
+title_zh: "门徒知道（但被我们遗忘）跟随耶稣的七件事"
+subtitle_en: "Pastor's Message - October 1 2023"
+subtitle_zh: "牧者之言 - October 1 2023"
+excerpt_en: "Weekly message for October 1 2023."
 excerpt_zh: "October 1 2023 的牧者心聲。"
 ---
 

@@ -1,11 +1,16 @@
 ---
 publishedAt: "2026-01-04"
 category: "pastor"
-title_en: "Pastor's Message - January 4 2026"
-title_zh: "牧者之言 - January 4 2026"
-excerpt_en: "Weekly message from our pastor for January 4 2026."
+title_en: "“Coworker Sharing Day” Reflection"
+title_zh: "“同工分享日”心得体会"
+subtitle_en: "Pastor's Message - January 4 2026"
+subtitle_zh: "牧者之言 - January 4 2026"
+excerpt_en: "Weekly message for January 4 2026."
 excerpt_zh: "January 4 2026 的牧者心聲。"
 ---
+
+---
+**Pastor’s Message**
 
 ---
 **1/4/26 Pastor’s Word**

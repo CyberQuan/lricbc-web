@@ -3,6 +3,8 @@ publishedAt: "2025-07-06"
 category: "sermon"
 title_en: "Worship Program (zh) - July 6 2025"
 title_zh: "主日崇拜程序 - July 6 2025"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Worship program (Chinese only) for July 6 2025."
 excerpt_zh: "July 6 2025 主日崇拜程序與信息摘要。"
 ---

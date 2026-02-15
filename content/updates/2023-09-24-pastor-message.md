@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-09-24"
 category: "pastor"
-title_en: "Pastor's Message - September 24 2023"
-title_zh: "牧者之言 - September 24 2023"
-excerpt_en: "Weekly message from our pastor for September 24 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "主的兄弟雅各"
+subtitle_en: "Pastor's Message - September 24 2023"
+subtitle_zh: "牧者之言 - September 24 2023"
+excerpt_en: "Weekly message for September 24 2023."
 excerpt_zh: "September 24 2023 的牧者心聲。"
 ---
 

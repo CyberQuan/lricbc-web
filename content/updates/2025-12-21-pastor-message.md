@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-12-21"
 category: "pastor"
-title_en: "Pastor's Message - December 21 2025"
-title_zh: "牧者之言 - December 21 2025"
-excerpt_en: "Weekly message from our pastor for December 21 2025."
+title_en: "AI Conference"
+title_zh: "人工智能会议"
+subtitle_en: "Pastor's Message - December 21 2025"
+subtitle_zh: "牧者之言 - December 21 2025"
+excerpt_en: "Weekly message for December 21 2025."
 excerpt_zh: "December 21 2025 的牧者心聲。"
 ---
 
@@ -98,6 +100,8 @@ AI is not the ultimate answer. Our stance should be “trust but verify.” Scri
 He advised ministry leaders to engage prayerfully, discern biblically, and shepherd confidently.
 
 ---zh---
+
+12/21/25 牧者之言
 
 人工智能会议
 

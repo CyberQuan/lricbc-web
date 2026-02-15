@@ -3,6 +3,8 @@ publishedAt: "2026-01-04"
 category: "sermon"
 title_en: "Worship Program - January 4 2026"
 title_zh: "主日崇拜程序 - January 4 2026"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Order of service and sermon notes for January 4 2026."
 excerpt_zh: "January 4 2026 主日崇拜程序與信息摘要。"
 ---

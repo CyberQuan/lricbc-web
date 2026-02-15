@@ -1,9 +1,11 @@
 ---
 publishedAt: "2025-02-23"
 category: "pastor"
-title_en: "Pastor's Message - February 23 2025"
-title_zh: "牧者之言 - February 23 2025"
-excerpt_en: "Weekly message from our pastor for February 23 2025."
+title_en: "Pray for and Participate in the 2025 Vacation Bible School"
+title_zh: "请为2025年教会暑期圣经学校代祷并参与"
+subtitle_en: "Pastor's Message - February 23 2025"
+subtitle_zh: "牧者之言 - February 23 2025"
+excerpt_en: "Weekly message for February 23 2025."
 excerpt_zh: "February 23 2025 的牧者心聲。"
 ---
 
@@ -56,6 +58,8 @@ We divide into several groups and need relevant volunteers: 1. Teaching Team; 2.
 May the Lord bless this year’s VBS to have a great victory and glorify the Lord’s name only!
 
 ---zh---
+
+2/23/25 牧者之言
 
 请为2025年教会暑期圣经学校代祷并参与
 

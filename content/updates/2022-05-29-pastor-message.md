@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-05-29"
 category: "pastor"
-title_en: "Pastor's Message - May 29 2022"
-title_zh: "牧者之言 - May 29 2022"
-excerpt_en: "Weekly message from our pastor for May 29 2022."
+title_en: "教會網站 Visit our website"
+title_zh: "点燃愛心之火"
+subtitle_en: "Pastor's Message - May 29 2022"
+subtitle_zh: "牧者之言 - May 29 2022"
+excerpt_en: "Weekly message for May 29 2022."
 excerpt_zh: "May 29 2022 的牧者心聲。"
 ---
 

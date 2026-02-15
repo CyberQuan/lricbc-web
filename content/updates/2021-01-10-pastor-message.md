@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-01-10"
 category: "pastor"
-title_en: "Pastor's Message - January 10 2021"
-title_zh: "牧者之言 - January 10 2021"
-excerpt_en: "Weekly message from our pastor for January 10 2021."
+title_en: "Pastor's Message"
+title_zh: "永怀盼望"
+subtitle_en: "Pastor's Message - January 10 2021"
+subtitle_zh: "牧者之言 - January 10 2021"
+excerpt_en: "Weekly message for January 10 2021."
 excerpt_zh: "January 10 2021 的牧者心聲。"
 ---
 

@@ -3,6 +3,8 @@ publishedAt: "2025-02-02"
 category: "sermon"
 title_en: "Worship Program (zh) - February 2 2025"
 title_zh: "主日崇拜程序 - February 2 2025"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Worship program (Chinese only) for February 2 2025."
 excerpt_zh: "February 2 2025 主日崇拜程序與信息摘要。"
 ---

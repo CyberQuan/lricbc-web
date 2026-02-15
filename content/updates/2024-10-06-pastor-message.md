@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-10-06"
 category: "pastor"
-title_en: "Pastor's Message - October 6 2024"
-title_zh: "牧者之言 - October 6 2024"
-excerpt_en: "Weekly message from our pastor for October 6 2024."
+title_en: "HOW JESUS DEALT WITH DIFFICULT PEOPLE"
+title_zh: "耶稣怎样对待难相处的人"
+subtitle_en: "Pastor's Message - October 6 2024"
+subtitle_zh: "牧者之言 - October 6 2024"
+excerpt_en: "Weekly message for October 6 2024."
 excerpt_zh: "October 6 2024 的牧者心聲。"
 ---
 

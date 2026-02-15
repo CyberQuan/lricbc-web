@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-05-08"
 category: "pastor"
-title_en: "Pastor's Message - May 8 2022"
-title_zh: "牧者之言 - May 8 2022"
-excerpt_en: "Weekly message from our pastor for May 8 2022."
+title_en: "尊主颂” Magnificat"
+title_zh: "“尊主颂”（路1: 46-55）是耶稣之母马利亚得知自己将会因圣灵感孕诞下救主后，心被恩感，咏出赞美上帝之辞。其中包含了一位属灵母亲的五种宝贵的美德。"
+subtitle_en: "Pastor's Message - May 8 2022"
+subtitle_zh: "牧者之言 - May 8 2022"
+excerpt_en: "Weekly message for May 8 2022."
 excerpt_zh: "May 8 2022 的牧者心聲。"
 ---
 

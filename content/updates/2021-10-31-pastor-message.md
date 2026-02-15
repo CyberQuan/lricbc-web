@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-10-31"
 category: "pastor"
-title_en: "Pastor's Message - October 31 2021"
-title_zh: "牧者之言 - October 31 2021"
-excerpt_en: "Weekly message from our pastor for October 31 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "祷读箴言第2章"
+subtitle_en: "Pastor's Message - October 31 2021"
+subtitle_zh: "牧者之言 - October 31 2021"
+excerpt_en: "Weekly message for October 31 2021."
 excerpt_zh: "October 31 2021 的牧者心聲。"
 ---
 

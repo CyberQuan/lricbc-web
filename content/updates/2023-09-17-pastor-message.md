@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-09-17"
 category: "pastor"
-title_en: "Pastor's Message - September 17 2023"
-title_zh: "牧者之言 - September 17 2023"
-excerpt_en: "Weekly message from our pastor for September 17 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "濒临死亡：圣经之旅 Near Death: A Biblical Journey"
+subtitle_en: "Pastor's Message - September 17 2023"
+subtitle_zh: "牧者之言 - September 17 2023"
+excerpt_en: "Weekly message for September 17 2023."
 excerpt_zh: "September 17 2023 的牧者心聲。"
 ---
 

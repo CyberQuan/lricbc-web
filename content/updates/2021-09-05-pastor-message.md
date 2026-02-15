@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-09-05"
 category: "pastor"
-title_en: "Pastor's Message - September 5 2021"
-title_zh: "牧者之言 - September 5 2021"
-excerpt_en: "Weekly message from our pastor for September 5 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "箴言简介（之一）"
+subtitle_en: "Pastor's Message - September 5 2021"
+subtitle_zh: "牧者之言 - September 5 2021"
+excerpt_en: "Weekly message for September 5 2021."
 excerpt_zh: "September 5 2021 的牧者心聲。"
 ---
 

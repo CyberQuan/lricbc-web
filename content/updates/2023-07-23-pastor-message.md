@@ -1,9 +1,11 @@
 ---
 publishedAt: "2023-07-23"
 category: "pastor"
-title_en: "Pastor's Message - July 23 2023"
-title_zh: "牧者之言 - July 23 2023"
-excerpt_en: "Weekly message from our pastor for July 23 2023."
+title_en: "教會網站 Visit our website"
+title_zh: "《天路历程》中的勇士情怀"
+subtitle_en: "Pastor's Message - July 23 2023"
+subtitle_zh: "牧者之言 - July 23 2023"
+excerpt_en: "Weekly message for July 23 2023."
 excerpt_zh: "July 23 2023 的牧者心聲。"
 ---
 

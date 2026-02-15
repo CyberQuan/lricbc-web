@@ -1,9 +1,11 @@
 ---
 publishedAt: "2022-07-31"
 category: "pastor"
-title_en: "Pastor's Message - July 31 2022"
-title_zh: "牧者之言 - July 31 2022"
-excerpt_en: "Weekly message from our pastor for July 31 2022."
+title_en: "…… These stones are to be a memorial to the people of Israel forever."
+title_zh: "“记念之石”——教会乔迁之喜庆祝"
+subtitle_en: "Pastor's Message - July 31 2022"
+subtitle_zh: "牧者之言 - July 31 2022"
+excerpt_en: "Weekly message for July 31 2022."
 excerpt_zh: "July 31 2022 的牧者心聲。"
 ---
 

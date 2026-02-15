@@ -1,9 +1,11 @@
 ---
 publishedAt: "2024-01-07"
 category: "pastor"
-title_en: "Pastor's Message - January 7 2024"
-title_zh: "牧者之言 - January 7 2024"
-excerpt_en: "Weekly message from our pastor for January 7 2024."
+title_en: "教会晨祷会 Church Morning Prayer Meeting"
+title_zh: "诗篇对司布真的意义"
+subtitle_en: "Pastor's Message - January 7 2024"
+subtitle_zh: "牧者之言 - January 7 2024"
+excerpt_en: "Weekly message for January 7 2024."
 excerpt_zh: "January 7 2024 的牧者心聲。"
 ---
 

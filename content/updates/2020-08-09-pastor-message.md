@@ -1,9 +1,11 @@
 ---
 publishedAt: "2020-08-09"
 category: "pastor"
-title_en: "Pastor's Message - August 9 2020"
-title_zh: "牧者之言 - August 9 2020"
-excerpt_en: "Weekly message from our pastor for August 9 2020."
+title_en: "Pastor's Message"
+title_zh: "与曾叔叔闲聊 (Coffee with Uncle Reggie)"
+subtitle_en: "Pastor's Message - August 9 2020"
+subtitle_zh: "牧者之言 - August 9 2020"
+excerpt_en: "Weekly message for August 9 2020."
 excerpt_zh: "August 9 2020 的牧者心聲。"
 ---
 

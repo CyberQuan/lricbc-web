@@ -1,9 +1,11 @@
 ---
 publishedAt: "2021-11-14"
 category: "pastor"
-title_en: "Pastor's Message - November 14 2021"
-title_zh: "牧者之言 - November 14 2021"
-excerpt_en: "Weekly message from our pastor for November 14 2021."
+title_en: "教會網站 Visit our website"
+title_zh: "宣告教会独立的几项重大意义"
+subtitle_en: "Pastor's Message - November 14 2021"
+subtitle_zh: "牧者之言 - November 14 2021"
+excerpt_en: "Weekly message for November 14 2021."
 excerpt_zh: "November 14 2021 的牧者心聲。"
 ---
 

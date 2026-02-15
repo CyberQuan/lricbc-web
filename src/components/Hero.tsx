@@ -4,49 +4,27 @@ import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
 
-export default function Hero({ backgroundImages }: { backgroundImages: string[] }) {
+export default function Hero() {
   const { t } = useTranslation('common');
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  // Background slideshow logic
-  useEffect(() => {
-    if (backgroundImages.length <= 1) return;
-    
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % backgroundImages.length);
-    }, 8000); // Cross-fade every 8 seconds
-
-    return () => clearInterval(interval);
-  }, [backgroundImages]);
 
   return (
     <section className="relative flex min-h-[95vh] items-center justify-center overflow-hidden">
-      {/* Dynamic Gallery Background Layer */}
+      {/* Cinematic Static Background */}
       <div className="absolute inset-0 z-0">
-        {backgroundImages.map((src, index) => (
-          <div
-            key={src}
-            className={`absolute inset-0 transition-opacity duration-[3000ms] ease-in-out ${
-              index === currentIndex ? 'opacity-30' : 'opacity-0'
-            }`}
-          >
-            <Image
-              src={src}
-              alt="Church Memory"
-              fill
-              className="object-cover scale-105 blur-[1px]"
-              priority={index === 0}
-            />
-          </div>
-        ))}
-        {/* Soft Overlays to ensure readability */}
-        <div className="absolute inset-0 bg-gradient-to-b from-sky-100/40 via-white/80 to-sky-50/90 mix-blend-overlay" />
-        <div className="absolute inset-0 bg-white/20 backdrop-blur-[1px]" />
+        <Image
+          src="/home_background.jpg"
+          alt="Church Background"
+          fill
+          className="object-cover scale-105 animate-subtle-zoom"
+          priority
+        />
+        {/* Elegant Overlays */}
+        <div className="absolute inset-0 bg-gradient-to-b from-sky-900/40 via-sky-900/20 to-sky-950/60 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-white/10 backdrop-blur-[2px]" />
       </div>
 
-      {/* Radiant Background Effects (Original style preserved) */}
+      {/* Radiant Background Effects (Original style preserved but softened) */}
       <div className="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] bg-sky-400/10 rounded-full blur-[120px] float" />
       <div className="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-300/10 rounded-full blur-[100px] float" style={{ animationDelay: '3s' }} />
 
@@ -66,12 +44,12 @@ export default function Hero({ backgroundImages }: { backgroundImages: string[] 
             />
           </div>
         </div>
-        <div className="inline-block px-10 py-3 mb-8 text-lg md:text-xl font-bold tracking-[0.4em] text-sky-700 uppercase bg-white/80 backdrop-blur-xl rounded-full border border-sky-200 shadow-xl hover:shadow-sky-200/50 transition-all cursor-default">
-          <span className="bg-gradient-to-r from-sky-600 to-blue-600 bg-clip-text text-transparent">
+        <div className="inline-block px-10 py-3 mb-8 text-lg md:text-xl font-bold tracking-[0.4em] text-white uppercase bg-white/20 backdrop-blur-xl rounded-full border border-white/30 shadow-2xl hover:shadow-sky-400/50 transition-all cursor-default">
+          <span className="text-white drop-shadow-sm">
             {t('about.slogan')}
           </span>
         </div>
-        <p className="mx-auto mb-10 max-w-4xl text-2xl text-sky-800/60 md:text-4xl font-light italic leading-tight">
+        <p className="mx-auto mb-10 max-w-4xl text-2xl text-white md:text-4xl font-light italic leading-tight drop-shadow-lg">
           {t('hero.subtitle')}
         </p>
         <div className="flex flex-col justify-center gap-8 sm:flex-row">
@@ -80,7 +58,7 @@ export default function Hero({ backgroundImages }: { backgroundImages: string[] 
               {t('hero.cta')}
             </Link>
           </Button>
-          <Button asChild size="lg" variant="ghost" className="bg-white/60 backdrop-blur-xl hover:bg-sky-50 text-sky-700 border border-sky-200 rounded-full px-16 py-10 text-2xl font-light transition-all">
+          <Button asChild size="lg" variant="ghost" className="bg-white/20 backdrop-blur-xl hover:bg-white/30 text-white border border-white/40 rounded-full px-16 py-10 text-2xl font-light transition-all">
             <Link href="/about">
               {t('nav.about')}
             </Link>

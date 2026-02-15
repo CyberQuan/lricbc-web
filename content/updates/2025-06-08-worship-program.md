@@ -3,6 +3,8 @@ publishedAt: "2025-06-08"
 category: "sermon"
 title_en: "Worship Program - June 8 2025"
 title_zh: "主日崇拜程序 - June 8 2025"
+subtitle_en: ""
+subtitle_zh: ""
 excerpt_en: "Order of service and sermon notes for June 8 2025."
 excerpt_zh: "June 8 2025 主日崇拜程序與信息摘要。"
 ---

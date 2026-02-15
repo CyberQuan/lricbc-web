@@ -1,9 +1,11 @@
 ---
 publishedAt: "2020-08-16"
 category: "pastor"
-title_en: "Pastor's Message - August 16 2020"
-title_zh: "牧者之言 - August 16 2020"
-excerpt_en: "Weekly message from our pastor for August 16 2020."
+title_en: "Pastor's Message"
+title_zh: "学习希腊文的一点儿体会"
+subtitle_en: "Pastor's Message - August 16 2020"
+subtitle_zh: "牧者之言 - August 16 2020"
+excerpt_en: "Weekly message for August 16 2020."
 excerpt_zh: "August 16 2020 的牧者心聲。"
 ---
 
