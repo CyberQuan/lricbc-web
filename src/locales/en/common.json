@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "updates": "Weekly Updates",
+    "gallery": "Gallery",
+    "giving": "Giving",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Welcome to Little Rock Immanuel Chinese Baptist Church",
+    "subtitle": "A home for faith, fellowship, and growth in Christ.",
+    "cta": "Join Our Service"
+  },
+  "about": {
+    "title": "About Us",
+    "slogan": "Witness Christ & Impact the World!",
+    "vision": {
+      "title": "Vision",
+      "content": "But we will receive power when the Holy Spirit comes on us; we will be the Lord's witnesses in Little Rock, and in Arkansas and the United States, and to the world!"
+    },
+    "mission": {
+      "title": "Mission Statement",
+      "points": [
+        "Keeping the Covenant Faithfully",
+        "Worshipping the Lord Sincerely",
+        "Having Fellowship Harmoniously",
+        "Loving Each Other Genuinely",
+        "Making Disciples Continuously",
+        "Sharing the Gospel Passionately"
+      ]
+    },
+    "values": {
+      "title": "Core Values",
+      "list": ["Family", "Next Generation", "Prayer", "Love & Caring", "Service", "Godliness", "Holiness", "Truth"]
+    },
+    "history": {
+      "title": "Our History",
+      "items": [
+        {"year": "1990", "text": "Begun Student Bible Study at homes"},
+        {"year": "1993", "text": "Met at Immanuel Baptist Church as Bible Study Class"},
+        {"year": "1998", "text": "Became a Mission Church of IBC officially"},
+        {"year": "2003", "text": "Resumed Sunday School with 5 members"},
+        {"year": "2004", "text": "Resumed Sunday worship with guest speakers"},
+        {"year": "2018", "text": "Called Rev. Chunhai Li as Pastor"},
+        {"year": "2021", "text": "Became an autonomous church (Nov 14)"},
+        {"year": "2022", "text": "Moved to Markham Street site (July 3)"}
+      ]
+    },
+    "faith": {
+      "title": "Our Faith",
+      "subtitle": "The church adheres to the tenets of Baptist faith.",
+      "downloadText": "For detailed content, please download:",
+      "downloadLink": "Baptist Faith Message",
+      "beliefs": [
+        {
+          "title": "The Triune God",
+          "content": "We believe in the only true God, eternally existing in three persons: Father, Son, and Holy Spirit, equal in power, honor, and glory. He is the Creator and Ruler of the universe."
+        },
+        {
+          "title": "Jesus Christ",
+          "content": "We believe Jesus Christ, the Son of God, existed from the beginning and is equal with God. He became man, conceived by the Holy Spirit and born of the Virgin Mary, lived a sinless life, died on the cross as a sacrifice for sins, rose from the dead on the third day, ascended back to the right hand of the Father, and will return as King of kings and Lord of lords."
+        },
+        {
+          "title": "The Holy Spirit",
+          "content": "We believe the Holy Spirit is equal with the Father and the Son. He convicts people of their need for salvation. At the moment of repentance, the Holy Spirit indwells the believer, guides them into truth, empowers them for witnessing, and grants spiritual gifts for service."
+        },
+        {
+          "title": "The Bible",
+          "content": "We believe the entire Old and New Testaments are the inspired Word of God. Written by human hands but completely accurate and without error, the Bible is the supreme authority for faith and conduct."
+        },
+        {
+          "title": "Salvation",
+          "content": "We believe man was created in God's image but fell into sin. Salvation is only through faith in the blood of Jesus Christ. We are justified by grace, not by works. A truly born-again believer is eternally secure in Christ."
+        },
+        {
+          "title": "Ordinances",
+          "content": "We believe in baptism by immersion as a witness of faith, symbolizing death, burial, and resurrection with Christ. The Lord's Supper was established by Jesus to remember His death until He returns."
+        },
+        {
+          "title": "The Church & Mission",
+          "content": "We believe the Church is the Body of Christ. Believers should serve together using their gifts. Spreading the Gospel is the Great Commission entrusted to every Christian until the Lord returns."
+        },
+        {
+          "title": "Marriage",
+          "content": "We believe marriage is sacred, established by God as the union between one man and one woman. Christians should build Christ-centered, holy families."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you. Feel free to reach out with any questions.",
+    "info": {
+      "address": "9701 W Markham St, Little Rock, AR 72205",
+      "phone": "(405) 637-5635",
+      "email": "info@lricbc.org"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "updates": {
+    "title": "Weekly Updates",
+    "subtitle": "Spiritual nourishment and church news.",
+    "categories": {
+      "all": "All",
+      "pastor": "Pastor's Words",
+      "sermon": "Sermon Notes",
+      "news": "Announcements"
+    },
+    "readMore": "Read More",
+    "backToList": "Back to Updates"
+  },
+  "gallery": {
+    "title": "Media Gallery",
+    "subtitle": "Capturing moments of faith, fellowship, and worship.",
+    "categories": {
+      "all": "All",
+      "worship": "Worship",
+      "retreat": "Retreats",
+      "fellowship": "Fellowship",
+      "holiday": "Holidays"
+    }
+  },
+  "giving": {
+    "title": "Giving",
+    "subtitle": "Support our ministry and mission through your generous contributions.",
+    "purpose": {
+      "title": "Why We Give",
+      "content": "Giving is an act of worship and a way to support the work of God through our local church. Your contributions help us spread the Gospel, support our community, and maintain our house of worship."
+    },
+    "methods": {
+      "title": "Ways to Give",
+      "online": {
+        "title": "Online Giving (Aplos)",
+        "description": "Give securely online via the Aplos platform.",
+        "button": "Give Now"
+      },
+      "check": {
+        "title": "Check or Cash",
+        "description": "You can give in person during our Sunday services or mail a check to our P.O. Box.",
+        "payable": "Payable to: LRICBC",
+        "address": "P.O. BOX 242642, Little Rock, AR 72223"
+      }
+    }
+  }
+}
