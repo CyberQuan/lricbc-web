@@ -46,9 +46,9 @@ export default function UpdateDetailContent({ post }: UpdateDetailContentProps) 
       <div className={`flex-grow transition-colors duration-500 ${theme === 'dark' ? 'bg-slate-950' : theme === 'sepia' ? 'bg-[#e8dfc8]' : 'bg-sky-50/30'}`}>
         <article className={`flex-grow transition-all duration-500 py-12 ${theme === 'dark' ? 'text-slate-100' : theme === 'sepia' ? 'text-[#5b4636]' : 'text-slate-900'}`}>
           <div className={`container mx-auto px-6 py-12 max-w-4xl rounded-[3rem] shadow-2xl transition-all duration-500 ${themeStyles[theme as keyof typeof themeStyles]} ${theme === 'light' ? 'glass-morphism' : ''}`}>
-            <Button asChild variant="ghost" className={`mb-8 pl-0 hover:bg-transparent ${theme === 'dark' ? 'text-sky-400 hover:text-sky-300' : theme === 'sepia' ? 'text-[#8c6d4f]' : 'text-sky-600'}`}>
+            <Button asChild variant="link" className={`mb-12 pl-0 text-2xl font-bold hover:no-underline group/back ${theme === 'dark' ? 'text-sky-400' : theme === 'sepia' ? 'text-[#8c6d4f]' : 'text-sky-600'}`}>
               <Link href="/updates" className="flex items-center">
-                <ChevronLeft className="mr-2 h-4 w-4" />
+                <ChevronLeft className="mr-2 h-8 w-8 transition-transform group-hover/back:-translate-x-2" />
                 {t('updates.backToList')}
               </Link>
             </Button>

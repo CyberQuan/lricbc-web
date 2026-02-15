@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import { useTranslation } from "react-i18next";
 import { Quote } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   const { t } = useTranslation('common');
@@ -49,29 +50,40 @@ export default function Home() {
       </section>
 
       {/* Featured Sections Preview */}
-      <section className="container mx-auto px-4 py-24">
+      <section className="container mx-auto px-4 py-32">
         <div className="grid gap-16 md:grid-cols-3">
-          <div className="space-y-6 text-center group">
-            <div className="h-2 w-12 bg-sky-200 mx-auto transition-all group-hover:w-24 group-hover:bg-sky-400" />
-            <h3 className="text-3xl font-light tracking-widest uppercase text-sky-900">{t('nav.updates')}</h3>
-            <p className="text-sky-700/60 font-light leading-relaxed">
+          <Link href="/updates" className="space-y-8 text-center group cursor-pointer p-8 rounded-[3rem] hover:bg-white/50 transition-all">
+            <div className="h-2 w-12 bg-sky-200 mx-auto transition-all group-hover:w-24 group-hover:bg-sky-400 rounded-full" />
+            <h3 className="text-4xl font-light tracking-widest uppercase text-sky-900 transition-colors group-hover:text-primary">{t('nav.updates')}</h3>
+            <p className="text-sky-700/60 font-light leading-relaxed text-lg">
               Stay informed with the latest messages from our pastor and church announcements.
             </p>
-          </div>
-          <div className="space-y-6 text-center group">
-            <div className="h-2 w-12 bg-sky-200 mx-auto transition-all group-hover:w-24 group-hover:bg-sky-400" />
-            <h3 className="text-3xl font-light tracking-widest uppercase text-sky-900">{t('nav.gallery')}</h3>
-            <p className="text-sky-700/60 font-light leading-relaxed">
+            <div className="text-primary font-bold uppercase tracking-widest text-sm opacity-0 group-hover:opacity-100 transition-all translate-y-2 group-hover:translate-y-0">
+              View Updates →
+            </div>
+          </Link>
+
+          <Link href="/gallery" className="space-y-8 text-center group cursor-pointer p-8 rounded-[3rem] hover:bg-white/50 transition-all">
+            <div className="h-2 w-12 bg-sky-200 mx-auto transition-all group-hover:w-24 group-hover:bg-sky-400 rounded-full" />
+            <h3 className="text-4xl font-light tracking-widest uppercase text-sky-900 transition-colors group-hover:text-primary">{t('nav.gallery')}</h3>
+            <p className="text-sky-700/60 font-light leading-relaxed text-lg">
               Explore memories from our retreats, holiday celebrations, and fellowship gatherings.
             </p>
-          </div>
-          <div className="space-y-6 text-center group">
-            <div className="h-2 w-12 bg-sky-200 mx-auto transition-all group-hover:w-24 group-hover:bg-sky-400" />
-            <h3 className="text-3xl font-light tracking-widest uppercase text-sky-900">{t('nav.giving')}</h3>
-            <p className="text-sky-700/60 font-light leading-relaxed">
+            <div className="text-primary font-bold uppercase tracking-widest text-sm opacity-0 group-hover:opacity-100 transition-all translate-y-2 group-hover:translate-y-0">
+              View Gallery →
+            </div>
+          </Link>
+
+          <Link href="/giving" className="space-y-8 text-center group cursor-pointer p-8 rounded-[3rem] hover:bg-white/50 transition-all">
+            <div className="h-2 w-12 bg-sky-200 mx-auto transition-all group-hover:w-24 group-hover:bg-sky-400 rounded-full" />
+            <h3 className="text-4xl font-light tracking-widest uppercase text-sky-900 transition-colors group-hover:text-primary">{t('nav.giving')}</h3>
+            <p className="text-sky-700/60 font-light leading-relaxed text-lg">
               Support our mission and ministry through online giving and other contributions.
             </p>
-          </div>
+            <div className="text-primary font-bold uppercase tracking-widest text-sm opacity-0 group-hover:opacity-100 transition-all translate-y-2 group-hover:translate-y-0">
+              Support Now →
+            </div>
+          </Link>
         </div>
       </section>
 

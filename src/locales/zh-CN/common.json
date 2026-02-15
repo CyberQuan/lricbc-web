@@ -135,11 +135,12 @@
     "subtitle": "記錄信仰、團契和崇拜的精彩瞬間。",
     "categories": {
       "all": "全部",
-      "worship": "主日崇拜",
-      "retreat": "退修會",
       "fellowship": "團契生活",
-      "holiday": "節日慶典"
-    }
+      "holiday": "節日慶典",
+      "worship": "主日崇拜",
+      "others": "其他"
+    },
+    "backToList": "返回相簿列表"
   },
   "giving": {
     "title": "奉獻支持",

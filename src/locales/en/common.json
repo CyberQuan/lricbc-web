@@ -135,11 +135,12 @@
     "subtitle": "Capturing moments of faith, fellowship, and worship.",
     "categories": {
       "all": "All",
-      "worship": "Worship",
-      "retreat": "Retreats",
       "fellowship": "Fellowship",
-      "holiday": "Holidays"
-    }
+      "holiday": "Holidays",
+      "worship": "Worship",
+      "others": "Others"
+    },
+    "backToList": "Back to Gallery List"
   },
   "giving": {
     "title": "Giving",
