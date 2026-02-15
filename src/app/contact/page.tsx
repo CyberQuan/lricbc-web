@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
-import { MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Phone, Mail, Send } from "lucide-react";
 
 export default function ContactPage() {
   const { t } = useTranslation('common');
@@ -17,45 +17,51 @@ export default function ContactPage() {
     <main className="min-h-screen flex flex-col">
       <Navbar />
 
-      <section className="bg-slate-50 py-20">
+      <section className="bg-gradient-to-b from-sky-100/60 to-white py-32">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold md:text-5xl">{t('contact.title')}</h1>
-          <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
+          <h1 className="text-7xl font-light tracking-tight md:text-9xl mb-8 text-sky-900">{t('contact.title')}</h1>
+          <p className="text-3xl font-light text-sky-600/70 italic max-w-3xl mx-auto">
             {t('contact.subtitle')}
           </p>
         </div>
       </section>
 
       <section className="container mx-auto px-4 py-12 flex-grow">
-        <div className="grid gap-8 lg:grid-cols-2">
+        <div className="grid gap-12 lg:grid-cols-2 max-w-6xl mx-auto">
           
           {/* Contact Information & Map */}
-          <div className="space-y-8">
-            <Card>
-              <CardHeader>
-                <CardTitle>{t('contact.title')}</CardTitle>
-                <CardDescription>
+          <div className="space-y-10">
+            <Card className="border-none bg-white/60 backdrop-blur-md rounded-[2.5rem] shadow-sm overflow-hidden">
+              <CardHeader className="pt-10 px-10">
+                <CardTitle className="text-2xl font-light tracking-widest uppercase text-sky-900">{t('contact.title')}</CardTitle>
+                <CardDescription className="font-light text-sky-600 italic">
                   Little Rock Immanuel Chinese Baptist Church
                 </CardDescription>
               </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="flex items-center space-x-3">
-                  <MapPin className="h-5 w-5 text-primary" />
-                  <span>{t('contact.info.address')}</span>
+              <CardContent className="px-10 pb-10 space-y-6">
+                <div className="flex items-center space-x-4 group cursor-default">
+                  <div className="bg-sky-50 p-3 rounded-full group-hover:bg-sky-100 transition-colors shadow-sm">
+                    <MapPin className="h-5 w-5 text-sky-500" />
+                  </div>
+                  <span className="text-sky-800/80 font-light">{t('contact.info.address')}</span>
                 </div>
-                <div className="flex items-center space-x-3">
-                  <Phone className="h-5 w-5 text-primary" />
-                  <span>{t('contact.info.phone')}</span>
+                <div className="flex items-center space-x-4 group cursor-default">
+                  <div className="bg-sky-50 p-3 rounded-full group-hover:bg-sky-100 transition-colors shadow-sm">
+                    <Phone className="h-5 w-5 text-sky-500" />
+                  </div>
+                  <span className="text-sky-800/80 font-light">{t('contact.info.phone')}</span>
                 </div>
-                <div className="flex items-center space-x-3">
-                  <Mail className="h-5 w-5 text-primary" />
-                  <span>{t('contact.info.email')}</span>
+                <div className="flex items-center space-x-4 group cursor-default">
+                  <div className="bg-sky-50 p-3 rounded-full group-hover:bg-sky-100 transition-colors shadow-sm">
+                    <Mail className="h-5 w-5 text-sky-500" />
+                  </div>
+                  <span className="text-sky-800/80 font-light">{t('contact.info.email')}</span>
                 </div>
               </CardContent>
             </Card>
 
             {/* Google Map Embed */}
-            <div className="overflow-hidden rounded-lg border h-[300px] lg:h-[400px]">
+            <div className="overflow-hidden rounded-[2.5rem] border-8 border-white shadow-xl h-[400px] heavenly-glow relative group">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.366779146193!2d-92.40466492362483!3d34.74635677290333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d2a5d911111111%3A0x1111111111111111!2s9701%20W%20Markham%20St%2C%20Little%20Rock%2C%20AR%2072205!5e0!3m2!1sen!2sus!4v1709999999999!5m2!1sen!2sus"
                 width="100%"
@@ -65,35 +71,37 @@ export default function ContactPage() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Google Map"
+                className="grayscale-[20%] opacity-90 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
               ></iframe>
             </div>
           </div>
 
           {/* Contact Form */}
-          <Card>
-            <CardHeader>
-              <CardTitle>{t('contact.form.submit')}</CardTitle>
+          <Card className="border-none bg-white shadow-2xl rounded-[3rem] p-4">
+            <CardHeader className="pt-10 px-10 text-center">
+              <CardTitle className="text-3xl font-light tracking-[0.2em] uppercase text-sky-500">{t('contact.form.submit')}</CardTitle>
             </CardHeader>
-            <CardContent>
-              <form className="space-y-6">
-                <div className="space-y-2">
-                  <Label htmlFor="name">{t('contact.form.name')}</Label>
-                  <Input id="name" placeholder={t('contact.form.name')} />
+            <CardContent className="px-10 pb-10">
+              <form className="space-y-8">
+                <div className="space-y-3">
+                  <Label htmlFor="name" className="text-[10px] font-bold uppercase tracking-widest text-sky-400 pl-2">{t('contact.form.name')}</Label>
+                  <Input id="name" placeholder={t('contact.form.name')} className="rounded-2xl border-sky-50 bg-sky-50/30 py-6 px-6 focus-visible:ring-sky-200" />
                 </div>
-                <div className="space-y-2">
-                  <Label htmlFor="email">{t('contact.form.email')}</Label>
-                  <Input id="email" type="email" placeholder={t('contact.form.email')} />
+                <div className="space-y-3">
+                  <Label htmlFor="email" className="text-[10px] font-bold uppercase tracking-widest text-sky-400 pl-2">{t('contact.form.email')}</Label>
+                  <Input id="email" type="email" placeholder={t('contact.form.email')} className="rounded-2xl border-sky-50 bg-sky-50/30 py-6 px-6 focus-visible:ring-sky-200" />
                 </div>
-                <div className="space-y-2">
-                  <Label htmlFor="message">{t('contact.form.message')}</Label>
+                <div className="space-y-3">
+                  <Label htmlFor="message" className="text-[10px] font-bold uppercase tracking-widest text-sky-400 pl-2">{t('contact.form.message')}</Label>
                   <Textarea
                     id="message"
                     placeholder={t('contact.form.message')}
-                    className="min-h-[150px]"
+                    className="min-h-[200px] rounded-[2rem] border-sky-50 bg-sky-50/30 p-6 focus-visible:ring-sky-200"
                   />
                 </div>
-                <Button type="submit" className="w-full">
+                <Button type="submit" className="w-full py-8 text-lg rounded-full bg-sky-500 hover:bg-sky-600 text-white font-bold uppercase tracking-[0.2em] transition-all heavenly-glow hover:translate-y-[-2px] shadow-lg shadow-sky-100">
                   {t('contact.form.submit')}
+                  <Send className="ml-3 h-5 w-5" />
                 </Button>
               </form>
             </CardContent>

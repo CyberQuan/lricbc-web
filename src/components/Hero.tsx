@@ -8,24 +8,33 @@ export default function Hero() {
   const { t } = useTranslation('common');
 
   return (
-    <section className="relative flex min-h-[70vh] items-center justify-center overflow-hidden bg-slate-900 text-white">
-      {/* Placeholder for background image or pattern */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-r from-blue-900/80 to-slate-900/80" />
-      
-      <div className="container relative z-10 mx-auto px-4 py-32 text-center">
-        <h1 className="mb-6 text-4xl font-extrabold tracking-tight md:text-6xl">
-          {t('hero.title')}
+    <section className="relative flex min-h-[95vh] items-center justify-center overflow-hidden">
+      {/* Radiant Sky Blue Background Effects */}
+      <div className="absolute inset-0 z-0 bg-gradient-to-b from-sky-100/60 via-white to-sky-50" />
+      <div className="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] bg-sky-400/20 rounded-full blur-[120px] float" />
+      <div className="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-300/20 rounded-full blur-[100px] float" style={{ animationDelay: '3s' }} />
+
+      <div className="container relative z-10 mx-auto px-4 py-24 text-center">
+        <div className="inline-block px-10 py-3 mb-12 text-sm font-bold tracking-[0.3em] text-sky-600 uppercase bg-white/70 backdrop-blur-md rounded-full border border-sky-100 shadow-sm">
+          {t('about.slogan')}
+        </div>
+        <h1 className="mb-10 text-7xl font-light tracking-tight md:text-[10rem] text-sky-900 leading-[1.05]">
+          {t('hero.title').split(' ').map((word, i) => (
+            <span key={i} className={word === 'Immanuel' || word === '以馬內利' ? 'text-sky-600 font-normal' : ''}>
+              {word}{' '}
+            </span>
+          ))}
         </h1>
-        <p className="mx-auto mb-10 max-w-2xl text-lg text-slate-300 md:text-xl">
+        <p className="mx-auto mb-16 max-w-4xl text-2xl text-sky-800/60 md:text-5xl font-light italic leading-tight">
           {t('hero.subtitle')}
         </p>
-        <div className="flex flex-col justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-          <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
+        <div className="flex flex-col justify-center gap-10 sm:flex-row">
+          <Button asChild size="lg" className="bg-sky-600 hover:bg-sky-700 text-white rounded-full px-16 py-10 text-2xl font-medium heavenly-glow transition-all hover:scale-105 shadow-2xl">
             <Link href="/contact">
               {t('hero.cta')}
             </Link>
           </Button>
-          <Button asChild size="lg" variant="ghost" className="text-white border border-white hover:bg-white/10 hover:text-white">
+          <Button asChild size="lg" variant="ghost" className="bg-white/60 backdrop-blur-xl hover:bg-sky-50 text-sky-700 border border-sky-200 rounded-full px-16 py-10 text-2xl font-light transition-all">
             <Link href="/about">
               {t('nav.about')}
             </Link>

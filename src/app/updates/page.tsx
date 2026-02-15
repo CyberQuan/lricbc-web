@@ -43,22 +43,23 @@ export default function UpdatesPage() {
     <main className="min-h-screen flex flex-col">
       <Navbar />
 
-      <section className="bg-slate-50 py-20">
+      <section className="bg-gradient-to-b from-sky-100/60 to-white py-32">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl font-bold md:text-5xl">{t('updates.title')}</h1>
-          <p className="mt-4 text-lg text-slate-600 max-w-2xl mx-auto">
+          <h1 className="text-7xl font-light tracking-tight md:text-9xl mb-8 text-sky-900">{t('updates.title')}</h1>
+          <p className="text-3xl font-light text-sky-600/70 italic max-w-3xl mx-auto">
             {t('updates.subtitle')}
           </p>
         </div>
       </section>
 
       <section className="container mx-auto px-4 py-12 flex-grow">
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
+        <div className="flex flex-wrap justify-center gap-4 mb-16">
           {categories.map((cat) => (
             <Button
               key={cat}
               variant={filter === cat ? "default" : "outline"}
               onClick={() => setFilter(cat)}
+              className="rounded-full px-8 py-6 text-sm tracking-widest uppercase"
             >
               {t(`updates.categories.${cat}`)}
             </Button>
@@ -66,33 +67,33 @@ export default function UpdatesPage() {
         </div>
 
         {loading ? (
-          <div className="text-center py-20">Loading...</div>
+          <div className="text-center py-20 font-light text-sky-400 animate-pulse">Loading Peace...</div>
         ) : (
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
             {filteredUpdates.map((update) => (
-              <Card key={update._id} className="flex flex-col">
-                <CardHeader>
-                  <div className="flex items-center justify-between text-sm text-slate-500 mb-2">
-                    <div className="flex items-center space-x-1">
-                      <Calendar className="h-4 w-4" />
+              <Card key={update._id} className="flex flex-col bg-white/40 backdrop-blur-md border-sky-50 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:shadow-sky-100 transition-all group overflow-hidden border-none">
+                <CardHeader className="pb-4">
+                  <div className="flex items-center justify-between text-[10px] font-bold uppercase tracking-widest text-sky-400 mb-3">
+                    <div className="flex items-center space-x-2">
+                      <Calendar className="h-3 w-3" />
                       <span>{new Date(update.publishedAt).toLocaleDateString()}</span>
                     </div>
-                    <div className="flex items-center space-x-1 capitalize">
-                      <Tag className="h-4 w-4" />
+                    <div className="flex items-center space-x-2">
+                      <Tag className="h-3 w-3" />
                       <span>{t(`updates.categories.${update.category}`)}</span>
                     </div>
                   </div>
-                  <CardTitle className="line-clamp-2">
+                  <CardTitle className="line-clamp-2 text-2xl font-light text-sky-900 group-hover:text-sky-500 transition-colors">
                     {update[`title_${langSuffix}`]}
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="flex-grow">
-                  <CardDescription className="text-base line-clamp-3">
+                  <CardDescription className="text-base font-light text-sky-700/70 line-clamp-3 italic">
                     {update[`excerpt_${langSuffix}`]}
                   </CardDescription>
                 </CardContent>
-                <CardFooter>
-                  <Button asChild variant="link" className="px-0 text-primary">
+                <CardFooter className="pt-0">
+                  <Button asChild variant="link" className="px-0 text-sky-500 font-bold uppercase tracking-widest text-xs hover:text-sky-400">
                     <Link href={`/updates/${update._id}`}>
                       {t('updates.readMore')} →
                     </Link>

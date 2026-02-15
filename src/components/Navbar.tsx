@@ -21,26 +21,28 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto flex h-16 items-center justify-between px-4">
+    <nav className="sticky top-0 z-50 w-full bg-white/30 backdrop-blur-md border-b border-white/50">
+      <div className="container mx-auto flex h-20 items-center justify-between px-8">
         <div className="flex items-center gap-2">
-          <Link href="/" className="flex items-center space-x-2">
-            <span className="text-xl font-bold text-primary">LRICBC</span>
+          <Link href="/" className="flex items-center space-x-2 group">
+            <span className="text-2xl font-light tracking-[0.3em] text-slate-800 transition-colors group-hover:text-primary uppercase">LRICBC</span>
           </Link>
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex md:items-center md:space-x-6">
+        <div className="hidden md:flex md:items-center md:space-x-10">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium transition-colors hover:text-primary"
+              className="text-xl font-bold tracking-[0.15em] uppercase transition-colors hover:text-primary text-slate-500"
             >
               {link.label}
             </Link>
           ))}
-          <LanguageSwitcher />
+          <div className="pl-6 border-l border-slate-200">
+            <LanguageSwitcher />
+          </div>
         </div>
 
         {/* Mobile Navigation Toggle */}
