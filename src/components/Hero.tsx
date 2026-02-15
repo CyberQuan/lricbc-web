@@ -51,13 +51,17 @@ export default function Hero({ backgroundImages }: { backgroundImages: string[] 
       <div className="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-300/10 rounded-full blur-[100px] float" style={{ animationDelay: '3s' }} />
 
       <div className="container relative z-10 mx-auto px-1 py-12 text-center animate-in fade-in slide-in-from-bottom-10 duration-1000">
-        <div className="mb-8 flex justify-center">
-          <div className="relative h-32 w-64 md:h-[21rem] md:w-[88rem]">
+        <div className="mb-8 flex justify-center relative group">
+          {/* Radiant Growing Light Effect */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-sky-400/30 rounded-full blur-[80px] animate-pulse pointer-events-none" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] bg-white/40 rounded-full blur-[40px] animate-pulse pointer-events-none" style={{ animationDuration: '3s' }} />
+          
+          <div className="relative h-32 w-64 md:h-[21rem] md:w-[88rem] transition-transform duration-700 hover:scale-105">
             <Image 
               src="/logo/LRICBC_Logo_v4_NameBottom-scaled.png" 
               alt="LRICBC Logo" 
               fill 
-              className="object-contain drop-shadow-2xl"
+              className="object-contain drop-shadow-[0_0_25px_rgba(255,255,255,0.8)]"
               priority
             />
           </div>

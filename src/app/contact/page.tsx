@@ -13,6 +13,19 @@ import { MapPin, Phone, Mail, Send } from "lucide-react";
 export default function ContactPage() {
   const { t } = useTranslation('common');
 
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const message = formData.get('message');
+    
+    const subject = encodeURIComponent(`Message from ${name} via LRICBC Website`);
+    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
+    
+    window.location.href = `mailto:chinesechurch@lricbc.org?subject=${subject}&body=${body}`;
+  };
+
   return (
     <main className="min-h-screen flex flex-col">
       <Navbar />
@@ -82,19 +95,21 @@ export default function ContactPage() {
               <CardTitle className="text-3xl font-light tracking-[0.2em] uppercase text-sky-500">{t('contact.form.submit')}</CardTitle>
             </CardHeader>
             <CardContent className="px-10 pb-10">
-              <form className="space-y-8">
+              <form onSubmit={handleSubmit} className="space-y-8">
                 <div className="space-y-3">
                   <Label htmlFor="name" className="text-[10px] font-bold uppercase tracking-widest text-sky-400 pl-2">{t('contact.form.name')}</Label>
-                  <Input id="name" placeholder={t('contact.form.name')} className="rounded-2xl border-sky-50 bg-sky-50/30 py-6 px-6 focus-visible:ring-sky-200" />
+                  <Input name="name" id="name" required placeholder={t('contact.form.name')} className="rounded-2xl border-sky-50 bg-sky-50/30 py-6 px-6 focus-visible:ring-sky-200" />
                 </div>
                 <div className="space-y-3">
                   <Label htmlFor="email" className="text-[10px] font-bold uppercase tracking-widest text-sky-400 pl-2">{t('contact.form.email')}</Label>
-                  <Input id="email" type="email" placeholder={t('contact.form.email')} className="rounded-2xl border-sky-50 bg-sky-50/30 py-6 px-6 focus-visible:ring-sky-200" />
+                  <Input name="email" id="email" type="email" required placeholder={t('contact.form.email')} className="rounded-2xl border-sky-50 bg-sky-50/30 py-6 px-6 focus-visible:ring-sky-200" />
                 </div>
                 <div className="space-y-3">
                   <Label htmlFor="message" className="text-[10px] font-bold uppercase tracking-widest text-sky-400 pl-2">{t('contact.form.message')}</Label>
                   <Textarea
+                    name="message"
                     id="message"
+                    required
                     placeholder={t('contact.form.message')}
                     className="min-h-[200px] rounded-[2rem] border-sky-50 bg-sky-50/30 p-6 focus-visible:ring-sky-200"
                   />
