@@ -2,10 +2,25 @@
   "nav": {
     "home": "Home",
     "about": "About Us",
+    "onlineWorship": "Online Worship",
     "updates": "Weekly Updates",
     "gallery": "Gallery",
     "giving": "Giving",
     "contact": "Contact"
+  },
+  "onlineWorshipPage": {
+    "title": "Online Worship",
+    "liveStatus": "Live Broadcast",
+    "quote": "\"For where two or three gather in my name, there am I with them.\" — Matthew 18:20",
+    "communityTitle": "Join our Community",
+    "communityContent": "If the live player above says \"Live stream is offline,\" you will find our most recent recorded services directly on our YouTube channel.",
+    "serviceTimeTitle": "Service Times",
+    "serviceTimeContent": "Every Sunday at 9:00 AM CST",
+    "connectTitle": "Get Connected",
+    "connectContent": "Join our fellowship groups throughout the week",
+    "youtubeTitle": "Visit our Channel",
+    "youtubeContent": "Subscribe to get notified whenever we go live or post new messages.",
+    "youtubeButton": "Subscribe"
   },
   "hero": {
     "title": "Welcome to Immanuel",

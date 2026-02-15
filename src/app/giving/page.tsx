@@ -67,10 +67,13 @@ export default function GivingPage() {
                 </CardContent>
               </Card>
 
-              {/* Check / Mail */}
+              {/* Check / Mail / In-Person */}
               <Card className="flex flex-col border-none bg-white/60 backdrop-blur-md rounded-[2.5rem] shadow-sm">
                 <CardHeader className="pb-8 pt-10 px-10">
-                  <Mail className="h-10 w-10 text-sky-400 mb-4" />
+                  <div className="flex gap-4 mb-4">
+                    <Mail className="h-10 w-10 text-sky-400" />
+                    <Banknote className="h-10 w-10 text-sky-400" />
+                  </div>
                   <CardTitle className="text-2xl font-light tracking-wider uppercase mb-2 text-sky-900">
                     {t('giving.methods.check.title')}
                   </CardTitle>
@@ -85,23 +88,6 @@ export default function GivingPage() {
                     {t('giving.methods.check.address')}
                   </div>
                 </CardContent>
-              </Card>
-
-              {/* In-Person */}
-              <Card className="flex flex-col md:col-span-2 border-none bg-sky-50/30 backdrop-blur-sm rounded-[2.5rem] p-4">
-                <CardHeader className="flex flex-row items-center gap-6">
-                  <div className="bg-white p-4 rounded-full shadow-sm">
-                    <Banknote className="h-8 w-8 text-sky-400" />
-                  </div>
-                  <div className="space-y-1">
-                    <CardTitle className="text-xl font-light tracking-wider uppercase text-sky-900">
-                      {t('giving.methods.check.title')} (現場奉獻)
-                    </CardTitle>
-                    <CardDescription className="font-light text-sky-700">
-                      {t('giving.methods.check.description')}
-                    </CardDescription>
-                  </div>
-                </CardHeader>
               </Card>
 
             </div>

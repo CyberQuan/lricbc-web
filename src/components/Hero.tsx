@@ -4,16 +4,51 @@ import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState, useEffect } from 'react';
 
-export default function Hero() {
+export default function Hero({ backgroundImages }: { backgroundImages: string[] }) {
   const { t } = useTranslation('common');
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Background slideshow logic
+  useEffect(() => {
+    if (backgroundImages.length <= 1) return;
+    
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % backgroundImages.length);
+    }, 8000); // Cross-fade every 8 seconds
+
+    return () => clearInterval(interval);
+  }, [backgroundImages]);
 
   return (
     <section className="relative flex min-h-[95vh] items-center justify-center overflow-hidden">
-      {/* Radiant Sky Blue Background Effects */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-b from-sky-100/60 via-white to-sky-50" />
-      <div className="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] bg-sky-400/20 rounded-full blur-[120px] float" />
-      <div className="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-300/20 rounded-full blur-[100px] float" style={{ animationDelay: '3s' }} />
+      {/* Dynamic Gallery Background Layer */}
+      <div className="absolute inset-0 z-0">
+        {backgroundImages.map((src, index) => (
+          <div
+            key={src}
+            className={`absolute inset-0 transition-opacity duration-[3000ms] ease-in-out ${
+              index === currentIndex ? 'opacity-30' : 'opacity-0'
+            }`}
+          >
+            <Image
+              src={src}
+              alt="Church Memory"
+              fill
+              className="object-cover scale-105 blur-[1px]"
+              priority={index === 0}
+            />
+          </div>
+        ))}
+        {/* Soft Overlays to ensure readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-sky-100/40 via-white/80 to-sky-50/90 mix-blend-overlay" />
+        <div className="absolute inset-0 bg-white/20 backdrop-blur-[1px]" />
+      </div>
+
+      {/* Radiant Background Effects (Original style preserved) */}
+      <div className="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] bg-sky-400/10 rounded-full blur-[120px] float" />
+      <div className="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-300/10 rounded-full blur-[100px] float" style={{ animationDelay: '3s' }} />
 
       <div className="container relative z-10 mx-auto px-1 py-12 text-center animate-in fade-in slide-in-from-bottom-10 duration-1000">
         <div className="mb-8 flex justify-center">

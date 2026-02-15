@@ -107,3 +107,29 @@ export function getGalleryEvent(id: string): GalleryEvent | null {
   };
 }
 
+export function getRandomGalleryImages(count: number): string[] {
+  if (!fs.existsSync(galleryDirectory)) return [];
+
+  const folders = fs.readdirSync(galleryDirectory, { withFileTypes: true })
+    .filter(dirent => dirent.isDirectory())
+    .map(dirent => dirent.name);
+
+  let allImages: string[] = [];
+  
+  folders.forEach(folder => {
+    const folderPath = path.join(galleryDirectory, folder);
+    const files = fs.readdirSync(folderPath);
+    const imageExtensions = ['.jpg', '.jpeg', '.png', '.webp'];
+    const images = files
+      .filter(file => imageExtensions.includes(path.extname(file).toLowerCase()))
+      .map(img => `/gallery/${folder}/${img}`);
+    allImages = allImages.concat(images);
+  });
+
+  // Shuffle and pick count
+  return allImages
+    .sort(() => Math.random() - 0.5)
+    .slice(0, count);
+}
+
+

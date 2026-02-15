@@ -16,6 +16,7 @@ export default function Navbar() {
   const navLinks = [
     { href: '/', label: t('nav.home') },
     { href: '/about', label: t('nav.about') },
+    { href: '/online-worship', label: t('nav.onlineWorship') || 'Online Worship' },
     { href: '/updates', label: t('nav.updates') },
     { href: '/gallery', label: t('nav.gallery') },
     { href: '/giving', label: t('nav.giving') },
