@@ -8,30 +8,15 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Calendar, Tag } from "lucide-react";
 import { useState, useEffect } from "react";
-import { client } from "@/sanity/lib/client";
-import { postsQuery } from "@/sanity/lib/queries";
+import { mockUpdates } from "@/lib/mock-updates";
 
 export default function UpdatesPage() {
   const { t, i18n } = useTranslation('common');
   const [filter, setFilter] = useState<'all' | 'pastor' | 'sermon' | 'news'>('all');
-  const [posts, setPosts] = useState<any[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [posts, setPosts] = useState<any[]>(mockUpdates);
+  const [loading, setLoading] = useState(false);
   
   const langSuffix = i18n.language === 'en' ? 'en' : 'zh';
-
-  useEffect(() => {
-    async function fetchPosts() {
-      try {
-        const data = await client.fetch(postsQuery);
-        setPosts(data);
-      } catch (error) {
-        console.error("Error fetching posts:", error);
-      } finally {
-        setLoading(false);
-      }
-    }
-    fetchPosts();
-  }, []);
 
   const filteredUpdates = filter === 'all' 
     ? posts 
@@ -71,12 +56,12 @@ export default function UpdatesPage() {
         ) : (
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
             {filteredUpdates.map((update) => (
-              <Card key={update._id} className="flex flex-col bg-white/40 backdrop-blur-md border-sky-50 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:shadow-sky-100 transition-all group overflow-hidden border-none">
+              <Card key={update.id} className="flex flex-col bg-white/40 backdrop-blur-md border-sky-50 rounded-[2.5rem] shadow-sm hover:shadow-xl hover:shadow-sky-100 transition-all group overflow-hidden border-none">
                 <CardHeader className="pb-4">
                   <div className="flex items-center justify-between text-[10px] font-bold uppercase tracking-widest text-sky-400 mb-3">
                     <div className="flex items-center space-x-2">
                       <Calendar className="h-3 w-3" />
-                      <span>{new Date(update.publishedAt).toLocaleDateString()}</span>
+                      <span>{new Date(update.date).toLocaleDateString()}</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <Tag className="h-3 w-3" />
@@ -84,17 +69,17 @@ export default function UpdatesPage() {
                     </div>
                   </div>
                   <CardTitle className="line-clamp-2 text-2xl font-light text-sky-900 group-hover:text-sky-500 transition-colors">
-                    {update[`title_${langSuffix}`]}
+                    {update.title[langSuffix as 'en' | 'zh']}
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <CardDescription className="text-base font-light text-sky-700/70 line-clamp-3 italic">
-                    {update[`excerpt_${langSuffix}`]}
+                    {update.excerpt[langSuffix as 'en' | 'zh']}
                   </CardDescription>
                 </CardContent>
                 <CardFooter className="pt-0">
                   <Button asChild variant="link" className="px-0 text-sky-500 font-bold uppercase tracking-widest text-xs hover:text-sky-400">
-                    <Link href={`/updates/${update._id}`}>
+                    <Link href={`/updates/${update.id}`}>
                       {t('updates.readMore')} →
                     </Link>
                   </Button>

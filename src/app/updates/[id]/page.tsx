@@ -8,9 +8,8 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Calendar, ChevronLeft, Tag } from "lucide-react";
 import { useState, useEffect } from "react";
-import { client } from "@/sanity/lib/client";
-import { postByIdQuery } from "@/sanity/lib/queries";
-import { PortableText } from "@portabletext/react";
+import { useState, useEffect } from "react";
+import { mockUpdates } from "@/lib/mock-updates";
 import ReadingSettings from "@/components/ReadingSettings";
 
 export default function UpdateDetailPage() {
@@ -29,7 +28,14 @@ export default function UpdateDetailPage() {
     const savedTheme = localStorage.getItem('reading-theme');
     if (savedFontSize) setFontSize(savedFontSize);
     if (savedTheme) setTheme(savedTheme);
-  }, []);
+
+    // Fetch mock data
+    const foundPost = mockUpdates.find(u => u.id === id);
+    if (foundPost) {
+      setPost(foundPost);
+    }
+    setLoading(false);
+  }, [id]);
 
   const handleFontSizeChange = (size: string) => {
     setFontSize(size);
@@ -40,20 +46,6 @@ export default function UpdateDetailPage() {
     setTheme(newTheme);
     localStorage.setItem('reading-theme', newTheme);
   };
-
-  useEffect(() => {
-    async function fetchPost() {
-      try {
-        const data = await client.fetch(postByIdQuery, { id });
-        setPost(data);
-      } catch (error) {
-        console.error("Error fetching post:", error);
-      } finally {
-        setLoading(false);
-      }
-    }
-    fetchPost();
-  }, [id]);
 
   if (loading) {
     return (
@@ -103,18 +95,20 @@ export default function UpdateDetailPage() {
             <div className={`flex items-center space-x-6 text-sm font-bold uppercase tracking-widest ${theme === 'dark' ? 'text-sky-400/70' : theme === 'sepia' ? 'text-[#8c6d4f]/70' : 'text-sky-500/70'}`}>
               <div className="flex items-center space-x-2">
                 <Calendar className="h-4 w-4" />
-                <span>{new Date(post.publishedAt).toLocaleDateString()}</span>
+                <span>{new Date(post.date).toLocaleDateString()}</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Tag className="h-4 w-4" />
                 <span>{t(`updates.categories.${post.category}`)}</span>
               </div>
             </div>
-            <h1 className="text-5xl font-light md:text-7xl leading-tight">{post[`title_${langSuffix}`]}</h1>
+            <h1 className="text-5xl font-light md:text-7xl leading-tight">{post.title[langSuffix as 'en' | 'zh']}</h1>
           </div>
 
           <div className={`prose max-w-none transition-all duration-300 ${fontSize} ${theme === 'dark' ? 'prose-invert' : ''} ${theme === 'sepia' ? 'prose-stone' : 'prose-slate'}`}>
-            <PortableText value={post[`body_${langSuffix}`]} />
+            <div className="whitespace-pre-wrap">
+              {post.content[langSuffix as 'en' | 'zh']}
+            </div>
           </div>
         </div>
       </article>
