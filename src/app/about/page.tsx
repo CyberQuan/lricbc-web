@@ -241,7 +241,7 @@ export default function AboutPage() {
           <div className="text-center mb-24 space-y-6">
             <Users className="h-16 w-16 mx-auto text-sky-400" />
             <h2 className="text-5xl font-black tracking-[0.3em] uppercase text-sky-200">
-              {i18n.language === 'en' ? 'Our Leadership' : '教會領袖'}
+              {i18n.language === 'en' ? 'Our Staff' : '教會同工'}
             </h2>
           </div>
           <div className="max-w-4xl mx-auto bg-white/5 backdrop-blur-xl border border-white/10 rounded-[4rem] p-20 text-center space-y-8">

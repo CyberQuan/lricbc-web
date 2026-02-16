@@ -23,7 +23,7 @@ const navItems = [
   { id: 'core-values', icon: Heart, labelEn: 'Values', labelZh: '價值' },
   { id: 'our-faith', icon: BookOpen, labelEn: 'Faith', labelZh: '信仰' },
   { id: 'church-history', icon: History, labelEn: 'History', labelZh: '歷史' },
-  { id: 'leadership', icon: Users, labelEn: 'Leadership', labelZh: '領袖' },
+  { id: 'leadership', icon: Users, labelEn: 'Staff', labelZh: '同工' },
 ];
 
 export default function AboutPageNav() {
