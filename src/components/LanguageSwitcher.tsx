@@ -12,8 +12,8 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <Button variant="ghost" size="sm" onClick={toggleLanguage}>
-      {i18n.language === 'en' ? '中文' : 'English'}
+    <Button variant="ghost" size="sm" onClick={toggleLanguage} className="font-bold">
+      {i18n.language?.startsWith('en') ? '中文' : 'English'}
     </Button>
   );
 }

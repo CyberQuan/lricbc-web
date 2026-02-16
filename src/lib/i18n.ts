@@ -12,6 +12,7 @@ i18n
       en: { common: enCommon },
       'zh-CN': { common: zhCommon },
     },
+    lng: 'zh-CN',
     fallbackLng: 'zh-CN',
     ns: ['common'],
     defaultNS: 'common',
@@ -19,8 +20,9 @@ i18n
       escapeValue: false,
     },
     detection: {
-      order: ['path', 'cookie', 'localStorage', 'navigator'],
+      order: ['localStorage', 'cookie', 'path', 'navigator'],
       caches: ['localStorage', 'cookie'],
+      lookupLocalStorage: 'i118nextLng',
     },
   });
 

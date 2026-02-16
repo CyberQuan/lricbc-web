@@ -14,6 +14,8 @@
   --color-secondary-foreground: var(--secondary-foreground);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
   --color-border: var(--border);
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 4px);
@@ -30,6 +32,9 @@
   
   --secondary: #e0f2fe;
   --secondary-foreground: #0369a1;
+
+  --popover: #ffffff;
+  --popover-foreground: #075985;
   
   --accent: #fcd34d;
   --accent-foreground: #78350f;

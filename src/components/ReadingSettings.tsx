@@ -17,6 +17,7 @@ import {
 } from "@/components/ui/popover";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { cn } from "@/lib/utils";
 
 interface ReadingSettingsProps {
   onFontSizeChange: (size: string) => void;
@@ -50,11 +51,21 @@ export default function ReadingSettings({
     <div className="fixed bottom-8 right-8 z-50">
       <Popover>
         <PopoverTrigger asChild>
-          <Button size="icon" className="h-12 w-12 rounded-full shadow-lg ring-4 ring-white">
-            <Settings2 className="h-6 w-6" />
+          <Button size="icon" className="h-14 w-14 rounded-full shadow-2xl ring-4 ring-white bg-primary text-primary-foreground hover:bg-primary/90 transition-all hover:scale-110 active:scale-95">
+            <Settings2 className="h-7 w-7" />
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="w-80 p-6" align="end" side="top">
+        <PopoverContent 
+          className={cn(
+            "w-[calc(100vw-2rem)] sm:w-80 p-6 shadow-2xl transition-all duration-300",
+            currentTheme === 'dark' ? 'bg-slate-900 text-slate-100 border-slate-700' :
+            currentTheme === 'sepia' ? 'bg-[#f4ecd8] text-[#5b4636] border-[#dcd0b8]' :
+            'bg-white text-slate-900 border-slate-200'
+          )} 
+          align="end" 
+          side="top" 
+          sideOffset={16}
+        >
           <div className="space-y-6">
             <div>
               <h4 className="font-medium mb-3 text-sm uppercase tracking-wider text-slate-500">{t('updates.readingSettings.fontSize')}</h4>
