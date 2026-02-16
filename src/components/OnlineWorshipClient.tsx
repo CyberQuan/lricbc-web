@@ -25,18 +25,18 @@ export default function OnlineWorshipClient({ channelId, latestVideoId }: Online
   return (
     <>
       {/* Compact Responsive Banner */}
-      <section className="bg-gradient-to-b from-sky-100/60 to-white py-6 md:py-10 border-b border-sky-50">
+      <section className="bg-gradient-to-b from-sky-100/60 to-white py-8 md:py-10 border-b border-sky-50">
         <div className="container mx-auto px-4 text-center">
-          <div className="hidden md:inline-flex items-center gap-2 px-4 py-1 bg-white/40 backdrop-blur-md rounded-full border border-sky-200 mb-4 animate-pulse">
+          <div className="inline-flex items-center gap-2 px-4 py-1 bg-white/40 backdrop-blur-md rounded-full border border-sky-200 mb-4 animate-pulse">
             <div className="h-2 w-2 bg-red-500 rounded-full" />
-            <span className="text-xs font-black uppercase tracking-widest text-sky-900">
+            <span className="text-[10px] sm:text-xs font-black uppercase tracking-widest text-sky-900">
               {t('onlineWorshipPage.liveStatus') || 'Live Broadcast'}
             </span>
           </div>
-          <h1 className="text-2xl sm:text-4xl md:text-6xl font-light tracking-tight text-sky-900 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-light tracking-tight text-sky-900 leading-tight">
             {t('onlineWorshipPage.title') || '網上崇拜 Online Worship'}
           </h1>
-          <p className="hidden md:block mt-4 text-xl font-light text-sky-600/70 italic max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-4 text-lg sm:text-xl font-light text-sky-600/70 italic max-w-2xl mx-auto leading-relaxed px-4">
             {t('onlineWorshipPage.quote') || '"For where two or three gather in my name, there am I with them." — Matthew 18:20'}
           </p>
         </div>
@@ -84,36 +84,36 @@ export default function OnlineWorshipClient({ channelId, latestVideoId }: Online
           )}
 
           {/* Info & Call to Actions */}
-          <div className="grid md:grid-cols-3 gap-12 mt-12 md:mt-20">
-            <div className="md:col-span-2 space-y-12">
-              <div className="space-y-6">
-                <h2 className="text-3xl md:text-4xl font-light text-sky-950 uppercase tracking-widest">
+          <div className="grid md:grid-cols-3 gap-8 sm:gap-12 mt-12 md:mt-20">
+            <div className="md:col-span-2 space-y-8 sm:space-y-12">
+              <div className="space-y-4 sm:space-y-6">
+                <h2 className="text-2xl sm:text-4xl font-light text-sky-950 uppercase tracking-widest">
                   {t('onlineWorshipPage.communityTitle') || 'Join our Community'}
                 </h2>
-                <p className="text-xl md:text-2xl text-slate-600 leading-relaxed font-light italic">
+                <p className="text-lg sm:text-2xl text-slate-600 leading-relaxed font-light italic">
                   {t('onlineWorshipPage.communityContent') || 'If the live player above says "Live stream is offline," you will find our most recent recorded services directly on our YouTube channel.'}
                 </p>
               </div>
 
-              <div className="grid sm:grid-cols-2 gap-8">
-                <div className="bg-white p-8 md:p-10 rounded-[2.5rem] shadow-sm border border-sky-100 flex flex-col items-center text-center space-y-4 transition-transform hover:scale-105">
-                  <Calendar className="h-10 w-10 text-sky-500" />
-                  <h3 className="text-lg font-bold uppercase tracking-widest text-sky-900">
+              <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
+                <div className="bg-white p-6 sm:p-10 rounded-[2rem] sm:rounded-[2.5rem] shadow-sm border border-sky-100 flex flex-col items-center text-center space-y-4 transition-transform hover:scale-105">
+                  <Calendar className="h-8 w-8 sm:h-10 sm:w-10 text-sky-500" />
+                  <h3 className="text-base sm:text-lg font-bold uppercase tracking-widest text-sky-900">
                     {t('onlineWorshipPage.serviceTimeTitle') || 'Service Times'}
                   </h3>
-                  <p className="text-slate-500 font-light text-base md:text-lg">
+                  <p className="text-slate-500 font-light text-sm sm:text-lg">
                     {t('onlineWorshipPage.serviceTimeContent') || 'Every Sunday at 9:00 AM CST'}
                   </p>
                 </div>
                 <Link 
                   href="/about#weekly-schedule"
-                  className="bg-white p-8 md:p-10 rounded-[2.5rem] shadow-sm border border-sky-100 flex flex-col items-center text-center space-y-4 transition-transform hover:scale-105 group"
+                  className="bg-white p-6 sm:p-10 rounded-[2rem] sm:rounded-[2.5rem] shadow-sm border border-sky-100 flex flex-col items-center text-center space-y-4 transition-transform hover:scale-105 group"
                 >
-                  <Users className="h-10 w-10 text-sky-500 group-hover:text-sky-600 transition-colors" />
-                  <h3 className="text-lg font-bold uppercase tracking-widest text-sky-900 group-hover:text-primary transition-colors">
+                  <Users className="h-8 w-8 sm:h-10 sm:w-10 text-sky-500 group-hover:text-sky-600 transition-colors" />
+                  <h3 className="text-base sm:text-lg font-bold uppercase tracking-widest text-sky-900 group-hover:text-primary transition-colors">
                     {t('onlineWorshipPage.connectTitle') || 'Get Connected'}
                   </h3>
-                  <p className="text-slate-500 font-light text-base md:text-lg">
+                  <p className="text-slate-500 font-light text-sm sm:text-lg">
                     {t('onlineWorshipPage.connectContent') || 'Join our fellowship groups throughout the week'}
                   </p>
                 </Link>
@@ -121,17 +121,17 @@ export default function OnlineWorshipClient({ channelId, latestVideoId }: Online
             </div>
 
             <div className="space-y-8">
-              <div className="bg-sky-600 rounded-[3rem] p-10 md:p-12 text-white shadow-xl flex flex-col items-center text-center space-y-8">
-                <Youtube className="h-12 w-12 md:h-16 w-16" />
-                <h3 className="text-2xl md:text-3xl font-light tracking-tight">
+              <div className="bg-sky-600 rounded-[2.5rem] sm:rounded-[3rem] p-8 sm:p-12 text-white shadow-xl flex flex-col items-center text-center space-y-6 sm:space-y-8">
+                <Youtube className="h-10 w-10 sm:h-16 sm:w-16" />
+                <h3 className="text-xl sm:text-3xl font-light tracking-tight">
                   {t('onlineWorshipPage.youtubeTitle') || 'Visit our Channel'}
                 </h3>
-                <p className="text-sky-100/80 font-light italic text-base md:text-lg leading-relaxed">
+                <p className="text-sky-100/80 font-light italic text-sm sm:text-lg leading-relaxed">
                   {t('onlineWorshipPage.youtubeContent') || 'Subscribe to get notified whenever we go live or post new messages.'}
                 </p>
-                <Button asChild className="w-full bg-white text-sky-600 hover:bg-sky-50 rounded-full py-6 md:py-8 text-lg md:text-xl font-bold shadow-2xl transition-all hover:scale-105">
-                  <a href={channelUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                    {t('onlineWorshipPage.youtubeButton') || 'Subscribe'} <ExternalLink className="h-5 w-5" />
+                <Button asChild className="w-full bg-white text-sky-600 hover:bg-sky-50 rounded-full py-6 sm:py-8 text-base sm:text-xl font-bold shadow-2xl transition-all hover:scale-105">
+                  <a href={channelUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 justify-center">
+                    {t('onlineWorshipPage.youtubeButton') || 'Subscribe'} <ExternalLink className="h-4 w-4 sm:h-5 sm:w-5" />
                   </a>
                 </Button>
               </div>

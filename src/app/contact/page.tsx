@@ -30,57 +30,57 @@ export default function ContactPage() {
     <main className="min-h-screen flex flex-col">
       <Navbar />
 
-      <section className="bg-gradient-to-b from-sky-100/60 to-white py-32">
+      <section className="bg-gradient-to-b from-sky-100/60 to-white py-16 sm:py-32">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-7xl font-light tracking-tight md:text-9xl mb-8 text-sky-900">{t('contact.title')}</h1>
-          <p className="text-3xl font-light text-sky-600/70 italic max-w-3xl mx-auto">
+          <h1 className="text-4xl sm:text-7xl md:text-9xl mb-6 sm:mb-8 text-sky-900 tracking-tight">{t('contact.title')}</h1>
+          <p className="text-xl sm:text-3xl font-light text-sky-600/70 italic max-w-3xl mx-auto px-4">
             {t('contact.subtitle')}
           </p>
         </div>
       </section>
 
-      <section className="container mx-auto px-4 py-12 flex-grow">
-        <div className="max-w-4xl mx-auto mb-16 text-center">
-          <p className="text-xl md:text-2xl font-light text-sky-900/70 leading-relaxed italic bg-white/30 backdrop-blur-md p-8 rounded-[2.5rem] border border-sky-100/50 shadow-sm">
+      <section className="container mx-auto px-6 py-8 sm:py-12 flex-grow">
+        <div className="max-w-4xl mx-auto mb-12 sm:mb-16 text-center">
+          <p className="text-lg sm:text-2xl font-light text-sky-900/70 leading-relaxed italic bg-white/30 backdrop-blur-md p-6 sm:p-8 rounded-[2rem] sm:rounded-[2.5rem] border border-sky-100/50 shadow-sm">
             {t('contact.description')}
           </p>
         </div>
 
-        <div className="grid gap-12 lg:grid-cols-2 max-w-6xl mx-auto">
+        <div className="grid gap-8 lg:grid-cols-2 max-w-6xl mx-auto">
           
           {/* Contact Information & Map */}
-          <div className="space-y-10">
-            <Card className="border-none bg-white/60 backdrop-blur-md rounded-[2.5rem] shadow-sm overflow-hidden">
-              <CardHeader className="pt-10 px-10">
-                <CardTitle className="text-2xl font-light tracking-widest uppercase text-sky-900">{t('contact.title')}</CardTitle>
-                <CardDescription className="font-light text-sky-600 italic">
+          <div className="space-y-8 sm:space-y-10">
+            <Card className="border-none bg-white/60 backdrop-blur-md rounded-[2rem] sm:rounded-[2.5rem] shadow-sm overflow-hidden">
+              <CardHeader className="pt-8 sm:pt-10 px-8 sm:px-10">
+                <CardTitle className="text-xl sm:text-2xl font-light tracking-widest uppercase text-sky-900">{t('contact.title')}</CardTitle>
+                <CardDescription className="font-light text-sky-600 italic text-sm sm:text-base">
                   Little Rock Immanuel Chinese Baptist Church
                 </CardDescription>
               </CardHeader>
-              <CardContent className="px-10 pb-10 space-y-6">
+              <CardContent className="px-8 sm:px-10 pb-8 sm:pb-10 space-y-4 sm:space-y-6">
                 <div className="flex items-center space-x-4 group cursor-default">
-                  <div className="bg-sky-50 p-3 rounded-full group-hover:bg-sky-100 transition-colors shadow-sm">
-                    <MapPin className="h-5 w-5 text-sky-500" />
+                  <div className="bg-sky-50 p-2 sm:p-3 rounded-full group-hover:bg-sky-100 transition-colors shadow-sm">
+                    <MapPin className="h-4 w-4 sm:h-5 sm:w-5 text-sky-500" />
                   </div>
-                  <span className="text-sky-800/80 font-light">{t('contact.info.address')}</span>
+                  <span className="text-sky-800/80 font-light text-sm sm:text-base">{t('contact.info.address')}</span>
                 </div>
                 <div className="flex items-center space-x-4 group cursor-default">
-                  <div className="bg-sky-50 p-3 rounded-full group-hover:bg-sky-100 transition-colors shadow-sm">
-                    <Phone className="h-5 w-5 text-sky-500" />
+                  <div className="bg-sky-50 p-2 sm:p-3 rounded-full group-hover:bg-sky-100 transition-colors shadow-sm">
+                    <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-sky-500" />
                   </div>
-                  <span className="text-sky-800/80 font-light">{t('contact.info.phone')}</span>
+                  <span className="text-sky-800/80 font-light text-sm sm:text-base">{t('contact.info.phone')}</span>
                 </div>
                 <div className="flex items-center space-x-4 group cursor-default">
-                  <div className="bg-sky-50 p-3 rounded-full group-hover:bg-sky-100 transition-colors shadow-sm">
-                    <Mail className="h-5 w-5 text-sky-500" />
+                  <div className="bg-sky-50 p-2 sm:p-3 rounded-full group-hover:bg-sky-100 transition-colors shadow-sm">
+                    <Mail className="h-4 w-4 sm:h-5 sm:w-5 text-sky-500" />
                   </div>
-                  <span className="text-sky-800/80 font-light">{t('contact.info.email')}</span>
+                  <span className="text-sky-800/80 font-light text-sm sm:text-base">{t('contact.info.email')}</span>
                 </div>
               </CardContent>
             </Card>
 
             {/* Google Map Embed */}
-            <div className="overflow-hidden rounded-[2.5rem] border-8 border-white shadow-xl h-[400px] heavenly-glow relative group">
+            <div className="overflow-hidden rounded-[2rem] sm:rounded-[2.5rem] border-4 sm:border-8 border-white shadow-xl h-[300px] sm:h-[400px] heavenly-glow relative group">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.366779146193!2d-92.40466492362483!3d34.74635677290333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d2a5d911111111%3A0x1111111111111111!2s9701%20W%20Markham%20St%2C%20Little%20Rock%2C%20AR%2072205!5e0!3m2!1sen!2sus!4v1709999999999!5m2!1sen!2sus"
                 width="100%"
@@ -90,25 +90,28 @@ export default function ContactPage() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Google Map"
-                className="grayscale-[20%] opacity-90 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
+                className="grayscale-[20%] opacity-90 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 pointer-events-none group-focus-within:pointer-events-auto"
               ></iframe>
+              <div className="absolute inset-0 pointer-events-none flex items-center justify-center bg-black/5 opacity-100 group-focus-within:opacity-0 transition-opacity">
+                <p className="bg-white/80 backdrop-blur-md px-4 py-2 rounded-full text-xs font-bold text-sky-900 shadow-sm border border-sky-100 lg:hidden">Tap to interact with map</p>
+              </div>
             </div>
           </div>
 
           {/* Contact Form */}
-          <Card className="border-none bg-white shadow-2xl rounded-[3rem] p-4">
-            <CardHeader className="pt-10 px-10 text-center">
-              <CardTitle className="text-3xl font-light tracking-[0.2em] uppercase text-sky-500">{t('contact.form.submit')}</CardTitle>
+          <Card className="border-none bg-white shadow-2xl rounded-[2.5rem] sm:rounded-[3rem] p-2 sm:p-4">
+            <CardHeader className="pt-8 sm:pt-10 px-6 sm:px-10 text-center">
+              <CardTitle className="text-2xl sm:text-3xl font-light tracking-[0.2em] uppercase text-sky-500">{t('contact.form.submit')}</CardTitle>
             </CardHeader>
-            <CardContent className="px-10 pb-10">
-              <form onSubmit={handleSubmit} className="space-y-8">
+            <CardContent className="px-6 sm:px-10 pb-8 sm:pb-10">
+              <form onSubmit={handleSubmit} className="space-y-6 sm:space-y-8">
                 <div className="space-y-3">
                   <Label htmlFor="name" className="text-[10px] font-bold uppercase tracking-widest text-sky-400 pl-2">{t('contact.form.name')}</Label>
-                  <Input name="name" id="name" required placeholder={t('contact.form.name')} className="rounded-2xl border-sky-50 bg-sky-50/30 py-6 px-6 focus-visible:ring-sky-200" />
+                  <Input name="name" id="name" required placeholder={t('contact.form.name')} className="rounded-xl sm:rounded-2xl border-sky-50 bg-sky-50/30 py-5 sm:py-6 px-5 sm:px-6 focus-visible:ring-sky-200" />
                 </div>
                 <div className="space-y-3">
                   <Label htmlFor="email" className="text-[10px] font-bold uppercase tracking-widest text-sky-400 pl-2">{t('contact.form.email')}</Label>
-                  <Input name="email" id="email" type="email" required placeholder={t('contact.form.email')} className="rounded-2xl border-sky-50 bg-sky-50/30 py-6 px-6 focus-visible:ring-sky-200" />
+                  <Input name="email" id="email" type="email" required placeholder={t('contact.form.email')} className="rounded-xl sm:rounded-2xl border-sky-50 bg-sky-50/30 py-5 sm:py-6 px-5 sm:px-6 focus-visible:ring-sky-200" />
                 </div>
                 <div className="space-y-3">
                   <Label htmlFor="message" className="text-[10px] font-bold uppercase tracking-widest text-sky-400 pl-2">{t('contact.form.message')}</Label>
@@ -117,12 +120,12 @@ export default function ContactPage() {
                     id="message"
                     required
                     placeholder={t('contact.form.message')}
-                    className="min-h-[200px] rounded-[2rem] border-sky-50 bg-sky-50/30 p-6 focus-visible:ring-sky-200"
+                    className="min-h-[150px] sm:min-h-[200px] rounded-2xl sm:rounded-[2rem] border-sky-50 bg-sky-50/30 p-5 sm:p-6 focus-visible:ring-sky-200"
                   />
                 </div>
-                <Button type="submit" className="w-full py-8 text-lg rounded-full bg-sky-500 hover:bg-sky-600 text-white font-bold uppercase tracking-[0.2em] transition-all heavenly-glow hover:translate-y-[-2px] shadow-lg shadow-sky-100">
+                <Button type="submit" className="w-full py-6 sm:py-8 text-base sm:text-lg rounded-full bg-sky-500 hover:bg-sky-600 text-white font-bold uppercase tracking-[0.2em] transition-all heavenly-glow hover:translate-y-[-2px] shadow-lg shadow-sky-100">
                   {t('contact.form.submit')}
-                  <Send className="ml-3 h-5 w-5" />
+                  <Send className="ml-3 h-4 w-4 sm:h-5 sm:w-5" />
                 </Button>
               </form>
             </CardContent>

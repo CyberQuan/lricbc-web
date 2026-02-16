@@ -34,7 +34,7 @@ export default function Hero() {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-sky-400/30 rounded-full blur-[80px] animate-pulse pointer-events-none" />
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] bg-white/40 rounded-full blur-[40px] animate-pulse pointer-events-none" style={{ animationDuration: '3s' }} />
           
-          <div className="relative h-32 w-64 md:h-[21rem] md:w-[88rem] transition-transform duration-700 hover:scale-105">
+          <div className="relative h-24 w-48 sm:h-32 sm:w-64 md:h-[21rem] md:w-[88rem] transition-transform duration-700 hover:scale-105">
             <Image 
               src="/logo/LRICBC_Logo_v4_NameBottom-scaled.png" 
               alt="LRICBC Logo" 
@@ -44,16 +44,16 @@ export default function Hero() {
             />
           </div>
         </div>
-        <div className="inline-block px-10 py-3 mb-8 text-lg md:text-xl font-bold tracking-[0.4em] text-white uppercase bg-white/20 backdrop-blur-xl rounded-full border border-white/30 shadow-2xl hover:shadow-sky-400/50 transition-all cursor-default">
+        <div className="inline-block px-6 py-2 sm:px-10 sm:py-3 mb-8 text-sm sm:text-lg md:text-xl font-bold tracking-[0.2em] sm:tracking-[0.4em] text-white uppercase bg-white/20 backdrop-blur-xl rounded-full border border-white/30 shadow-2xl hover:shadow-sky-400/50 transition-all cursor-default">
           <span className="text-white drop-shadow-sm">
             {t('about.slogan')}
           </span>
         </div>
-        <p className="mx-auto mb-10 max-w-4xl text-2xl text-white md:text-4xl font-light italic leading-tight drop-shadow-lg">
+        <p className="mx-auto mb-10 max-w-4xl text-xl sm:text-2xl text-white md:text-4xl font-light italic leading-tight drop-shadow-lg px-4">
           {t('hero.subtitle')}
         </p>
-        <div className="flex flex-col justify-center gap-8 sm:flex-row">
-          <Button asChild size="lg" className="bg-sky-600 hover:bg-sky-700 text-white rounded-full px-16 py-10 text-2xl font-medium heavenly-glow transition-all hover:scale-105 shadow-2xl">
+        <div className="flex flex-col justify-center gap-4 sm:gap-8 sm:flex-row px-6 sm:px-0">
+          <Button asChild size="lg" className="bg-sky-600 hover:bg-sky-700 text-white rounded-full px-8 py-6 sm:px-16 sm:py-10 text-xl sm:text-2xl font-medium heavenly-glow transition-all hover:scale-105 shadow-2xl">
             <Link href="/about">
               {t('hero.cta')}
             </Link>

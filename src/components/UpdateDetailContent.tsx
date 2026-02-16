@@ -44,31 +44,31 @@ export default function UpdateDetailContent({ post }: UpdateDetailContentProps) 
   return (
     <>
       <div className={`flex-grow transition-colors duration-500 ${theme === 'dark' ? 'bg-slate-950' : theme === 'sepia' ? 'bg-[#e8dfc8]' : 'bg-sky-50/30'}`}>
-        <article className={`flex-grow transition-all duration-500 py-12 ${theme === 'dark' ? 'text-slate-100' : theme === 'sepia' ? 'text-[#5b4636]' : 'text-slate-900'}`}>
-          <div className={`container mx-auto px-6 py-12 max-w-4xl rounded-[3rem] shadow-2xl transition-all duration-500 ${themeStyles[theme as keyof typeof themeStyles]} ${theme === 'light' ? 'glass-morphism' : ''}`}>
-            <Button asChild variant="link" className={`mb-12 pl-0 text-2xl font-bold hover:no-underline group/back ${theme === 'dark' ? 'text-sky-400' : theme === 'sepia' ? 'text-[#8c6d4f]' : 'text-sky-600'}`}>
+        <article className={`flex-grow transition-all duration-500 py-6 sm:py-12 ${theme === 'dark' ? 'text-slate-100' : theme === 'sepia' ? 'text-[#5b4636]' : 'text-slate-900'}`}>
+          <div className={`container mx-auto px-4 sm:px-6 py-8 sm:py-12 max-w-4xl rounded-[2rem] sm:rounded-[3rem] shadow-2xl transition-all duration-500 ${themeStyles[theme as keyof typeof themeStyles]} ${theme === 'light' ? 'glass-morphism' : ''}`}>
+            <Button asChild variant="link" className={`mb-8 sm:mb-12 pl-0 text-xl sm:text-2xl font-bold hover:no-underline group/back ${theme === 'dark' ? 'text-sky-400' : theme === 'sepia' ? 'text-[#8c6d4f]' : 'text-sky-600'}`}>
               <Link href="/updates" className="flex items-center">
-                <ChevronLeft className="mr-2 h-8 w-8 transition-transform group-hover/back:-translate-x-2" />
+                <ChevronLeft className="mr-2 h-6 w-6 sm:h-8 sm:w-8 transition-transform group-hover/back:-translate-x-2" />
                 {t('updates.backToList')}
               </Link>
             </Button>
 
-            <div className="space-y-6 mb-12">
-              <div className={`flex items-center space-x-6 text-sm font-bold uppercase tracking-widest ${theme === 'dark' ? 'text-sky-400/70' : theme === 'sepia' ? 'text-[#8c6d4f]/70' : 'text-sky-500/70'}`}>
+            <div className="space-y-4 sm:space-y-6 mb-8 sm:mb-12">
+              <div className={`flex flex-wrap items-center gap-4 sm:gap-6 text-[10px] sm:text-sm font-bold uppercase tracking-widest ${theme === 'dark' ? 'text-sky-400/70' : theme === 'sepia' ? 'text-[#8c6d4f]/70' : 'text-sky-500/70'}`}>
                 <div className="flex items-center space-x-2">
-                  <Calendar className="h-4 w-4" />
+                  <Calendar className="h-3 w-3 sm:h-4 sm:w-4" />
                   <span>{new Date(post.publishedAt).toLocaleDateString()}</span>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <Tag className="h-4 w-4" />
+                  <Tag className="h-3 w-3 sm:h-4 sm:w-4" />
                   <span>{t(`updates.categories.${post.category}`)}</span>
                 </div>
               </div>
-              <h1 className="text-5xl font-light md:text-7xl leading-tight mb-4">
+              <h1 className="text-3xl sm:text-5xl md:text-7xl font-light leading-tight mb-2 sm:mb-4">
                 {post[`title_${langSuffix}`] || post.title_en}
               </h1>
               {post[`subtitle_${langSuffix}`] && (
-                <p className={`text-2xl md:text-3xl font-light italic opacity-60`}>
+                <p className={`text-lg sm:text-2xl md:text-3xl font-light italic opacity-60`}>
                   {post[`subtitle_${langSuffix}`]}
                 </p>
               )}

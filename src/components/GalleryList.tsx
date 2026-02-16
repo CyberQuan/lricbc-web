@@ -53,63 +53,63 @@ export default function GalleryList({ initialEvents }: { initialEvents: GalleryE
 
   return (
     <>
-      <section className="bg-gradient-to-b from-sky-100/60 to-white py-24">
+      <section className="bg-gradient-to-b from-sky-100/60 to-white py-16 sm:py-24">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-7xl font-light tracking-tight md:text-9xl mb-8 text-sky-900">{t('gallery.title')}</h1>
-          <p className="text-3xl font-light text-sky-600/70 italic max-w-3xl mx-auto">
+          <h1 className="text-4xl sm:text-7xl md:text-9xl mb-6 sm:mb-8 text-sky-900 tracking-tight">{t('gallery.title')}</h1>
+          <p className="text-xl sm:text-3xl font-light text-sky-600/70 italic max-w-3xl mx-auto px-4">
             {t('gallery.subtitle')}
           </p>
-          <div className="mt-8 flex items-center justify-center gap-2 text-sky-400/60 text-sm font-medium">
-            <img src="https://www.gstatic.com/images/branding/product/1x/photos_96dp.png" alt="Google Photos" className="h-5 w-5 opacity-60" />
+          <div className="mt-6 sm:mt-8 flex items-center justify-center gap-2 text-sky-400/60 text-xs sm:text-sm font-medium">
+            <img src="https://www.gstatic.com/images/branding/product/1x/photos_96dp.png" alt="Google Photos" className="h-4 w-4 sm:h-5 sm:w-5 opacity-60" />
             <span>{t('gallery.googlePhotosNotice')}</span>
           </div>
         </div>
       </section>
 
-      <section className="container mx-auto px-4 py-12 flex-grow">
+      <section className="container mx-auto px-6 py-8 sm:py-12 flex-grow">
         
         {/* Advanced Search & Filter Panel */}
-        <div className="max-w-6xl mx-auto mb-20 space-y-8 bg-white/40 backdrop-blur-xl p-10 rounded-[3.5rem] border border-sky-100 shadow-xl">
+        <div className="max-w-6xl mx-auto mb-12 sm:mb-20 space-y-6 sm:space-y-8 bg-white/40 backdrop-blur-xl p-6 sm:p-10 rounded-[2.5rem] sm:rounded-[3.5rem] border border-sky-100 shadow-xl">
           <div className="relative group">
-            <Search className="absolute left-8 top-1/2 -translate-y-1/2 h-8 w-8 text-sky-300 group-focus-within:text-sky-500 transition-colors" />
+            <Search className="absolute left-6 sm:left-8 top-1/2 -translate-y-1/2 h-6 w-6 sm:h-8 sm:w-8 text-sky-300 group-focus-within:text-sky-500 transition-colors" />
             <Input 
               placeholder={t('gallery.searchPlaceholder') || "Find an event or memory..."}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-20 pr-16 py-10 text-2xl font-light rounded-full border-sky-50 bg-white shadow-inner focus-visible:ring-sky-200 transition-all"
+              className="w-full pl-16 sm:pl-20 pr-12 sm:pr-16 py-8 sm:py-10 text-lg sm:text-2xl font-light rounded-full border-sky-50 bg-white shadow-inner focus-visible:ring-sky-200 transition-all"
             />
             {searchQuery && (
               <button 
                 onClick={() => setSearchQuery("")}
-                className="absolute right-8 top-1/2 -translate-y-1/2 p-2 hover:bg-sky-50 rounded-full transition-colors"
+                className="absolute right-6 sm:right-8 top-1/2 -translate-y-1/2 p-2 hover:bg-sky-50 rounded-full transition-colors"
               >
-                <X className="h-6 w-6 text-sky-400" />
+                <X className="h-5 w-5 text-sky-400" />
               </button>
             )}
           </div>
 
-          <div className="flex flex-wrap items-center justify-center gap-4">
+          <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
             {/* Year Selector */}
-            <div className="flex items-center bg-sky-50 p-2 rounded-full border border-sky-100 mr-4">
-              <Calendar className="ml-4 mr-2 h-5 w-5 text-sky-400" />
+            <div className="flex items-center bg-sky-50 p-1.5 sm:p-2 rounded-full border border-sky-100">
+              <Calendar className="ml-3 sm:ml-4 mr-1 sm:mr-2 h-4 w-4 sm:h-5 sm:w-5 text-sky-400" />
               <select 
                 value={selectedYear}
                 onChange={(e) => setSelectedYear(e.target.value)}
-                className="bg-transparent text-sky-900 font-bold uppercase tracking-widest text-sm px-4 py-2 outline-none cursor-pointer"
+                className="bg-transparent text-sky-900 font-bold uppercase tracking-widest text-[10px] sm:text-sm px-2 sm:px-4 py-1.5 sm:py-2 outline-none cursor-pointer"
               >
-                <option value="all">{i18n.language === 'en' ? 'All Years' : '所有年份'}</option>
+                <option value="all">{i18n.language === 'en' ? 'All' : '所有年份'}</option>
                 {years.map(y => <option key={y} value={y}>{y}</option>)}
               </select>
             </div>
 
-            <div className="h-8 w-px bg-sky-100 mx-2 hidden md:block" />
+            <div className="h-6 sm:h-8 w-px bg-sky-100 mx-1 sm:mx-2 hidden sm:block" />
 
             {categories.map((cat) => (
               <Button
                 key={cat}
                 variant={filter === cat ? "default" : "ghost"}
                 onClick={() => setFilter(cat)}
-                className={`rounded-full px-8 py-6 text-sm tracking-widest uppercase transition-all ${
+                className={`rounded-full px-4 sm:px-8 py-4 sm:py-6 text-[10px] sm:text-sm tracking-widest uppercase transition-all h-auto ${
                   filter === cat 
                     ? "bg-sky-600 text-white shadow-lg scale-105" 
                     : "text-sky-900/60 hover:bg-white hover:text-sky-600"
@@ -122,7 +122,7 @@ export default function GalleryList({ initialEvents }: { initialEvents: GalleryE
         </div>
 
         {filteredEvents.length > 0 ? (
-          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="grid gap-6 sm:gap-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {filteredEvents.map((event) => {
               const cardContent = (
                 <Card className="h-full overflow-hidden group cursor-pointer border-none shadow-sm hover:shadow-2xl hover:shadow-sky-200 transition-all rounded-[2.5rem] bg-white">
