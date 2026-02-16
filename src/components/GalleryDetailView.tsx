@@ -72,6 +72,10 @@ export default function GalleryDetailView({ event }: { event: GalleryEvent }) {
                   {new Date(event.date).toLocaleDateString()}
                 </p>
               )}
+              <div className="flex items-center gap-2 text-sky-400/60 text-xs font-medium uppercase tracking-wider pt-2">
+                <img src="https://www.gstatic.com/images/branding/product/1x/photos_96dp.png" alt="Google Photos" className="h-4 w-4 opacity-50" />
+                <span>{t('gallery.googlePhotosNotice')}</span>
+              </div>
             </div>
           </div>
         </div>

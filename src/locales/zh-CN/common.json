@@ -207,7 +207,8 @@
     },
     "searchPlaceholder": "尋找活動或回憶...",
     "backToList": "返回相簿列表",
-    "viewFullAlbum": "查看更多相片"
+    "viewFullAlbum": "查看更多相片",
+    "googlePhotosNotice": "教會相簿由 Google Photos 提供支持。點擊相簿將帶您前往完整的照片集。"
   },
   "giving": {
     "title": "奉獻支持",

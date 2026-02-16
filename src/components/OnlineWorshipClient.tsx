@@ -4,6 +4,7 @@ import { Youtube, ExternalLink, Calendar, Users, Info } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 interface OnlineWorshipClientProps {
   channelId: string;
@@ -104,15 +105,18 @@ export default function OnlineWorshipClient({ channelId, latestVideoId }: Online
                     {t('onlineWorshipPage.serviceTimeContent') || 'Every Sunday at 9:00 AM CST'}
                   </p>
                 </div>
-                <div className="bg-white p-8 md:p-10 rounded-[2.5rem] shadow-sm border border-sky-100 flex flex-col items-center text-center space-y-4 transition-transform hover:scale-105">
-                  <Users className="h-10 w-10 text-sky-500" />
-                  <h3 className="text-lg font-bold uppercase tracking-widest text-sky-900">
+                <Link 
+                  href="/about#weekly-schedule"
+                  className="bg-white p-8 md:p-10 rounded-[2.5rem] shadow-sm border border-sky-100 flex flex-col items-center text-center space-y-4 transition-transform hover:scale-105 group"
+                >
+                  <Users className="h-10 w-10 text-sky-500 group-hover:text-sky-600 transition-colors" />
+                  <h3 className="text-lg font-bold uppercase tracking-widest text-sky-900 group-hover:text-primary transition-colors">
                     {t('onlineWorshipPage.connectTitle') || 'Get Connected'}
                   </h3>
                   <p className="text-slate-500 font-light text-base md:text-lg">
                     {t('onlineWorshipPage.connectContent') || 'Join our fellowship groups throughout the week'}
                   </p>
-                </div>
+                </Link>
               </div>
             </div>
 

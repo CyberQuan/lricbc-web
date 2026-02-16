@@ -54,7 +54,7 @@ export default function Hero() {
         </p>
         <div className="flex flex-col justify-center gap-8 sm:flex-row">
           <Button asChild size="lg" className="bg-sky-600 hover:bg-sky-700 text-white rounded-full px-16 py-10 text-2xl font-medium heavenly-glow transition-all hover:scale-105 shadow-2xl">
-            <Link href="/contact">
+            <Link href="/about">
               {t('hero.cta')}
             </Link>
           </Button>

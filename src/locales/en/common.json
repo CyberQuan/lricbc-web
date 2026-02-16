@@ -38,7 +38,7 @@
     "schedule": {
       "title": "Service Schedule",
       "sundaySermon": "Sunday Sermon",
-      "welcome": "Welcome to join us this Sunday!",
+      "welcome": "Join us this Sunday on site, or online!",
       "sundayTimes": "Sunday Times",
       "connectWithUs": "Connect With Us",
       "sundayTime1": "9:00 – 10:20 am Sunday Service (Online & Offline)",
@@ -207,7 +207,8 @@
     },
     "searchPlaceholder": "Find an event or memory...",
     "backToList": "Back to Gallery List",
-    "viewFullAlbum": "View More Photos"
+    "viewFullAlbum": "View More Photos",
+    "googlePhotosNotice": "Our media gallery is powered by Google Photos. Clicking an album will take you to the full collection."
   },
   "giving": {
     "title": "Giving",

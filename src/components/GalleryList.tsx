@@ -59,6 +59,10 @@ export default function GalleryList({ initialEvents }: { initialEvents: GalleryE
           <p className="text-3xl font-light text-sky-600/70 italic max-w-3xl mx-auto">
             {t('gallery.subtitle')}
           </p>
+          <div className="mt-8 flex items-center justify-center gap-2 text-sky-400/60 text-sm font-medium">
+            <img src="https://www.gstatic.com/images/branding/product/1x/photos_96dp.png" alt="Google Photos" className="h-5 w-5 opacity-60" />
+            <span>{t('gallery.googlePhotosNotice')}</span>
+          </div>
         </div>
       </section>
 

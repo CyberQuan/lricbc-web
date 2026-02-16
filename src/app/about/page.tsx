@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { useTranslation } from "react-i18next";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { CheckCircle2, History, Target, Heart, BookOpen, Download } from "lucide-react";
 
 export default function AboutPage() {
@@ -33,9 +34,15 @@ export default function AboutPage() {
             </h2>
           </div>
           
-          <div className="inline-block px-8 py-3 bg-sky-600 text-white rounded-full text-xl font-bold shadow-xl animate-pulse">
-            {t('about.schedule.welcome')}
-          </div>
+          <Button asChild className="bg-sky-600 hover:bg-sky-700 text-white rounded-full text-xl md:text-2xl font-bold shadow-xl animate-pulse h-auto py-4 px-10 transition-all hover:scale-105">
+            <Link href="/online-worship">
+              {i18n.language === 'en' ? (
+                <span>Join us this Sunday on site, or <span className="text-sky-300 underline underline-offset-4 font-black">online</span>!</span>
+              ) : (
+                <span>歡迎本週日實體或<span className="text-sky-300 underline underline-offset-4 font-black">在線</span>與我們一同聚會！</span>
+              )}
+            </Link>
+          </Button>
 
           <div className="max-w-6xl mx-auto grid gap-8 md:grid-cols-2 mt-12 text-left">
             <Card className="bg-white/60 backdrop-blur-xl border-none shadow-2xl rounded-[3rem] p-10 space-y-6">
@@ -59,7 +66,7 @@ export default function AboutPage() {
       </section>
 
       {/* Weekly Schedule Table */}
-      <section className="container mx-auto px-4 py-20">
+      <section id="weekly-schedule" className="container mx-auto px-4 py-20">
         <div className="max-w-6xl mx-auto space-y-12">
           <h3 className="text-3xl font-black text-center text-sky-900/40 uppercase tracking-[0.3em]">{t('about.schedule.title')}</h3>
           <div className="overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white bg-white/40 backdrop-blur-md">
