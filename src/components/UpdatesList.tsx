@@ -14,11 +14,13 @@ interface Post {
   publishedAt: string;
   title_en: string;
   title_zh: string;
-  subtitle_en?: string;
-  subtitle_zh?: string;
+  subtitle_en: string;
+  subtitle_zh: string;
   excerpt_en: string;
   excerpt_zh: string;
   content: string;
+  contentHtml_en?: string;
+  contentHtml_zh?: string;
 }
 
 export default function UpdatesList({ initialPosts }: { initialPosts: Post[] }) {

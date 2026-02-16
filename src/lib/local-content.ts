@@ -16,6 +16,7 @@ export interface PostData {
   subtitle_zh: string;
   excerpt_en: string;
   excerpt_zh: string;
+  content: string;
   contentHtml_en: string;
   contentHtml_zh: string;
   [key: string]: any;
@@ -39,12 +40,22 @@ export function getSortedPostsData() {
     // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents);
 
-    // Combine the data with the id
+    // Combine the data with the id and default values for missing fields
     return {
       id,
       content: matterResult.content,
-      ...(matterResult.data as Omit<PostData, 'id' | 'contentHtml_en' | 'contentHtml_zh' | 'content'>),
-    };
+      category: 'news',
+      publishedAt: new Date().toISOString(),
+      title_en: id,
+      title_zh: id,
+      subtitle_en: '',
+      subtitle_zh: '',
+      excerpt_en: '',
+      excerpt_zh: '',
+      contentHtml_en: '',
+      contentHtml_zh: '',
+      ...matterResult.data,
+    } as PostData;
   });
 
   // Sort posts by date
