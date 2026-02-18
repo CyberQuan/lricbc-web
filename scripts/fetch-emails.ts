@@ -106,13 +106,35 @@ async function run() {
     const auth = await authorize();
     const gmail = google.gmail({ version: 'v1', auth: auth as any });
 
+    // Parse command line arguments
+    const args = process.argv.slice(2);
+    let days = 30;
+    let useDateFilter = true;
+
+    if (args.includes('--all')) {
+      useDateFilter = false;
+    } else {
+      const daysIdx = args.indexOf('--days');
+      if (daysIdx !== -1 && args[daysIdx + 1]) {
+        days = parseInt(args[daysIdx + 1]);
+      }
+    }
+
     // Ensure pending directory exists
     await fs.mkdir(PENDING_DIR, { recursive: true });
 
-    console.log('Searching for worship emails...');
-    // Query: Broaden to catch variations and both "祟" (Suì) and "崇" (Chóng)
-    // AND require the specific Program string in the body
-    const query = 'subject:("主日祟拜" OR "主日崇拜") "主日崇拜程序 Program"'; 
+    let query = 'subject:("主日祟拜" OR "主日崇拜") "主日崇拜程序 Program"';
+    
+    if (useDateFilter) {
+      const afterDate = new Date();
+      afterDate.setDate(afterDate.getDate() - days);
+      const afterStr = `${afterDate.getFullYear()}/${String(afterDate.getMonth() + 1).padStart(2, '0')}/${String(afterDate.getDate()).padStart(2, '0')}`;
+      query += ` after:${afterStr}`;
+      console.log(`Searching for worship emails since ${afterStr} (${days} days)...`);
+    } else {
+      console.log('Searching for all worship emails (no date filter)...');
+    }
+
     const messages = await listMessages(gmail, query);
 
     if (messages.length === 0) {
