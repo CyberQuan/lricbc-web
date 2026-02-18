@@ -1,6 +1,6 @@
 # LRICBC Web Application
 
-This is the official web application for the ****Little Rock Immanuel Chinese Baptist Church (LRICBC)**. The platform serves as a central hub for the congregation, providing access to bilingual worship programs, pastor's messages, and church updates.
+This is the official web application for the **Little Rock Immanuel Chinese Baptist Church (LRICBC)**. The platform serves as a central hub for the congregation, providing access to bilingual worship programs, pastor's messages, and church updates.
 
 ## Key Features
 
