@@ -11,6 +11,8 @@ import { useState, useMemo } from "react";
 interface Post {
   id: string;
   category: 'pastor' | 'sermon' | 'news';
+  type?: 'text' | 'image';
+  imageUrl?: string;
   publishedAt: string;
   title_en: string;
   title_zh: string;
@@ -85,12 +87,30 @@ export default function UpdatesList({ initialPosts }: { initialPosts: Post[] }) 
 
   return (
     <>
-      <section className="bg-gradient-to-b from-sky-100/60 to-white py-32">
+      {/* Compact Responsive Banner - Exactly matching OnlineWorship style */}
+      <section className="bg-gradient-to-b from-sky-100/60 to-white py-8 md:py-10 border-b border-sky-50">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-7xl font-light tracking-tight md:text-9xl mb-8 text-sky-900">{t('updates.title')}</h1>
-          <p className="text-3xl font-light text-sky-600/70 italic max-w-4xl mx-auto leading-relaxed">
+          <div className="inline-flex items-center gap-2 px-4 py-1 bg-white/40 backdrop-blur-md rounded-full border border-sky-200 mb-4 animate-pulse">
+            <div className="h-2 w-2 bg-emerald-500 rounded-full" />
+            <span className="text-[10px] sm:text-xs font-black uppercase tracking-widest text-sky-900">
+              {t('nav.updates')}
+            </span>
+          </div>
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-light tracking-tight text-sky-900 leading-tight">
+            {t('updates.title')}
+          </h1>
+          <p className="mt-4 text-lg sm:text-xl font-light text-sky-600/70 italic max-w-2xl mx-auto leading-relaxed px-4">
             {t('updates.subtitle')}
           </p>
+
+          <div className="max-w-2xl mx-auto pt-8 mt-8 border-t border-sky-100 animate-in fade-in slide-in-from-top-4 duration-1000">
+            <p className="text-base sm:text-xl font-light text-slate-500 italic leading-relaxed px-4">
+              {t('updates.quote')}
+            </p>
+            <p className="mt-4 text-[10px] sm:text-xs font-black uppercase tracking-[0.3em] text-sky-500/60">
+              — {t('updates.quoteVerse')}
+            </p>
+          </div>
         </div>
       </section>
 

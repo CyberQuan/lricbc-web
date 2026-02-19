@@ -3,15 +3,19 @@
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Calendar, ChevronLeft, Tag } from "lucide-react";
+import { Calendar, ChevronLeft, Tag, ArrowLeft, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ReadingSettings from "@/components/ReadingSettings";
 
 interface UpdateDetailContentProps {
   post: any;
+  adjacent?: {
+    prev: { id: string; title_en: string; title_zh: string } | null;
+    next: { id: string; title_en: string; title_zh: string } | null;
+  };
 }
 
-export default function UpdateDetailContent({ post }: UpdateDetailContentProps) {
+export default function UpdateDetailContent({ post, adjacent }: UpdateDetailContentProps) {
   const { t, i18n } = useTranslation('common');
   const [fontSize, setFontSize] = useState('prose-lg');
   const [theme, setTheme] = useState('light');
@@ -74,10 +78,81 @@ export default function UpdateDetailContent({ post }: UpdateDetailContentProps) 
               )}
             </div>
 
+            {post.type === 'image' && post.imageUrl && (
+              <div className="mb-12 rounded-[2rem] overflow-hidden shadow-xl bg-slate-100">
+                <img 
+                  src={post.imageUrl} 
+                  alt={post[`title_${langSuffix}`]} 
+                  className="w-full h-auto object-contain max-h-[80vh] mx-auto"
+                />
+              </div>
+            )}
+
             <div 
               className={`prose max-w-none transition-all duration-300 ${fontSize} ${theme === 'dark' ? 'prose-invert' : ''} ${theme === 'sepia' ? 'prose-stone' : 'prose-slate'}`}
               dangerouslySetInnerHTML={{ __html: post[`contentHtml_${langSuffix}`] || post.contentHtml_en }}
             />
+
+            {/* Sibling Navigation Bar */}
+            {(adjacent?.prev || adjacent?.next) && (
+              <div className={`mt-20 pt-12 border-t flex flex-col sm:flex-row gap-8 items-stretch justify-between ${theme === 'dark' ? 'border-slate-800' : theme === 'sepia' ? 'border-[#d4c8ad]' : 'border-sky-100'}`}>
+                {/* Newer Post (Next) */}
+                <div className="flex-1 group">
+                  {adjacent.next ? (
+                    <Link href={`/updates/${adjacent.next.id}`} className="flex flex-col h-full space-y-4">
+                      <div className="flex items-center gap-2 text-xs font-black uppercase tracking-widest opacity-50 group-hover:opacity-100 transition-opacity">
+                        <ArrowLeft className="h-4 w-4 group-hover:-translate-x-1 transition-transform" />
+                        <span>{t('updates.newerPost')}</span>
+                      </div>
+                      <div className={`hidden sm:block p-6 rounded-2xl transition-all h-full border ${
+                        theme === 'dark' ? 'bg-slate-800/50 hover:bg-slate-800 border-slate-700' : 
+                        theme === 'sepia' ? 'bg-[#d4c8ad]/30 hover:bg-[#d4c8ad]/50 border-[#8c6d4f]/20' : 
+                        'bg-sky-50/50 hover:bg-sky-100/50 border-sky-100'
+                      }`}>
+                        <h5 className="text-lg font-bold line-clamp-2">
+                          {adjacent.next[`title_${langSuffix}` as keyof typeof adjacent.next]}
+                        </h5>
+                      </div>
+                    </Link>
+                  ) : (
+                    <div className="h-full opacity-20 select-none grayscale cursor-default">
+                      <div className="flex items-center gap-2 text-xs font-black uppercase tracking-widest mb-4">
+                        <ArrowLeft className="h-4 w-4" />
+                        <span>{t('updates.latestReached')}</span>
+                      </div>
+                    </div>
+                  )}
+                </div>
+
+                {/* Older Post (Prev) */}
+                <div className="flex-1 group text-right">
+                  {adjacent.prev ? (
+                    <Link href={`/updates/${adjacent.prev.id}`} className="flex flex-col h-full space-y-4 items-end">
+                      <div className="flex items-center gap-2 text-xs font-black uppercase tracking-widest opacity-50 group-hover:opacity-100 transition-opacity">
+                        <span>{t('updates.olderPost')}</span>
+                        <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                      </div>
+                      <div className={`hidden sm:block p-6 rounded-2xl transition-all h-full w-full border ${
+                        theme === 'dark' ? 'bg-slate-800/50 hover:bg-slate-800 border-slate-700' : 
+                        theme === 'sepia' ? 'bg-[#d4c8ad]/30 hover:bg-[#d4c8ad]/50 border-[#8c6d4f]/20' : 
+                        'bg-sky-50/50 hover:bg-sky-100/50 border-sky-100'
+                      }`}>
+                        <h5 className="text-lg font-bold line-clamp-2">
+                          {adjacent.prev[`title_${langSuffix}` as keyof typeof adjacent.prev]}
+                        </h5>
+                      </div>
+                    </Link>
+                  ) : (
+                    <div className="h-full opacity-20 select-none grayscale cursor-default flex flex-col items-end">
+                      <div className="flex items-center gap-2 text-xs font-black uppercase tracking-widest mb-4">
+                        <span>{t('updates.earliestReached')}</span>
+                        <ArrowRight className="h-4 w-4" />
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         </article>
       </div>

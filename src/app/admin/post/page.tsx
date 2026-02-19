@@ -2,21 +2,28 @@
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { createAnnouncement } from "@/lib/actions";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
-import { Lock, Send, CheckCircle2, AlertCircle } from "lucide-react";
+import { Lock, Send, CheckCircle2, AlertCircle, FileText, Image as ImageIcon, Upload } from "lucide-react";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
 
 export default function AdminPostPage() {
   const [status, setStatus] = useState<{ type: 'idle' | 'loading' | 'success' | 'error', message?: string }>({ type: 'idle' });
+  const [postType, setPostType] = useState<'text' | 'image'>('text');
+  const [imagePreview, setImagePreview] = useState<string | null>(null);
+  const [isDragging, setIsDragging] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   async function handleSubmit(formData: FormData) {
     setStatus({ type: 'loading' });
+    // Explicitly append the post type since it's managed via state
+    formData.append('type', postType);
     const result = await createAnnouncement(formData);
     
     if (result.success) {
@@ -25,6 +32,55 @@ export default function AdminPostPage() {
       setStatus({ type: 'error', message: result.error || "An error occurred" });
     }
   }
+
+  const processFile = (file: File) => {
+    if (file && file.type.startsWith('image/')) {
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        setImagePreview(reader.result as string);
+      };
+      reader.readAsDataURL(file);
+      
+      // Update the hidden file input so the form action can find it
+      if (fileInputRef.current) {
+        const dataTransfer = new DataTransfer();
+        dataTransfer.items.add(file);
+        fileInputRef.current.files = dataTransfer.files;
+      }
+    }
+  };
+
+  const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      processFile(file);
+    } else {
+      setImagePreview(null);
+    }
+  };
+
+  const handleDragOver = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDragging(true);
+  };
+
+  const handleDragLeave = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDragging(false);
+  };
+
+  const handleDrop = (e: React.DragEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsDragging(false);
+    
+    const file = e.dataTransfer.files?.[0];
+    if (file) {
+      processFile(file);
+    }
+  };
 
   if (status.type === 'success') {
     return (
@@ -39,7 +95,10 @@ export default function AdminPostPage() {
               <Button asChild className="rounded-full py-8 text-xl font-bold bg-sky-600 hover:bg-sky-700">
                 <Link href="/updates">View Updates</Link>
               </Button>
-              <Button variant="ghost" onClick={() => setStatus({ type: 'idle' })} className="text-sky-600">
+              <Button variant="ghost" onClick={() => {
+                setStatus({ type: 'idle' });
+                setImagePreview(null);
+              }} className="text-sky-600">
                 Post Another
               </Button>
             </div>
@@ -79,31 +138,111 @@ export default function AdminPostPage() {
                 />
               </div>
 
-              <div className="grid md:grid-cols-2 gap-12">
-                {/* Chinese Content */}
-                <div className="space-y-8">
-                  <div className="space-y-4">
-                    <Label className="text-xs font-black uppercase tracking-[0.2em] text-sky-500 pl-2">標題 (中文)</Label>
-                    <Input name="title_zh" required placeholder="例如：本週五團契聚會" className="py-8 text-xl rounded-2xl border-sky-100 focus-visible:ring-sky-200" />
-                  </div>
-                  <div className="space-y-4">
-                    <Label className="text-xs font-black uppercase tracking-[0.2em] text-sky-500 pl-2">內容 (中文)</Label>
-                    <Textarea name="content_zh" required placeholder="請輸入公告內容..." className="min-h-[300px] p-6 text-xl rounded-[2rem] border-sky-100 focus-visible:ring-sky-200" />
-                  </div>
-                </div>
-
-                {/* English Content */}
-                <div className="space-y-8">
-                  <div className="space-y-4">
-                    <Label className="text-xs font-black uppercase tracking-[0.2em] text-sky-500 pl-2">Title (English)</Label>
-                    <Input name="title_en" required placeholder="e.g. This Friday Fellowship" className="py-8 text-xl rounded-2xl border-sky-100 focus-visible:ring-sky-200" />
-                  </div>
-                  <div className="space-y-4">
-                    <Label className="text-xs font-black uppercase tracking-[0.2em] text-sky-500 pl-2">Content (English)</Label>
-                    <Textarea name="content_en" required placeholder="Enter announcement content..." className="min-h-[300px] p-6 text-xl rounded-[2rem] border-sky-100 focus-visible:ring-sky-200" />
-                  </div>
-                </div>
+              {/* Type Toggle */}
+              <div className="flex bg-sky-50 p-2 rounded-[2rem] w-full max-w-2xl mx-auto relative z-10">
+                <button
+                  type="button"
+                  onClick={() => setPostType('text')}
+                  className={cn(
+                    "flex-1 flex items-center justify-center gap-2 py-4 rounded-full transition-all duration-300",
+                    postType === 'text' ? "bg-white shadow-lg text-sky-600 font-bold" : "text-sky-400 hover:text-sky-500"
+                  )}
+                >
+                  <FileText className="h-5 w-5" />
+                  <span>Text Post</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setPostType('image')}
+                  className={cn(
+                    "flex-1 flex items-center justify-center gap-2 py-4 rounded-full transition-all duration-300",
+                    postType === 'image' ? "bg-white shadow-lg text-sky-600 font-bold" : "text-sky-400 hover:text-sky-500"
+                  )}
+                >
+                  <ImageIcon className="h-5 w-5" />
+                  <span>Poster Post</span>
+                </button>
               </div>
+
+              {postType === 'text' ? (
+                <div className="grid md:grid-cols-2 gap-12 animate-in fade-in duration-500">
+                  {/* Chinese Content */}
+                  <div className="space-y-8">
+                    <div className="space-y-4">
+                      <Label className="text-xs font-black uppercase tracking-[0.2em] text-sky-500 pl-2">標題 (中文)</Label>
+                      <Input name="title_zh" required={postType === 'text'} placeholder="例如：本週五團契聚會" className="py-8 text-xl rounded-2xl border-sky-100 focus-visible:ring-sky-200" />
+                    </div>
+                    <div className="space-y-4">
+                      <Label className="text-xs font-black uppercase tracking-[0.2em] text-sky-500 pl-2">內容 (中文)</Label>
+                      <Textarea name="content_zh" required={postType === 'text'} placeholder="請輸入公告內容..." className="min-h-[300px] p-6 text-xl rounded-[2rem] border-sky-100 focus-visible:ring-sky-200" />
+                    </div>
+                  </div>
+
+                  {/* English Content */}
+                  <div className="space-y-8">
+                    <div className="space-y-4">
+                      <Label className="text-xs font-black uppercase tracking-[0.2em] text-sky-500 pl-2">Title (English)</Label>
+                      <Input name="title_en" required={postType === 'text'} placeholder="e.g. This Friday Fellowship" className="py-8 text-xl rounded-2xl border-sky-100 focus-visible:ring-sky-200" />
+                    </div>
+                    <div className="space-y-4">
+                      <Label className="text-xs font-black uppercase tracking-[0.2em] text-sky-500 pl-2">Content (English)</Label>
+                      <Textarea name="content_en" required={postType === 'text'} placeholder="Enter announcement content..." className="min-h-[300px] p-6 text-xl rounded-[2rem] border-sky-100 focus-visible:ring-sky-200" />
+                    </div>
+                  </div>
+                </div>
+              ) : (
+                <div className="space-y-12 animate-in fade-in duration-500">
+                  <div className="grid md:grid-cols-2 gap-8">
+                    <div className="space-y-4">
+                      <Label className="text-xs font-black uppercase tracking-[0.2em] text-sky-500 pl-2">標題 (中文)</Label>
+                      <Input name="title_zh" required={postType === 'image'} placeholder="例如：特別主日崇拜海報" className="py-8 text-xl rounded-2xl border-sky-100 focus-visible:ring-sky-200" />
+                    </div>
+                    <div className="space-y-4">
+                      <Label className="text-xs font-black uppercase tracking-[0.2em] text-sky-500 pl-2">Title (English)</Label>
+                      <Input name="title_en" required={postType === 'image'} placeholder="e.g. Special Service Poster" className="py-8 text-xl rounded-2xl border-sky-100 focus-visible:ring-sky-200" />
+                    </div>
+                  </div>
+
+                  <div className="space-y-4">
+                    <Label className="text-xs font-black uppercase tracking-[0.2em] text-sky-500 pl-2">Upload Poster Image</Label>
+                    <div 
+                      onClick={() => fileInputRef.current?.click()}
+                      onDragOver={handleDragOver}
+                      onDragLeave={handleDragLeave}
+                      onDrop={handleDrop}
+                      className={cn(
+                        "border-4 border-dashed rounded-[2.5rem] p-12 text-center space-y-6 transition-all cursor-pointer group",
+                        isDragging 
+                          ? "border-sky-500 bg-sky-100 scale-[1.02] ring-4 ring-sky-100" 
+                          : "border-sky-100 hover:bg-sky-50"
+                      )}
+                    >
+                      {imagePreview ? (
+                        <div className="relative aspect-[4/3] max-w-md mx-auto rounded-2xl overflow-hidden shadow-xl">
+                          <img src={imagePreview} alt="Preview" className="w-full h-full object-cover" />
+                        </div>
+                      ) : (
+                        <div className="space-y-4">
+                          <div className="p-6 bg-sky-100 rounded-full w-fit mx-auto group-hover:scale-110 transition-transform">
+                            <Upload className="h-10 w-10 text-sky-600" />
+                          </div>
+                          <p className="text-sky-600 font-bold text-xl">Click or drag image here</p>
+                          <p className="text-slate-400 font-light text-sm italic">JPG, PNG or WEBP (max 10MB)</p>
+                        </div>
+                      )}
+                      <input 
+                        type="file" 
+                        name="image" 
+                        ref={fileInputRef}
+                        accept="image/*" 
+                        onChange={handleImageChange}
+                        className="hidden" 
+                        required={postType === 'image'}
+                      />
+                    </div>
+                  </div>
+                </div>
+              )}
 
               {status.type === 'error' && (
                 <div className="bg-red-50 text-red-600 p-6 rounded-2xl flex items-center gap-4 animate-in fade-in slide-in-from-top-2">

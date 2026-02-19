@@ -1,11 +1,12 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { getLatestVideoId } from "@/lib/youtube";
+import { getLatestVideos } from "@/lib/youtube";
 import OnlineWorshipClient from "@/components/OnlineWorshipClient";
 
 export default async function OnlineWorshipPage() {
   const channelId = "UCefUbMKSUD_2YGB3tWLwsAw";
-  const latestVideoId = await getLatestVideoId(channelId);
+  const videos = await getLatestVideos(channelId, 10);
+  const latestVideoId = videos.length > 0 ? videos[0].id : null;
 
   return (
     <main className="min-h-screen flex flex-col bg-slate-50">
@@ -13,6 +14,7 @@ export default async function OnlineWorshipPage() {
       <OnlineWorshipClient 
         channelId={channelId} 
         latestVideoId={latestVideoId} 
+        initialVideos={videos}
       />
       <Footer />
     </main>

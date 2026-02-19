@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { getPostData } from "@/lib/local-content";
+import { getPostData, getAdjacentPosts } from "@/lib/local-content";
 import UpdateDetailContent from "@/components/UpdateDetailContent";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -24,10 +24,12 @@ export default async function UpdateDetailPage({ params }: { params: Promise<{ i
     );
   }
 
+  const adjacent = getAdjacentPosts(id, post.category);
+
   return (
     <main className="min-h-screen flex flex-col">
       <Navbar />
-      <UpdateDetailContent post={post} />
+      <UpdateDetailContent post={post} adjacent={adjacent} />
       <Footer />
     </main>
   );

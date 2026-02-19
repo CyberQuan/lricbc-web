@@ -1,0 +1,24 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded Square Background with a soft sky-blue gradient -->
+  <rect width="64" height="64" rx="16" fill="url(#paint0_linear)" />
+  
+  <!-- Subtle inner glow -->
+  <rect x="2" y="2" width="60" height="60" rx="14" stroke="white" stroke-opacity="0.2" stroke-width="2" />
+
+  <!-- Stylized Church Cross -->
+  <!-- Vertical Bar -->
+  <rect x="28" y="12" width="8" height="36" rx="4" fill="white" />
+  <!-- Horizontal Bar -->
+  <rect x="18" y="22" width="28" height="8" rx="4" fill="white" />
+  
+  <!-- Subtle Open Bible Shape at the base -->
+  <path d="M16 48C16 48 24 44 32 44C40 44 48 48 48 48V54C48 54 40 50 32 50C24 50 16 54 16 54V48Z" fill="white" fill-opacity="0.8" />
+
+  <!-- Definition of the sky-blue gradient -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0284C7" /> <!-- sky-600 -->
+      <stop offset="1" stop-color="#0EA5E9" /> <!-- sky-500 -->
+    </linearGradient>
+  </defs>
+</svg>

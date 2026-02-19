@@ -9,6 +9,8 @@ const postsDirectory = path.join(process.cwd(), 'content/updates');
 export interface PostData {
   id: string;
   category: 'pastor' | 'sermon' | 'news';
+  type?: 'text' | 'image';
+  imageUrl?: string;
   publishedAt: string;
   title_en: string;
   title_zh: string;
@@ -119,6 +121,23 @@ export async function getPostData(id: string) {
     contentHtml_en,
     contentHtml_zh,
     ...(matterResult.data as Omit<PostData, 'id' | 'contentHtml_en' | 'contentHtml_zh'>),
+  };
+}
+
+export function getAdjacentPosts(currentId: string, category: string) {
+  const allPosts = getSortedPostsData();
+  const categoryPosts = allPosts.filter(post => post.category === category);
+  
+  const currentIndex = categoryPosts.findIndex(post => post.id === currentId);
+  
+  if (currentIndex === -1) return { prev: null, next: null };
+
+  // Since posts are sorted by date descending (newest first):
+  // "Next" (newer) is at currentIndex - 1
+  // "Prev" (older) is at currentIndex + 1
+  return {
+    next: currentIndex > 0 ? { id: categoryPosts[currentIndex - 1].id, title_en: categoryPosts[currentIndex - 1].title_en, title_zh: categoryPosts[currentIndex - 1].title_zh } : null,
+    prev: currentIndex < categoryPosts.length - 1 ? { id: categoryPosts[currentIndex + 1].id, title_en: categoryPosts[currentIndex + 1].title_en, title_zh: categoryPosts[currentIndex + 1].title_zh } : null,
   };
 }
 

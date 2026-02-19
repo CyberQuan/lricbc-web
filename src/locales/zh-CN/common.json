@@ -20,7 +20,12 @@
     "connectContent": "歡迎參加我們週間的各個團契聚會",
     "youtubeTitle": "造訪我們的頻道",
     "youtubeContent": "訂閱我們的頻道，以便在我們直播或發布新消息時收到通知。",
-    "youtubeButton": "訂閱頻道"
+    "youtubeButton": "訂閱頻道",
+    "archiveTitle": "近期崇拜回顧",
+    "archiveSubtitle": "在下方選擇之前的錄影在本頁觀看",
+    "playing": "正在播放",
+    "tryLive": "切換至直播",
+    "watchRecording": "查看錄影"
   },
   "hero": {
     "title": "歡迎來到 以馬內利",
@@ -160,6 +165,8 @@
   "contact": {
     "title": "聯繫我們",
     "subtitle": "我們很高興收到您的來信。如有任何問題，請隨時聯繫我們。",
+    "quote": "「所以我們只管坦然無懼地來到施恩的寶座前，為要得憐恤，蒙恩惠，作隨時的幫助。」",
+    "quoteVerse": "希伯來書 4:16",
     "description": "小石城以馬內利華語浸信會位於 9701 W Markham St，自 1990 年以來一直是華人社區的屬靈家園。我們從最初的家庭查經班開始，直到 2022 年遷至現址，始終見證主恩。",
     "info": {
       "address": "9701 W Markham St, Little Rock, AR 72205",
@@ -176,6 +183,8 @@
   "updates": {
     "title": "每週更新",
     "subtitle": "屬靈餵養與教會動態。",
+    "quote": "「你的話是我腳前的燈，是我路上的光。」",
+    "quoteVerse": "詩篇 119:105",
     "categories": {
       "all": "全部",
       "pastor": "牧者心聲",
@@ -185,6 +194,10 @@
     "searchPlaceholder": "搜尋所有信息...",
     "readMore": "閱讀全文",
     "backToList": "返回列表",
+    "newerPost": "較新公告",
+    "olderPost": "較早公告",
+    "latestReached": "已是最新",
+    "earliestReached": "已是最後",
     "readingSettings": {
       "title": "閱讀設置",
       "fontSize": "字體大小",
@@ -199,6 +212,8 @@
   "gallery": {
     "title": "教會相簿",
     "subtitle": "記錄信仰、團契和崇拜的精彩瞬間。",
+    "quote": "「看哪，弟兄和睦同居是何等的善，何等的美！」",
+    "quoteVerse": "詩篇 133:1",
     "categories": {
       "all": "全部",
       "fellowship": "團契生活",
@@ -214,6 +229,8 @@
   "giving": {
     "title": "奉獻支持",
     "subtitle": "通過您的慷慨奉獻，支持我們的各項事工與使命。",
+    "quote": "「各人要隨本心所酌定的，不要作難，不要勉強。」",
+    "quoteVerse": "哥林多後書 9:7",
     "purpose": {
       "title": "奉獻的意義",
       "content": "奉獻是敬拜的一部分，也是支持上帝通過地方教會開展工作的一種方式。您的奉獻將幫助我們傳播福音、服務社區以及維護我們的敬拜場所。"

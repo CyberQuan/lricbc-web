@@ -20,7 +20,12 @@
     "connectContent": "Join our fellowship groups throughout the week",
     "youtubeTitle": "Visit our Channel",
     "youtubeContent": "Subscribe to get notified whenever we go live or post new messages.",
-    "youtubeButton": "Subscribe"
+    "youtubeButton": "Subscribe",
+    "archiveTitle": "Archive of Recent Services",
+    "archiveSubtitle": "Select a previous recording to watch on this page",
+    "playing": "Playing",
+    "tryLive": "Try Live Stream",
+    "watchRecording": "Watch Recording"
   },
   "hero": {
     "title": "Welcome to Immanuel",
@@ -160,6 +165,8 @@
   "contact": {
     "title": "Contact Us",
     "subtitle": "We'd love to hear from you. Feel free to reach out with any questions.",
+    "quote": "\"Let us then approach God's throne of grace with confidence, so that we may receive mercy and find grace to help us in our time of need.\"",
+    "quoteVerse": "Hebrews 4:16",
     "description": "Located at 9701 W Markham St, LRICBC has been a spiritual home for the Chinese community since 1990. Our journey began as a home Bible study, leading to our current location established in 2022.",
     "info": {
       "address": "9701 W Markham St, Little Rock, AR 72205",
@@ -176,6 +183,8 @@
   "updates": {
     "title": "Weekly Updates",
     "subtitle": "Spiritual nourishment and church news.",
+    "quote": "\"Your word is a lamp for my feet, a light on my path.\"",
+    "quoteVerse": "Psalm 119:105",
     "categories": {
       "all": "All",
       "pastor": "Pastor's Words",
@@ -185,6 +194,10 @@
     "searchPlaceholder": "Search all messages...",
     "readMore": "Read More",
     "backToList": "Back to Updates",
+    "newerPost": "Newer Post",
+    "olderPost": "Older Post",
+    "latestReached": "Latest reached",
+    "earliestReached": "Earliest reached",
     "readingSettings": {
       "title": "Reading Settings",
       "fontSize": "Font Size",
@@ -199,6 +212,8 @@
   "gallery": {
     "title": "Media Gallery",
     "subtitle": "Capturing moments of faith, fellowship, and worship.",
+    "quote": "\"How good and pleasant it is when God's people live together in unity!\"",
+    "quoteVerse": "Psalm 133:1",
     "categories": {
       "all": "All",
       "fellowship": "Fellowship",
@@ -214,6 +229,8 @@
   "giving": {
     "title": "Giving",
     "subtitle": "Support our ministry and mission through your generous contributions.",
+    "quote": "\"Each of you should give what you have decided in your heart to give.\"",
+    "quoteVerse": "2 Corinthians 9:7",
     "purpose": {
       "title": "Why We Give",
       "content": "Giving is an act of worship and a way to support the work of God through our local church. Your contributions help us spread the Gospel, support our community, and maintain our house of worship."

@@ -11,6 +11,10 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   title: "LRICBC - 小石城以馬內利華語浸信會",
   description: "Welcome to Little Rock Immanuel Chinese Baptist Church",
+  icons: {
+    icon: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

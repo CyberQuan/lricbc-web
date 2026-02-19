@@ -34,7 +34,7 @@ export default function Hero() {
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-sky-400/30 rounded-full blur-[80px] animate-pulse pointer-events-none" />
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] bg-white/40 rounded-full blur-[40px] animate-pulse pointer-events-none" style={{ animationDuration: '3s' }} />
           
-          <div className="relative h-24 w-48 sm:h-32 sm:w-64 md:h-[21rem] md:w-[88rem] transition-transform duration-700 hover:scale-105">
+          <div className="relative h-36 w-72 sm:h-32 sm:w-64 md:h-[21rem] md:w-[88rem] transition-transform duration-700 hover:scale-105">
             <Image 
               src="/logo/LRICBC_Logo_v4_NameBottom-scaled.png" 
               alt="LRICBC Logo" 

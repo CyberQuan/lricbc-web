@@ -11,20 +11,12 @@ import Image from 'next/image';
 export default function Navbar() {
   const { t } = useTranslation('common');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [newUpdatesCount, setNewUpdatesCount] = useState(0);
-
-  useEffect(() => {
-    fetch('/api/updates/count')
-      .then(res => res.json())
-      .then(data => setNewUpdatesCount(data.count))
-      .catch(() => setNewUpdatesCount(0));
-  }, []);
 
   const navLinks = [
     { href: '/', label: t('nav.home') },
     { href: '/about', label: t('nav.about') },
     { href: '/online-worship', label: t('nav.onlineWorship') || 'Online Worship' },
-    { href: '/updates', label: t('nav.updates'), showBadge: newUpdatesCount > 0 },
+    { href: '/updates', label: t('nav.updates') },
     { href: '/gallery', label: t('nav.gallery') },
     { href: '/giving', label: t('nav.giving') },
     { href: '/contact', label: t('nav.contact') },
@@ -57,11 +49,6 @@ export default function Navbar() {
               className="relative text-sm xl:text-base font-bold tracking-widest uppercase transition-colors hover:text-primary text-slate-500 whitespace-nowrap group/nav"
             >
               {link.label}
-              {link.showBadge && (
-                <span className="absolute -top-3 -right-4 flex h-5 w-5 items-center justify-center rounded-full bg-red-500 text-[10px] text-white animate-bounce shadow-lg ring-2 ring-white">
-                  {newUpdatesCount}
-                </span>
-              )}
             </Link>
           ))}
           <div className="pl-4 border-l border-slate-200">
@@ -79,9 +66,6 @@ export default function Navbar() {
           >
             <div className="relative">
               <Menu className="h-6 w-6" />
-              {newUpdatesCount > 0 && (
-                <span className="absolute -top-1 -right-1 flex h-2 w-2 rounded-full bg-red-500" />
-              )}
             </div>
           </Button>
         </div>
@@ -99,11 +83,6 @@ export default function Navbar() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}
-                {link.showBadge && (
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-red-500 text-[12px] text-white font-black">
-                    {newUpdatesCount}
-                  </span>
-                )}
               </Link>
             ))}
           </div>

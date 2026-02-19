@@ -14,12 +14,29 @@ export default function GivingPage() {
     <main className="min-h-screen flex flex-col">
       <Navbar />
 
-      <section className="bg-gradient-to-b from-sky-100/60 to-white py-16 sm:py-32">
+      <section className="bg-gradient-to-b from-sky-100/60 to-white py-8 md:py-10 border-b border-sky-50">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl sm:text-7xl md:text-9xl mb-6 sm:mb-8 text-sky-900 tracking-tight">{t('giving.title')}</h1>
-          <p className="text-xl sm:text-3xl font-light text-sky-600/70 italic max-w-3xl mx-auto px-4">
+          <div className="inline-flex items-center gap-2 px-4 py-1 bg-white/40 backdrop-blur-md rounded-full border border-sky-200 mb-4 animate-pulse">
+            <div className="h-2 w-2 bg-sky-500 rounded-full" />
+            <span className="text-[10px] sm:text-xs font-black uppercase tracking-widest text-sky-900">
+              {t('giving.title')}
+            </span>
+          </div>
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-light tracking-tight text-sky-900 leading-tight">
+            {t('giving.title')}
+          </h1>
+          <p className="mt-4 text-lg sm:text-xl font-light text-sky-600/70 italic max-w-2xl mx-auto leading-relaxed px-4">
             {t('giving.subtitle')}
           </p>
+
+          <div className="max-w-2xl mx-auto pt-8 mt-8 border-t border-sky-100 animate-in fade-in slide-in-from-top-4 duration-1000">
+            <p className="text-base sm:text-xl font-light text-slate-500 italic leading-relaxed px-4">
+              {t('giving.quote')}
+            </p>
+            <p className="mt-4 text-[10px] sm:text-xs font-black uppercase tracking-[0.3em] text-sky-500/60">
+              — {t('giving.quoteVerse')}
+            </p>
+          </div>
         </div>
       </section>
 
