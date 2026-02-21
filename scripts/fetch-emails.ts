@@ -8,7 +8,8 @@ import { google, gmail_v1 } from 'googleapis';
 const SCOPES = ['https://www.googleapis.com/auth/gmail.readonly'];
 const TOKEN_PATH = path.join(process.cwd(), 'token.json');
 const CREDENTIALS_PATH = path.join(process.cwd(), 'credentials.json');
-const PENDING_DIR = path.join(process.cwd(), 'pending');
+const PENDING_DIR = path.join(process.cwd(), 'fetch_raw', 'pending');
+const PROCESSED_DIR = path.join(process.cwd(), 'fetch_raw', 'processed');
 
 /**
  * Reads previously authorized credentials from the save file.
@@ -120,8 +121,9 @@ async function run() {
       }
     }
 
-    // Ensure pending directory exists
+    // Ensure directories exist
     await fs.mkdir(PENDING_DIR, { recursive: true });
+    await fs.mkdir(PROCESSED_DIR, { recursive: true });
 
     let query = 'subject:("主日祟拜" OR "主日崇拜") "主日崇拜程序 Program"';
     
@@ -146,23 +148,26 @@ async function run() {
 
     for (const msg of messages) {
       const msgId = msg.id!;
-      const filePath = path.join(PENDING_DIR, `${msgId}.json`);
+      const pendingPath = path.join(PENDING_DIR, `${msgId}.json`);
+      const processedPath = path.join(PROCESSED_DIR, `${msgId}.json`);
 
-      // Check if we already processed this message
+      // Check if we already have this message in pending or processed
       try {
-        await fs.access(filePath);
-        // console.log(`Message ${msgId} already exists, skipping.`);
+        await fs.access(pendingPath);
         continue;
-      } catch {
-        // File doesn't exist, proceed to download
-      }
+      } catch {}
+
+      try {
+        await fs.access(processedPath);
+        continue;
+      } catch {}
 
       console.log(`Downloading message ${msgId}...`);
       const fullMsg = await getMessage(gmail, msgId);
       
       // Save the raw JSON response
-      await fs.writeFile(filePath, JSON.stringify(fullMsg, null, 2));
-      console.log(`Saved to ${filePath}`);
+      await fs.writeFile(pendingPath, JSON.stringify(fullMsg, null, 2));
+      console.log(`Saved to ${pendingPath}`);
     }
 
     console.log('Fetch complete.');

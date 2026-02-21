@@ -2,7 +2,8 @@ import fs from 'fs/promises';
 import path from 'path';
 import { JSDOM } from 'jsdom';
 
-const PENDING_DIR = path.join(process.cwd(), 'pending');
+const PENDING_DIR = path.join(process.cwd(), 'fetch_raw', 'pending');
+const PROCESSED_DIR = path.join(process.cwd(), 'fetch_raw', 'processed');
 const CONTENT_DIR = path.join(process.cwd(), 'content/updates');
 
 function decodeBase64(data: string) {
@@ -325,10 +326,29 @@ ${content}
 
 async function run() {
   await fs.mkdir(CONTENT_DIR, { recursive: true });
-  const files = await fs.readdir(PENDING_DIR);
-  for (const file of files) {
-    if (file.endsWith('.json')) {
-      await processFile(file);
+  await fs.mkdir(PROCESSED_DIR, { recursive: true });
+  
+  try {
+    const files = await fs.readdir(PENDING_DIR);
+    for (const file of files) {
+      if (file.endsWith('.json')) {
+        try {
+          await processFile(file);
+          // Move file to processed folder
+          const oldPath = path.join(PENDING_DIR, file);
+          const newPath = path.join(PROCESSED_DIR, file);
+          await fs.rename(oldPath, newPath);
+          console.log(`  - Successfully processed and moved ${file}`);
+        } catch (fileErr) {
+          console.error(`Error processing file ${file}:`, fileErr);
+        }
+      }
+    }
+  } catch (err: any) {
+    if (err.code === 'ENOENT') {
+      console.log('No pending directory found or it is empty.');
+    } else {
+      console.error('Error processing emails:', err);
     }
   }
 }

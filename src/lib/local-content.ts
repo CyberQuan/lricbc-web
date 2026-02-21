@@ -70,7 +70,7 @@ export function getSortedPostsData() {
   });
 }
 
-export async function getPostData(id: string) {
+export async function getPostData(id: string): Promise<PostData | null> {
   const fullPath = path.join(postsDirectory, `${id}.md`);
   
   if (!fs.existsSync(fullPath)) {
@@ -120,8 +120,17 @@ export async function getPostData(id: string) {
     id,
     contentHtml_en,
     contentHtml_zh,
-    ...(matterResult.data as Omit<PostData, 'id' | 'contentHtml_en' | 'contentHtml_zh'>),
-  };
+    content: matterResult.content,
+    category: 'news',
+    publishedAt: new Date().toISOString(),
+    title_en: id,
+    title_zh: id,
+    subtitle_en: '',
+    subtitle_zh: '',
+    excerpt_en: '',
+    excerpt_zh: '',
+    ...matterResult.data,
+  } as PostData;
 }
 
 export function getAdjacentPosts(currentId: string, category: string) {
