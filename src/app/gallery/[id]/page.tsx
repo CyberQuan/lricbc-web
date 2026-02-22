@@ -8,7 +8,7 @@ import { ChevronLeft } from "lucide-react";
 
 export default async function GalleryEventPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const event = getGalleryEvent(id);
+  const event = await getGalleryEvent(id);
 
   if (!event) {
     return (

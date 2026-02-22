@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { getGooglePhotosUrls } from './google-photos';
 
 const galleryDirectory = path.join(process.cwd(), 'public/gallery');
 
@@ -14,7 +15,7 @@ export interface GalleryEvent {
   googlePhotosUrl?: string; // Link to external album
 }
 
-export function getGalleryEvents(): GalleryEvent[] {
+export async function getGalleryEvents(): Promise<GalleryEvent[]> {
   if (!fs.existsSync(galleryDirectory)) {
     return [];
   }
@@ -23,15 +24,15 @@ export function getGalleryEvents(): GalleryEvent[] {
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name);
 
-  const events = folders.map(folderName => {
+  const eventPromises = folders.map(async folderName => {
     const folderPath = path.join(galleryDirectory, folderName);
     const files = fs.readdirSync(folderPath);
     
-    // Find images
+    // Find local images
     const imageExtensions = ['.jpg', '.jpeg', '.png', '.webp', '.gif'];
-    const images = files.filter(file => 
+    const localImages = files.filter(file => 
       imageExtensions.includes(path.extname(file).toLowerCase())
-    );
+    ).map(img => `/gallery/${folderName}/${img}`);
 
     // Metadata fallback logic
     let metadata = {
@@ -53,24 +54,36 @@ export function getGalleryEvents(): GalleryEvent[] {
       }
     }
 
-    // Pick a thumbnail (could be first image or random)
-    const thumbnail = images.length > 0 
-      ? `/gallery/${folderName}/${images[0]}` 
-      : "/logo/cropped-LRICBC_Logo.png";
+    // Combine local and Google Photos images
+    let allImages = [...localImages];
+    if (metadata.googlePhotosUrl) {
+      const googleImages = await getGooglePhotosUrls(metadata.googlePhotosUrl);
+      allImages = [...allImages, ...googleImages];
+    }
+
+    // Pick a thumbnail
+    let thumbnail = "/logo/cropped-LRICBC_Logo.png";
+    if (allImages.length > 0) {
+      // Pick a random image from all available images
+      const randomIndex = Math.floor(Math.random() * allImages.length);
+      thumbnail = allImages[randomIndex];
+    }
 
     return {
       id: folderName,
       ...metadata,
       thumbnail,
-      images: images.map(img => `/gallery/${folderName}/${img}`)
+      images: allImages
     };
   });
+
+  const events = await Promise.all(eventPromises);
 
   // Sort by date descending
   return events.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-export function getGalleryEvent(id: string): GalleryEvent | null {
+export async function getGalleryEvent(id: string): Promise<GalleryEvent | null> {
   const folderPath = path.join(galleryDirectory, id);
   if (!fs.existsSync(folderPath) || !fs.lstatSync(folderPath).isDirectory()) {
     return null;
@@ -78,15 +91,16 @@ export function getGalleryEvent(id: string): GalleryEvent | null {
 
   const files = fs.readdirSync(folderPath);
   const imageExtensions = ['.jpg', '.jpeg', '.png', '.webp', '.gif'];
-  const images = files.filter(file => 
+  const localImages = files.filter(file => 
     imageExtensions.includes(path.extname(file).toLowerCase())
-  );
+  ).map(img => `/gallery/${id}/${img}`);
 
   let metadata = {
     title_en: id.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase()),
     title_zh: id,
     date: "",
-    category: "other"
+    category: "other",
+    googlePhotosUrl: ""
   };
 
   const metadataPath = path.join(folderPath, 'metadata.json');
@@ -97,35 +111,36 @@ export function getGalleryEvent(id: string): GalleryEvent | null {
     } catch (e) {}
   }
 
-  const thumbnail = images.length > 0 
-    ? `/gallery/${id}/${images[0]}` 
-    : "/logo/cropped-LRICBC_Logo.png";
+  // Combine local and Google Photos images
+  let allImages = [...localImages];
+  if (metadata.googlePhotosUrl) {
+    const googleImages = await getGooglePhotosUrls(metadata.googlePhotosUrl);
+    allImages = [...allImages, ...googleImages];
+  }
+
+  // Pick a thumbnail
+  let thumbnail = "/logo/cropped-LRICBC_Logo.png";
+  if (allImages.length > 0) {
+    const randomIndex = Math.floor(Math.random() * allImages.length);
+    thumbnail = allImages[randomIndex];
+  }
 
   return {
     id,
     ...metadata,
     thumbnail,
-    images: images.map(img => `/gallery/${id}/${img}`)
+    images: allImages
   };
 }
 
-export function getRandomGalleryImages(count: number): string[] {
+export async function getRandomGalleryImages(count: number): Promise<string[]> {
   if (!fs.existsSync(galleryDirectory)) return [];
 
-  const folders = fs.readdirSync(galleryDirectory, { withFileTypes: true })
-    .filter(dirent => dirent.isDirectory())
-    .map(dirent => dirent.name);
-
+  const events = await getGalleryEvents();
   let allImages: string[] = [];
   
-  folders.forEach(folder => {
-    const folderPath = path.join(galleryDirectory, folder);
-    const files = fs.readdirSync(folderPath);
-    const imageExtensions = ['.jpg', '.jpeg', '.png', '.webp'];
-    const images = files
-      .filter(file => imageExtensions.includes(path.extname(file).toLowerCase()))
-      .map(img => `/gallery/${folder}/${img}`);
-    allImages = allImages.concat(images);
+  events.forEach(event => {
+    allImages = allImages.concat(event.images);
   });
 
   // Shuffle and pick count
