@@ -23,7 +23,7 @@ export default function ContactPage() {
     const subject = encodeURIComponent(`Message from ${name} via LRICBC Website`);
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
     
-    window.location.href = `mailto:chinesechurch@lricbc.org?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:chinesechurch.lr@gmail.com?subject=${subject}&body=${body}`;
   };
 
   return (
