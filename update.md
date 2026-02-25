@@ -72,4 +72,4 @@ Since this project uses a Dockerized deployment (as seen in `Dockerfile` and `de
 - **Authentication Error:** If `token.json` is expired or invalid, delete it and run `npm run fetch-updates` locally to trigger a new browser-based OAuth flow.
 - **Parsing Issues:** If a specific email fails to process, check `scripts/process-emails.ts` for updated markers (e.g., if the email subject or structure changed).
 
-## For any questions, please reach out to chinesechurch@icbc.org
+## For any questions, please reach out to chinesechurch.lr@gmail.com
